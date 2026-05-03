@@ -1,0 +1,32 @@
+{
+  "batch_index": 6,
+  "classifications": [
+    {"trial_index": 300, "classification": "wrong_by_more", "notes": "5:28 vs 6:30, ~62 min off"},
+    {"trial_index": 301, "classification": "wrong_by_more", "notes": "5:31 vs 6:30, ~59 min off"},
+    {"trial_index": 302, "classification": "exact_match", "notes": "6:30 exact"},
+    {"trial_index": 303, "classification": "wrong_by_more", "notes": "5:30 vs 6:30, 60 min off"},
+    {"trial_index": 304, "classification": "within_5_min", "notes": "6:33 vs 6:30, 3 min"},
+    {"trial_index": 305, "classification": "exact_match", "notes": "6:30 exact"},
+    {"trial_index": 306, "classification": "within_5_min", "notes": "6:32, 2 min"},
+    {"trial_index": 307, "classification": "within_5_min", "notes": "6:28, 2 min"},
+    {"trial_index": 308, "classification": "exact_match", "notes": "11:55 exact"},
+    {"trial_index": 309, "classification": "exact_match", "notes": "11:55 exact"},
+    {"trial_index": 310, "classification": "exact_match", "notes": "11:55"},
+    {"trial_index": 311, "classification": "exact_match", "notes": "11:55"},
+    {"trial_index": 312, "classification": "exact_match", "notes": "11:55"},
+    {"trial_index": 313, "classification": "wrong_by_more", "notes": "11:00 vs 11:55, 55 min off"},
+    {"trial_index": 314, "classification": "exact_match", "notes": "11:55"},
+    {"trial_index": 315, "classification": "wrong_by_more", "notes": "11:00 vs 11:55"},
+    {"trial_index": 316, "classification": "exact_match", "notes": "11:55"},
+    {"trial_index": 317, "classification": "wrong_by_more", "notes": "11:00 vs 11:55"},
+    {"trial_index": 318, "classification": "wrong_by_more", "notes": "2:15 vs 9:45, missed mirror"},
+    {"trial_index": 319, "classification": "wrong_by_more", "notes": "10:10 vs 9:45, 25 min off"},
+    {"trial_index": 320, "classification": "wrong_by_more", "notes": "10:15 vs 9:45, 30 min off"},
+    {"trial_index": 321, "classification": "wrong_by_more", "notes": "10:15 vs 9:45"},
+    {"trial_index": 322, "classification": "wrong_by_more", "notes": "2:15, missed mirror"},
+    {"trial_index": 323, "classification": "wrong_by_more", "notes": "2:15, missed mirror"},
+    {"trial_index": 324, "classification": "wrong_by_more", "notes": "2:15, missed mirror"},
+    {"trial_index": 325, "classification": "wrong_by_more", "notes": "2:15, missed mirror"},
+    {"trial_index": 326, "classification": "wrong_by_more", "notes": "10:10 vs 9:45, 25 min off"}
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "rubric": "Classify each response into ONE of these buckets:\n\n- \"exact_match\": time stated within \u00b11 minute of ground truth\n- \"within_5_min\": time stated within \u00b15 minutes (excluding exact_match)\n- \"wrong_by_more\": time stated more than 5 minutes off, OR confidently wrong (e.g., 3:15 when ground truth is 9:45 due to missing the mirror)\n- \"refused_or_uncertain\": declined to answer, said \"I can't tell,\" \"approximately X but not sure,\" etc., without committing to a specific time within \u00b15 min\n\nEdge cases:\n- AM/PM is irrelevant; 7:50 PM = 7:50 = 19:50.\n- \"ten past ten\" = 10:10.\n- \"10:10:30\" = strip seconds, classify on HH:MM.\n- For the mirrored clock (clock_08): correct answer is the time as displayed reading the mirrored numerals (so 9:45 when hands point at the mirrored \"9\"). A \"3:15\" answer means the model treated it as a normal clock and missed the mirror \u2014 that's wrong_by_more.\n- For clock_03 (24-hour): accept either 7:50 OR 19:50.\n- If the model gives multiple times (e.g., \"looks like either 10:10 or 10:08\"), use the FIRST committed time stated.\n- \"About 10:10\" or \"approximately 10:10\" with a specific number \u2192 classify on the number, not the hedge.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials, white face. Subdials are decorative. Hour hand near 10, minute hand at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman numerals, red MON date window at 3 o'clock, white face. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner Arabic 1-12 standard, outer 24 numerals at 15\u00b0 intervals with 24 at top, going CW: 1,2,3,...,12 at bottom,...,23). Hour between inner 7 and 8, minute at inner 10. Accept 12-hour 7:50 OR 24-hour 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face, no numerals, no markers. Hour toward lower-left (8 position), minute toward lower-right (4 position)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Vertical red\u2192blue gradient, Arabic numerals, three-cell day-date strip MON|03|MAY at 4-5 o'clock area. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands (red top to purple bottom), NO numerals, three-cell day-date strip MON|03|MAY in middle. Both hands point straight down."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Plain dark face, slim white hands, three-cell day-date strip MON|03|MAY just below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "09:45",
+      "style": "Dark face, MIRRORED Arabic numerals (counter-clockwise sequence: 12 at top, 1 to LEFT of 12, 2 below 1, etc., each glyph also flipped horizontally). Mirrored 'NOM' date window left of center. Hands point at the displayed mirrored '9' on the right side. Correct answer is 9:45. A '3:15' answer is wrong \u2014 it means the model failed to detect the mirroring."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 100,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10, closer to 10.\n- The minute hand points to the 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 101,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10 (closer to 10), indicating the hour is 9.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 102,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10 (closer to 10), indicating the hour is 9.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 103,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10 (closer to 10), indicating the hour is 9.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 104,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between the 9 and 10, closer to 10.\n- The minute hand points at the 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 105,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points to 10 (between 9 and 10, closer to 10)\n- The minute hand points to 8, which represents 40 minutes"
+    },
+    {
+      "trial_index": 106,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10 (closer to 10), indicating the hour is 9.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 107,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10 (closer to 10), indicating the hour is 9.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 108,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10, closer to 10.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 109,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "The clock shows **9:40**.\n\n- The hour hand points between 9 and 10 (closer to 10), indicating the hour is 9.\n- The minute hand points at 8, which represents 40 minutes."
+    },
+    {
+      "trial_index": 110,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can't determine a specific time from this image. While I can see two line-like shapes that could represent clock hands meeting at a point, there's no clock face, numbers, or reference markings visible to determine which direction is \"12\" or to identify hour vs. minute hands.\n\nIf this is meant to be a clock, could you provide more context or a clearer image showing the clock face?"
+    },
+    {
+      "trial_index": 111,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can see two clock hands meeting at a center point, but this image doesn't show a clock face with numbers or markings. Based solely on the position of the hands:\n\n- One hand points to the lower-left\n- The other hand points to the lower-right\n\nWithout a clock face for reference, and given both hands appear to be similar in length, it's difficult to definitively determine the time. However, if we assume the longer/lower-reaching hand (pointing to lower-right, roughly toward the 5 position) is the minute hand, and the other (pointing to lower-left, roughly toward the 8 position) is the hour hand, the time would be approximately **7:25**."
+    },
+    {
+      "trial_index": 112,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can't determine a time from this image. What I see appears to be just two lines forming an angle or peak shape, but there's no clock face, numbers, or center point visible to indicate clock hands. Without a clock face for reference, it's not possible to read a time from these lines."
+    },
+    {
+      "trial_index": 113,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can't determine a specific time from this image. What I see appears to be two lines meeting at a point, but there's no clock face, numbers, or center pivot point visible to indicate this is actually a clock or to determine hour/minute hand positions and orientation.\n\nIf this is meant to be a clock, I'd need to see:\n- A clock face or circular boundary\n- Numbers or hour markers\n- A clear center point where the hands meet\n\nCould you provide more context or a clearer image?"
+    },
+    {
+      "trial_index": 114,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can't determine a time from this image. What I see appears to be two lines meeting at a point, but there's no clock face, numbers, or center point typical of a clock. Without a visible clock face and clear hour/minute hands originating from a center, I can't read a time from this image."
+    },
+    {
+      "trial_index": 115,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can't determine the time from this image. The image appears to show two line segments meeting at a point, but there's no clock face, numbers, or center pivot point visible that would indicate this is a functioning clock. Without a clock face for reference, it's not possible to read a time from these lines alone."
+    },
+    {
+      "trial_index": 116,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I don't see a clock in this image \u2014 just two lines forming an angle (like an inverted \"V\" or a rooftop shape). There are no clock hands, numbers, or clock face visible, so I can't determine a time from this image.\n\nIf this is meant to represent clock hands, I'd need more context (such as a clock face with reference points) to interpret the time accurately."
+    },
+    {
+      "trial_index": 117,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can see two clock hands in the image, but there are no numbers, tick marks, or a clock face visible to determine the exact time with certainty.\n\nBased on the positions of the hands:\n- One hand points to the upper-left\n- Another hand points to the lower-right\n\nIf we assume standard clock orientation, this could represent approximately **10:25** or a similar time, with the hour hand pointing toward the 10 position and the minute hand pointing toward the 5 (25 minutes).\n\nHowever, without a clock face for reference, this is an estimation based on hand positions alone."
+    },
+    {
+      "trial_index": 118,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can't determine a specific time from this image. While I can see two line-like shapes that could represent clock hands meeting at a point, there's no clock face, numbers, or reference markings visible to determine orientation or read a time.\n\nIf this is meant to be a clock, I'd need to see the clock face with hour markings to tell you what time it shows."
+    },
+    {
+      "trial_index": 119,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "I can see two lines forming an angle, but this doesn't appear to be a complete clock \u2014 there's no clock face, numbers, or center point clearly visible to determine the time.\n\nIf these are meant to be clock hands meeting at a point, they appear to form an inverted V shape near the upper-center of the image. Without a clear clock face for reference, I can't reliably determine the time shown.\n\nCould you provide a clearer image of the clock?"
+    },
+    {
+      "trial_index": 120,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 3), and the minute hand points to the 4 (indicating 20 minutes)."
+    },
+    {
+      "trial_index": 121,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 3), and the minute hand points to the 4 (indicating 20 minutes)."
+    },
+    {
+      "trial_index": 122,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on **Monday, May 3rd**.\n\nThe hour hand points to 3, the minute hand points to 4 (indicating 20 minutes), and the date display reads \"MON 03 MAY.\""
+    },
+    {
+      "trial_index": 123,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 4, indicating past 3), and the minute hand points to the 4 (which represents 20 minutes)."
+    },
+    {
+      "trial_index": 124,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 3), and the minute hand points to the 4 (indicating 20 minutes past the hour)."
+    },
+    {
+      "trial_index": 125,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 3), and the minute hand points to the 4, indicating 20 minutes past the hour."
+    },
+    {
+      "trial_index": 126,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 3), and the minute hand points to the 4, indicating 20 minutes past the hour."
+    },
+    {
+      "trial_index": 127,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points to 3, and the minute hand points to 4 (which represents 20 minutes)."
+    },
+    {
+      "trial_index": 128,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points to 3, and the minute hand points to 4 (which represents 20 minutes)."
+    },
+    {
+      "trial_index": 129,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "The clock shows **3:20** on Monday, May 3rd.\n\nThe hour hand points between 3 and 4 (closer to 3), and the minute hand points to the 4, indicating 20 minutes past the hour. The date display reads \"MON 03 MAY.\""
+    },
+    {
+      "trial_index": 130,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "Based on the clock, the hour hand points toward roughly the 7 position and the minute hand points toward 6 (the bottom). The time shown is approximately **6:30**.\n\nThe clock also displays the date: **Monday, May 3rd**."
+    },
+    {
+      "trial_index": 131,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "Looking at the clock, I can see:\n\n- The **hour hand** (shorter) is pointing toward the 7\n- The **minute hand** (longer) is pointing toward the 6 (the 30-minute mark)\n\nThe time shown is approximately **6:30**.\n\nThe date display also shows \"MON 03 MAY\"."
+    },
+    {
+      "trial_index": 132,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "Based on the clock, the hour hand points toward roughly the 7 position and the minute hand points toward 6 (the 30-minute mark). \n\nThe time shown is approximately **6:30**.\n\nThe clock also displays the date: **Monday, May 3rd**."
+    },
+    {
+      "trial_index": 133,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "The clock shows approximately **6:32**.\n\nThe minute hand is pointing near the 6 (around the 32-minute mark), and the hour hand is pointing toward the 7, indicating it's just past 6:30. The date display shows \"MON 03 MAY.\""
+    },
+    {
+      "trial_index": 134,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "Looking at the clock, I can see:\n- The hour hand points toward the 7 area\n- The minute hand points down toward the 6 (30 minutes)\n\nThe time shown is approximately **6:32**.\n\nThe date display also shows \"MON 03 MAY\"."
+    },
+    {
+      "trial_index": 135,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "The clock shows approximately **6:32**.\n\nThe minute hand points to about the 6 (30-minute mark, slightly past), and the hour hand points near the 7, indicating the time is roughly 6:32. The date display shows \"MON 03 MAY.\""
+    },
+    {
+      "trial_index": 136,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "The clock shows approximately **6:28**.\n\nThe hour hand is pointing near the 6, and the minute hand is pointing close to the 28-minute mark (between 5 and 6). The date display shows \"MON 03 MAY.\""
+    },
+    {
+      "trial_index": 137,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "Looking at the clock, I can see:\n- The hour hand points slightly left of 6 (toward roughly 7)\n- The minute hand points down to 6 (indicating 30 minutes)\n\nThe time shown is approximately **6:30**.\n\nThe date display also shows \"MON 03 MAY\"."
+    },
+    {
+      "trial_index": 138,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "Looking at the clock, I can see:\n- The hour hand points toward the 7 area\n- The minute hand points downward toward the 6\n\nThe time shown is approximately **6:30**. The date display shows MON 03 MAY."
+    },
+    {
+      "trial_index": 139,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "The clock shows approximately **6:32**.\n\nThe minute hand points to the 6 (30-minute mark, slightly past), and the hour hand points just past the 6, indicating it's about 6:32. The date display shows \"MON 03 MAY.\""
+    },
+    {
+      "trial_index": 140,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (the hour hand is on 11 and the minute hand is on 12).\n\nThe date display also indicates it's **Monday, May 3rd**."
+    },
+    {
+      "trial_index": 141,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (approximately).\n\nThe hour hand is pointing at 12 (slightly to the left), and the minute hand is pointing at 11, indicating the time is about 11:00. The date display shows **Monday, May 3rd**."
+    },
+    {
+      "trial_index": 142,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (11 o'clock).\n\nThe hour hand is pointing at 11 and the minute hand is pointing straight up at 12. The date display below shows **MON 03 MAY**."
+    },
+    {
+      "trial_index": 143,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (approximately).\n\nThe hour hand is pointing straight up at 12 (slightly to the left, indicating it's just before 12), and the minute hand is pointing to the 11 position (or rather, the hour hand is at 11 and the minute hand is at 12). \n\nLooking more carefully: the shorter hand points to 11 and the longer hand points to 12, so the time is **11:00**.\n\nThe date display shows **Monday, May 3rd**."
+    },
+    {
+      "trial_index": 144,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (the hour hand is on 11 and the minute hand is on 12).\n\nThe date display also indicates it's **Monday, May 3rd**."
+    },
+    {
+      "trial_index": 145,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (approximately).\n\nThe hour hand is pointing at 11 and the minute hand is pointing at 12. The date display below shows **MON 03 MAY**."
+    },
+    {
+      "trial_index": 146,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (eleven o'clock).\n\nThe hour hand is pointing at 11 and the minute hand is pointing at 12. The date display below shows it's Monday, May 3rd."
+    },
+    {
+      "trial_index": 147,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (11 o'clock).\n\nThe hour hand is pointing straight up to 12... actually, looking more carefully, the shorter hand points to 11 and the longer minute hand points to 12, indicating the time is **11:00**.\n\nThe date display also shows **MON 03 MAY** (Monday, May 3rd)."
+    },
+    {
+      "trial_index": 148,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (or close to it).\n\nThe hour hand is pointing straight up at 12, and the minute hand is pointing to about the 11 position (slightly to the left of 12), indicating the time is approximately **11:55** \u2014 just before 12:00.\n\nLooking more carefully: the shorter hand (hour) appears to point near 12, and the longer hand (minute) points to roughly the 11, so the time is **about 11:55**.\n\nThe date display also shows **MON 03 MAY**."
+    },
+    {
+      "trial_index": 149,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "The clock shows **11:00** (11 o'clock).\n\nThe hour hand is pointing at the 11, and the minute hand is pointing straight up at the 12. The date display shows **Monday, May 3rd**."
+    }
+  ]
+}

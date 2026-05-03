@@ -1,0 +1,663 @@
+{
+  "rubric": "Classify into ONE bucket: exact_match (\u00b11 min), within_5_min (\u00b15 excl. exact), wrong_by_more (>5 OR confidently wrong), refused_or_uncertain.\n\nEdges: Empty \u2192 refused. First committed time. Strip seconds. AM/PM irrelevant. Clock 03: 7:50 or 19:50. Clock 06: only 6:30 correct (5:30 is wrong by ~60 min). Clock 08: BOTH 9:45 and 2:15 acceptable.\n\nStage 3a responses include long methodical reasoning \u2014 score on FINAL committed time, not intermediate.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials. Hour near 10, minute at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman + red MON window at 3. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner 1-12, outer 24/1-23). Hour between inner 7-8, minute at inner 10. Accept 7:50 OR 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face. Hour lower-left (8), minute lower-right (4)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Red\u2192blue gradient + Arabic + MON|03|MAY at 4-5. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands, NO numerals, MON|03|MAY in middle. Both hands point straight down \u2014 minute at 6 (=30 min), hour just past 6 toward 7. NOTE: at 6:30 hour hand sits LEFT of straight down (going CW from 6 toward 7 sweeps left)."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Dark face slim white hands, MON|03|MAY below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "9:45 OR 2:15",
+      "style": "Dark face MIRRORED Arabic numerals (CCW: 12 top, 1 to LEFT of 12, etc., glyphs flipped). DUAL RUBRIC: 9:45 (mirror-aware) AND 2:15 (template-match) both correct. 3:00 or 3:15 = wrong."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 3000,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3001,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3002,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3003,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3004,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3005,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3006,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3007,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3008,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3009,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3010,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3011,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3012,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3013,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:26"
+    },
+    {
+      "trial_index": 3014,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3015,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:27"
+    },
+    {
+      "trial_index": 3016,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3017,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3018,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3019,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "03:25"
+    },
+    {
+      "trial_index": 3020,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3021,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3022,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "08:50"
+    },
+    {
+      "trial_index": 3023,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3024,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3025,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3026,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "09:38"
+    },
+    {
+      "trial_index": 3027,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "10:40"
+    },
+    {
+      "trial_index": 3028,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3029,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "07:50"
+    },
+    {
+      "trial_index": 3030,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "08:20"
+    },
+    {
+      "trial_index": 3031,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "10:20"
+    },
+    {
+      "trial_index": 3032,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "10:20"
+    },
+    {
+      "trial_index": 3033,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "10:20"
+    },
+    {
+      "trial_index": 3034,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "08:20"
+    },
+    {
+      "trial_index": 3035,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "10:20"
+    },
+    {
+      "trial_index": 3036,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "08:20"
+    },
+    {
+      "trial_index": 3037,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "10:20"
+    },
+    {
+      "trial_index": 3038,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3039,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3040,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3041,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3042,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3043,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3044,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3045,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3046,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:20"
+    },
+    {
+      "trial_index": 3047,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "04:15"
+    },
+    {
+      "trial_index": 3048,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "05:30"
+    },
+    {
+      "trial_index": 3049,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "06:30"
+    },
+    {
+      "trial_index": 3050,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "05:30"
+    },
+    {
+      "trial_index": 3051,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "05:30"
+    },
+    {
+      "trial_index": 3052,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "05:32"
+    },
+    {
+      "trial_index": 3053,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "05:30"
+    },
+    {
+      "trial_index": 3054,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "01:30"
+    },
+    {
+      "trial_index": 3055,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "06:30"
+    },
+    {
+      "trial_index": 3056,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "06:30"
+    },
+    {
+      "trial_index": 3057,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "06:30"
+    },
+    {
+      "trial_index": 3058,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 3059,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 3060,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 3061,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 3062,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 3063,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 3064,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 3065,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 3066,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 3067,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 3068,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3069,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3070,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3071,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3072,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3073,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3074,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 3075,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3076,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    },
+    {
+      "trial_index": 3077,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "02:15"
+    }
+  ]
+}

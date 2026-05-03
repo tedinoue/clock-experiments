@@ -1,0 +1,200 @@
+[
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 1,
+    "raw_response": "Based on the position of the hands on the clock:\n\n*   The **hour hand** (the shorter, thicker one) is pointing just past the 10.\n*   The **minute hand** (the longer, thinner one) is pointing directly at the 2, which represents 10 minutes.\n\nTherefore, the time shown on the clock is **10:10**.",
+    "elapsed_s": 10.56,
+    "attempts": 2,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 2,
+    "raw_response": null,
+    "elapsed_s": 0.0,
+    "attempts": 8,
+    "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 3,
+    "raw_response": "Based on the position of the hands on the main clock face:\n\n*   The **hour hand** (the shorter, thicker one) is pointing at the **10**.\n*   The **minute hand** (the longer, thicker one) is pointing at the **2**.\n\nWhen the minute hand points to the 2, it signifies 10 minutes past the hour.\n\nTherefore, the time shown on the clock is **10:10**.",
+    "elapsed_s": 10.77,
+    "attempts": 2,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 4,
+    "raw_response": "Based on the position of the hands on the clock:\n\n*   The **hour hand** (the shorter, thicker one) is pointing just past the **10**.\n*   The **minute hand** (the longer, thinner one) is pointing directly at the **2**.\n\nWhen the minute hand is at the 2, it signifies 10 minutes past the hour.\n\nTherefore, the time shown on the clock is **10:10**.",
+    "elapsed_s": 10.63,
+    "attempts": 4,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 5,
+    "raw_response": "Based on the position of the hands on the clock face:\n\n*   The **hour hand** (the shorter, thicker hand) is pointing just past the 10.\n*   The **minute hand** (the longer, thicker hand) is pointing directly at the 2.\n\nWhen the minute hand is at the 2, it signifies 10 minutes past the hour.\n\nTherefore, the time shown on the clock is **10:10**.",
+    "elapsed_s": 10.94,
+    "attempts": 2,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 6,
+    "raw_response": "Based on the image provided, the clock shows the time **10:10**.\n\nHere's how to read it:\n*   The **hour hand** (the shorter, thicker one) is pointing just past the 10.\n*   The **minute hand** (the longer, thinner one) is pointing directly at the 2, which represents 10 minutes past the hour.",
+    "elapsed_s": 11.46,
+    "attempts": 4,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 7,
+    "raw_response": "Based on the position of the hands on the clock, the time is **10:10**.\n\n*   The shorter **hour hand** is pointing just past the 10.\n*   The longer **minute hand** is pointing directly at the 2, which represents 10 minutes past the hour.",
+    "elapsed_s": 16.41,
+    "attempts": 6,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 8,
+    "raw_response": "Based on the position of the hands on the clock face:\n\n*   The **hour hand** (the shorter, thicker one) is pointing just past the 10.\n*   The **minute hand** (the longer, thinner one) is pointing directly at the 2.\n\nWhen the minute hand is at the 2, it signifies 10 minutes past the hour.\n\nTherefore, the time shown on the clock is **10:10**.",
+    "elapsed_s": 12.65,
+    "attempts": 1,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 9,
+    "raw_response": "Based on the position of the hands on the clock face:\n\n*   The **hour hand** (the shorter, thicker hand) is pointing to the **10**.\n*   The **minute hand** (the longer hand) is pointing to the **2**.\n\nWhen the minute hand points to the 2, it represents 10 minutes past the hour.\n\nTherefore, the time shown on the clock is **10:10**.",
+    "elapsed_s": 20.66,
+    "attempts": 1,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_01",
+    "ground_truth": "10:10",
+    "trial": 10,
+    "raw_response": "Based on the position of the hands on the clock, the time is **10:10**.\n\n*   The shorter **hour hand** is pointing directly at the **10**.\n*   The longer **minute hand** is pointing at the **2**, which represents **10** minutes past the hour.",
+    "elapsed_s": 9.08,
+    "attempts": 5,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 1,
+    "raw_response": "Based on the position of the hands on the clock, the time is **2:25**.\n\n*   The **hour hand** (the shorter one) is past the II (2) but has not yet reached the III (3).\n*   The **minute hand** (the longer one) is pointing directly at the V (5), which represents 25 minutes past the hour.\n\nThe clock also shows that the day is **Monday (MON)**.",
+    "elapsed_s": 9.61,
+    "attempts": 3,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 2,
+    "raw_response": "Based on the image, the clock shows the time is **3:25**.\n\nHere's how to read it:\n\n*   The **hour hand** (the shorter one) is past the Roman numeral **III** (3) but has not yet reached IV (4).\n*   The **minute hand** (the longer one) is pointing directly at the Roman numeral **V** (5), which represents 25 minutes past the hour.\n\nThe red box also indicates that the day is **Monday (MON)**.",
+    "elapsed_s": 9.6,
+    "attempts": 1,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 3,
+    "raw_response": "Based on the position of the hands on the clock, the time is **3:25**.\n\nHere's how to read it:\n\n*   The **shorter hour hand** is past the III (3) and is approaching the IV (4).\n*   The **longer minute hand** is pointing directly at the V, which represents 25 minutes past the hour.",
+    "elapsed_s": 15.35,
+    "attempts": 1,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 4,
+    "raw_response": "Based on the image of the clock:\n\n*   The **hour hand** (the shorter one) is past the Roman numeral II (2) but has not yet reached III (3).\n*   The **minute hand** (the longer one) is pointing directly at the Roman numeral V (5), which represents 25 minutes past the hour.\n*   The small window on the clock face shows **MON**, indicating it is Monday.\n\nTherefore, the time shown on the clock is **2:25**.",
+    "elapsed_s": 10.53,
+    "attempts": 4,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 5,
+    "raw_response": "Based on the image of the clock:\n\n*   The **hour hand** (the shorter one) is past the Roman numeral III (3) but has not yet reached IV (4).\n*   The **minute hand** (the longer one) is pointing directly at the Roman numeral V (5).\n\nOn a clock, the V represents 25 minutes.\n\nTherefore, the time shown on the clock is **3:25**.\n\nThe red window also indicates that the day is **Monday (MON)**.",
+    "elapsed_s": 11.6,
+    "attempts": 4,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 6,
+    "raw_response": "Based on the position of the hands on the clock, the time is **3:25**.\n\nHere's the breakdown:\n*   The **hour hand** (the shorter one) is between the III (3) and the IV (4).\n*   The **minute hand** (the longer one) is pointing directly at the V (5), which represents 25 minutes past the hour.\n\nThe clock also displays the day of the week as **MON** (Monday).",
+    "elapsed_s": 12.04,
+    "attempts": 1,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 7,
+    "raw_response": "Based on the position of the hands on the clock, the time is **3:25**.\n\n*   The shorter **hour hand** has passed the Roman numeral III (3) but has not yet reached the IV (4).\n*   The longer **minute hand** is pointing directly at the Roman numeral V (5), which represents 25 minutes past the hour.\n\nThe clock also has a day window that shows **MON**, indicating it is **Monday**.",
+    "elapsed_s": 9.61,
+    "attempts": 1,
+    "error": null
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "clock_id": "clock_02",
+    "ground_truth": "03:25",
+    "trial": 8,
+    "raw_response": "Based on the image of the clock:\n\n*   The shorter **hour hand** is between the Roman numerals III (3) and IV (4).\n*   The longer **minute hand** is pointing directly at the Roman numeral V (5), which represents 25 minutes.\n\nTherefore, the time shown on the clock is **3:25**.\n\nThe clock also displays the day of the week, which is **Monday (MON)**.",
+    "elapsed_s": 9.54,
+    "attempts": 2,
+    "error": null
+  }
+]

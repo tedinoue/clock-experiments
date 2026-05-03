@@ -1,0 +1,271 @@
+{
+  "rubric": "Classify each response into ONE of these buckets:\n\n- \"exact_match\": time stated within \u00b11 minute of ground truth\n- \"within_5_min\": time stated within \u00b15 minutes (excluding exact_match)\n- \"wrong_by_more\": time stated more than 5 minutes off, OR confidently wrong\n- \"refused_or_uncertain\": declined to answer, said \"I can't tell,\" \"approximately X but not sure,\" etc.\n\nEdge cases:\n- AM/PM is irrelevant; 7:50 PM = 7:50 = 19:50.\n- \"ten past ten\" = 10:10. Strip seconds. Multiple times \u2192 use FIRST committed.\n- Clock 03: accept 7:50 OR 19:50.\n- Clock 06: ground truth 6:30. The hour hand at 6:30 leans LEFT of straight down (going CW from 6 toward 7 sweeps southwest). 6:30 is the only acceptable answer; 5:30 is WRONG.\n- Clock 08: TWO acceptable answers \u2014 9:45 (mirror-aware) AND 2:15 (template-match). Both reflect correct hand-position reading; the difference is whether the model noticed the mirroring. Either counts as correct. A 3:00 or 3:15 answer is wrong (>5 min from both).",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials, white face. Subdials are decorative. Hour hand near 10, minute hand at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman numerals, red MON date window at 3 o'clock, white face. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner Arabic 1-12 standard, outer 24 numerals at 15\u00b0 intervals with 24 at top, going CW: 1,2,3,...,12 at bottom,...,23). Hour between inner 7 and 8, minute at inner 10. Accept 12-hour 7:50 OR 24-hour 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face, no numerals, no markers. Hour toward lower-left (8 position), minute toward lower-right (4 position)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Vertical red\u2192blue gradient, Arabic numerals, three-cell day-date strip MON|03|MAY at 4-5 o'clock area. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands (red top to purple bottom), NO numerals, three-cell day-date strip MON|03|MAY in middle. Both hands point straight down \u2014 minute at 6 (=30 min), hour just past 6 toward 7. NOTE: at 6:30 the hour hand sits to the LEFT of straight down because 7 is at the lower-left position (going CW from 6 toward 7 sweeps left)."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Plain dark face, slim white hands, three-cell day-date strip MON|03|MAY just below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "9:45 OR 2:15",
+      "style": "Dark face, MIRRORED Arabic numerals (counter-clockwise sequence: 12 at top, 1 to LEFT of 12, 2 below 1, etc., each glyph also flipped horizontally). Hand positions: hour at 67.5\u00b0 (just past 2 in normal terms; just past mirrored-9 in mirror terms). Minute at 90\u00b0 (at normal-clock 3-position; at mirrored-9). DUAL RUBRIC: both 9:45 (mirror-aware) and 2:15 (template-match) are correct. A 3:15 or 3:00 answer is WRONG (>5 min from both)."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 300,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- The clock face is standard 12-hour with a day/date window near the 4\u2014decorative, not for time.\n- Hour hand (shorter) is between 4 and 5, about a quarter of the way from 4 toward 5.\n- Minute hand (longer) points at the 3 position, which is 15 minutes.\n\nTherefore, the time is 4:15."
+    },
+    {
+      "trial_index": 301,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- First look: Standard 12-hour face with normal numbering. There\u2019s a date/day window near the 4\u2014decoration, not used to read the time.\n- Hour hand: the shorter, thicker hand sits between 4 and 5, about one-quarter of the way from 4 toward 5.\n- Minute hand: the longer, thinner hand points exactly at the 3 position (15 minutes).\n\nSince the hour hand is a quarter of the way from 4 to 5 and the minute hand reads 15 minutes, the time is 4:15."
+    },
+    {
+      "trial_index": 302,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- Face check: Standard 1\u201312 clock, normal clockwise order. Decorative day/date window near 4 that doesn\u2019t affect time.\n- Hour hand: The shorter, thicker hand points between 4 and 5, about one-quarter of the way from 4 toward 5.\n- Minute hand: The longer, thinner hand points exactly at the \u201c3\u201d position, which is 15 minutes.\n- Angle reasoning: An hour hand one-quarter from 4 to 5 matches 15 minutes past 4.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 303,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- First look: Standard 12-hour dial with tick marks (no numerals). Decorative rainbow face and a date window, but nothing mirrored or unusual for reading time.\n- Hour hand: The shorter, thicker white hand sits about halfway between the 6 and 7 markers.\n- Minute hand: The longer, thinner white hand points exactly at the 6 position, which equals 30 minutes.\n- Angle check: With the minute hand at :30, the hour hand should be halfway to the next hour, which it is between 6 and 7.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 304,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- First look: Standard 12-hour clock with tick marks (no numerals). There\u2019s a day/date window (decorative for time-reading) and three hands; the very thin one is a seconds hand.\n\n- Hour hand: the shorter, thicker hand sits between 5 and 6, about halfway and just left of the 6 mark.\n\n- Minute hand: the longer hand points exactly at the 6 position (which is 30 minutes).\n\n- Angle reasoning: With the minute hand at 30, the hour hand should be halfway from 5 to 6.\n\nTime shown: 5:30. (The seconds hand also points at 6, i.e., 30 seconds.)"
+    },
+    {
+      "trial_index": 305,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- Whole face: Standard 12-hour dial with only tick marks (no numerals). Rainbow background and a day-date window in the center (decorative for time-reading).\n\n- Hour hand: The shorter, thicker hand sits about halfway between the 6 and the 7.\n\n- Minute hand: The longer, thinner hand points straight down at the 6-position, which is 30 minutes.\n\n- Angle reasoning: Hour hand halfway from 6 to 7 corresponds to 30 minutes past 6.\n\nTime shown: 6:30."
+    },
+    {
+      "trial_index": 306,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- Face features: No numerals, regular minute ticks. Decorative rainbow background and a day/date window; these don\u2019t affect time reading.\n- Hour hand: the shorter, thicker white hand points about halfway between 7 and 8.\n- Minute hand: the longer, thinner white hand points exactly at the \u201c6\u201d position (30 minutes).\n\nReasoning: Halfway between 7 and 8 with the minute hand on 6 indicates thirty minutes past seven.\n\nTime: 7:30."
+    },
+    {
+      "trial_index": 307,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- Overall face: Standard clockwise dial with tick marks (no numerals). Day-date window and rainbow background are decorative; they don\u2019t affect reading.\n\n- Hour hand: The shorter, thicker hand sits about halfway between the 6 and the 7 positions.\n\n- Minute hand: The longer, thinner hand points exactly at the 6 position, which is 30 minutes.\n\n- Reasoning: When the minute hand is at 30, the hour hand should be halfway between the hour marks.\n\nTime shown: 6:30."
+    },
+    {
+      "trial_index": 308,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- Unusual features: Rainbow background and a day/date window at the center. Standard 12-hour markers; no mirroring. A very thin hand appears to indicate seconds.\n- Hour hand: the shorter, thicker white hand sits about halfway between the 6 and 7 marks.\n- Minute hand: the longer, thinner white hand points exactly at the 6 position, which is 30 minutes.\n- Reasoning: With the minute at 30, the hour hand should be midway between the hour marks, as observed.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 309,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- First look: Standard 12-hour dial with tick marks only; rainbow-colored face and a day-date window (decorative/not for time). A thin seconds hand is present.\n- Hour hand: The shorter, thicker hand sits about halfway between 6 and 7.\n- Minute hand: The longer hand points exactly at the 6 position (30 minutes).\n\nTime: about 6:30."
+    },
+    {
+      "trial_index": 310,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- First look: Normal 12-hour clock with standard markers; rainbow face and a date window are decorative. There is also a very thin second hand.\n- Hour hand: the shorter, thicker white hand sits between the 6 and 7, about halfway from 6 toward 7.\n- Minute hand: the longer hand points exactly at the 6 position (30 minutes). It is overlapped by the very thin second hand.\n\nTime: approximately 6:30."
+    },
+    {
+      "trial_index": 311,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- Face check: Standard 12\u2011hour dial with tick marks (no numerals), rainbow background and a day/date window. Nothing mirrored or unusual for reading time.\n- Hour hand: the shorter, thicker hand sits about halfway between the 5 and the 6.\n- Minute hand: the longer, thinner hand points exactly at the 6 position (30 minutes).\n- Reasoning: With the minute hand at 30, the hour hand should be halfway to the next hour; it\u2019s between 5 and 6.\n\nTime: 5:30."
+    },
+    {
+      "trial_index": 312,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Unusual features: Rainbow-colored face with tick marks but no numerals, and a date window; otherwise a standard 12-hour dial.\n\n2) Hour hand: The shorter, thicker white hand sits between 6 and 7, about halfway.\n\n3) Minute hand: The longer, thinner white hand points exactly at the 6 position (30 minutes).\n\n4) Angle reasoning: Hour hand halfway from 6 to 7 corresponds to :30 past 6.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 313,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- The clock face is standard with simple tick markers and a day-date window (decorative, not used for time). No numerals or mirroring.\n- Hour hand: the shorter, thicker hand is very close to the 12 marker, just before it (between 11 and 12, near the end of that interval).\n- Minute hand: the longer, thinner hand points at the \u201c11\u201d position, which is 55 minutes.\n\nTime: about 11:55 (five minutes to twelve)."
+    },
+    {
+      "trial_index": 314,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Face check: Minimalist dial with only hour markers and a day/date window. No mirrored numerals or subdials.\n- Hour hand: The shorter hand sits just past the 12 marker, slightly toward 1.\n- Minute hand: The longer hand points to the \u201c11\u201d position, which is 55 minutes.\n- Angle reasoning: With the minute hand at 55, the hour hand should be near the next hour, just past 12 toward 1, which matches what we see.\n\nTime: 12:55."
+    },
+    {
+      "trial_index": 315,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Face check: Minimalist dial with only hour markers and a day/date window; no numerals. Nothing mirrored or unusual for reading time.\n- Hour hand: The shorter, broader hand points directly at the 11 o\u2019clock marker.\n- Minute hand: The longer, thinner hand points straight up at the 12 o\u2019clock position (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 316,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Whole face: Standard 12\u2011hour clock with simple tick markers. A date window is present but not used for telling time.\n- Hour hand: The shorter, thicker hand points exactly at the 11 o\u2019clock position.\n- Minute hand: The longer, thinner hand points straight up at the 12, i.e., 0 minutes.\n- Angles: With the minute hand at 12, the hour hand should sit exactly on an hour mark, which it does at 11.\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 317,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Unusual features: Standard 12-hour dial with tick markers and a date window; no numerals or mirror effects.\n- Hour hand (shorter, thicker): Points directly at the 11 o\u2019clock position.\n- Minute hand (longer, thinner): Points straight up at the 12, the 0-minute mark.\n- Angle reasoning: Hour hand on 11 with the minute at 12 indicates the top of the hour.\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 318,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Face check: Minimalist dial with only tick marks; no numerals. A day/date window in the center (not used for time).\n- Hour hand: The shorter, thicker hand sits between 11 and 12, very close to 12 (about five-sixths of the way from 11 to 12).\n- Minute hand: The longer hand points exactly to the 11 position, which is 55 minutes.\n\nTime: 11:55."
+    },
+    {
+      "trial_index": 319,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Features: Minimalist dial with only hour markers and a day/date window (decorative for time-reading). No mirrored numerals.\n\n2) Hour hand: The shorter, thicker hand sits between 11 and 12, very close to 12 (just left of the 12 marker).\n\n3) Minute hand: The longer, thinner hand points to the 11 position, which is 55 minutes.\n\n4) Angle reasoning: With the minute at 55, the hour hand should be nearly at 12, matching what we see.\n\n5) Time: 11:55."
+    },
+    {
+      "trial_index": 320,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- First look: Standard clock face with simple hour markers and a day/date window; no mirrored numerals or special scales.\n- Hour hand: The shorter, thicker hand sits just before the 12 marker (a little to the left of it), so it\u2019s still in the 11 o\u2019clock hour.\n- Minute hand: The longer, thinner hand points exactly at the \u201c11\u201d position, which corresponds to 55 minutes.\n- Reasoning: With the minute hand at 55, the hour hand should be very close to 12 but not past it.\n\nTime shown: 11:55."
+    },
+    {
+      "trial_index": 321,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Overall face: Standard 12-hour dial with simple hour markers and a day/date window. No numerals or mirrored layout. A thin seconds hand is present.\n- Hour hand: The shorter, thicker hand points directly at the 11 o\u2019clock marker.\n- Minute hand: The longer, thinner hand points straight up at the 12 position (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 322,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Face features: No numerals, only hour markers; a day/date window (decorative, not for time). Nothing mirrored.\n- Hour hand: the shorter, thicker hand points to the 11 o\u2019clock marker.\n- Minute hand: the longer, thinner hand points straight up at the 12 marker (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 323,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "- Unusual features: The numerals are mirrored and run counter\u2011clockwise; there\u2019s also a day window. I\u2019ll read the hands by position, not the printed numbers.\n- Hour hand: the shorter, thicker hand sits about one quarter of the way from the 2 o\u2019clock position toward the 3.\n- Minute hand: the longer, thinner hand points exactly to the 3 o\u2019clock position (15 minutes).\n\nReasoning: At a quarter past the hour, the hour hand is 1/4 of the way to the next hour.\n\nTime shown: 2:15."
+    },
+    {
+      "trial_index": 324,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "1) Unusual feature: The numerals are mirrored and run counter\u2011clockwise. I will ignore the printed numbers and read the hand positions as on a normal dial.\n\n2) Hour hand: The shorter, thicker hand sits between the standard 2 and 3 positions, about one-quarter of the way from 2 toward 3.\n\n3) Minute hand: The longer, thinner hand points exactly at the \u201c3\u201d position (which is 15 minutes).\n\n4) Angle check: An hour hand a quarter of the way from one hour to the next corresponds to :15 past.\n\nTime: 2:15."
+    },
+    {
+      "trial_index": 325,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "- First look: The numerals are mirrored/reversed (a mirror-clock layout). There\u2019s also a small day window, but it doesn\u2019t affect the time. I\u2019ll read the hands by their positions (12 at top, 3 at right, etc.).\n- Hour hand (short, thick): between 2 and 3, about one quarter of the way from 2 toward 3.\n- Minute hand (long, thin): exactly at the 3 o\u2019clock position, which is 15 minutes.\n\nTime: 2:15."
+    },
+    {
+      "trial_index": 326,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "- Unusual feature: The numerals are mirrored/reversed around the dial. I\u2019ll ignore the printed digits and use the standard positions.\n\n- Hour hand (shorter, thicker): between 2 and 3, about one-quarter of the way from 2 toward 3.\n- Minute hand (longer, thinner): pointing at the 3 o\u2019clock position.\n\n- Reasoning: The 3 o\u2019clock position is 15 minutes. With the hour hand a quarter of the way from 2 to 3, that matches :15 past 2.\n\nTime: 2:15."
+    },
+    {
+      "trial_index": 327,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "- Unusual feature: The dial is mirror-reversed \u2014 numerals run counter\u2011clockwise and many are flipped.\n- Hour hand (shorter, thicker): points just past the \u201c10,\u201d about one\u2011quarter of the way from 10 toward 11.\n- Minute hand (longer, thinner): points to the rightmost marker (the \u201c3\u201d position on a standard dial), which is 15 minutes.\n\nTherefore, the time is 10:15."
+    },
+    {
+      "trial_index": 328,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "1) The dial has mirrored numerals (a \u201cmirror-clock\u201d face). I\u2019ll read the hands by their positions around the dial, not by the printed digits.\n\n2) The hour hand (short, thicker) sits between 2 and 3, about a quarter of the way from 2 toward 3.\n\n3) The minute hand (long, thin) points exactly at the 3 o\u2019clock position.\n\n4) The 3 position corresponds to 15 minutes; the hour hand\u2019s quarter step from 2 toward 3 matches \u201cquarter past 2.\u201d\n\nTime: 2:15."
+    }
+  ]
+}

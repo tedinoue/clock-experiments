@@ -1,0 +1,405 @@
+{
+  "batch_index": "haiku",
+  "classifications": [
+    {
+      "trial_index": 2000,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:30; 10:30 \u2014 wrong by 20"
+    },
+    {
+      "trial_index": 2001,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:30; 10:30 \u2014 wrong by 20"
+    },
+    {
+      "trial_index": 2002,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:30; 10:30 \u2014 wrong by 20"
+    },
+    {
+      "trial_index": 2003,
+      "classification": "exact_match",
+      "notes": "answer=10:10; 10:10 exact"
+    },
+    {
+      "trial_index": 2004,
+      "classification": "within_5_min",
+      "notes": "answer=10:15; 10:15 \u2014 within 5"
+    },
+    {
+      "trial_index": 2005,
+      "classification": "exact_match",
+      "notes": "answer=10:10; 10:10 exact"
+    },
+    {
+      "trial_index": 2006,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:30; 10:30 \u2014 wrong by 20"
+    },
+    {
+      "trial_index": 2007,
+      "classification": "exact_match",
+      "notes": "answer=10:10; 10:10 exact"
+    },
+    {
+      "trial_index": 2008,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:30; 10:30 \u2014 wrong by 20"
+    },
+    {
+      "trial_index": 2009,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:30; 10:30 \u2014 wrong by 20"
+    },
+    {
+      "trial_index": 2010,
+      "classification": "wrong_by_more",
+      "notes": "answer=9:15; 9:15 \u2014 wrong"
+    },
+    {
+      "trial_index": 2011,
+      "classification": "wrong_by_more",
+      "notes": "answer=9:15; 9:15 \u2014 wrong"
+    },
+    {
+      "trial_index": 2012,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:15; 3:15 \u2014 wrong by 10"
+    },
+    {
+      "trial_index": 2013,
+      "classification": "within_5_min",
+      "notes": "answer=3:30; 3:30 \u2014 within 5"
+    },
+    {
+      "trial_index": 2014,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:15; 3:15 \u2014 wrong by 10"
+    },
+    {
+      "trial_index": 2015,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:15; 3:15 \u2014 wrong by 10"
+    },
+    {
+      "trial_index": 2016,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:15; 3:15 \u2014 wrong by 10"
+    },
+    {
+      "trial_index": 2017,
+      "classification": "wrong_by_more",
+      "notes": "answer=9:15; 9:15 \u2014 wrong"
+    },
+    {
+      "trial_index": 2018,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:15; 3:15 \u2014 wrong by 10"
+    },
+    {
+      "trial_index": 2019,
+      "classification": "wrong_by_more",
+      "notes": "answer=9:15; 9:15 \u2014 wrong"
+    },
+    {
+      "trial_index": 2020,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:10; 10:10 \u2014 wrong"
+    },
+    {
+      "trial_index": 2021,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:10; 10:10 \u2014 wrong"
+    },
+    {
+      "trial_index": 2022,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:50; 10:50 \u2014 wrong"
+    },
+    {
+      "trial_index": 2023,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:00; 10:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2024,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:10; 10:10 \u2014 wrong"
+    },
+    {
+      "trial_index": 2025,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:45; 10:45 \u2014 wrong"
+    },
+    {
+      "trial_index": 2026,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:10; 10:10 \u2014 wrong"
+    },
+    {
+      "trial_index": 2027,
+      "classification": "wrong_by_more",
+      "notes": "answer=22:00; 22:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2028,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:10; 10:10 \u2014 wrong"
+    },
+    {
+      "trial_index": 2029,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:00; 10:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2030,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2031,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2032,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2033,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2034,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2035,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2036,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2037,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2038,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2039,
+      "classification": "refused_or_uncertain",
+      "notes": "answer=refused; Cannot read \u2014 no face"
+    },
+    {
+      "trial_index": 2040,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:27; 3:27 \u2014 wrong"
+    },
+    {
+      "trial_index": 2041,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:00; 3:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2042,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:27; 3:27 \u2014 wrong"
+    },
+    {
+      "trial_index": 2043,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:27; 3:27 \u2014 wrong"
+    },
+    {
+      "trial_index": 2044,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:27; 3:27 \u2014 wrong"
+    },
+    {
+      "trial_index": 2045,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:20; 3:20 \u2014 wrong"
+    },
+    {
+      "trial_index": 2046,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:35; 3:35 \u2014 wrong"
+    },
+    {
+      "trial_index": 2047,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:27; 3:27 \u2014 wrong"
+    },
+    {
+      "trial_index": 2048,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:27; 3:27 \u2014 wrong"
+    },
+    {
+      "trial_index": 2049,
+      "classification": "exact_match",
+      "notes": "answer=4:15; 4:15 exact"
+    },
+    {
+      "trial_index": 2050,
+      "classification": "exact_match",
+      "notes": "answer=6:30; 6:30 exact"
+    },
+    {
+      "trial_index": 2051,
+      "classification": "wrong_by_more",
+      "notes": "answer=6:00; 6:00 \u2014 wrong by 30"
+    },
+    {
+      "trial_index": 2052,
+      "classification": "exact_match",
+      "notes": "answer=6:30; 6:30 exact"
+    },
+    {
+      "trial_index": 2053,
+      "classification": "wrong_by_more",
+      "notes": "answer=6:00; 6:00 \u2014 wrong by 30"
+    },
+    {
+      "trial_index": 2054,
+      "classification": "wrong_by_more",
+      "notes": "answer=6:00; 6:00 \u2014 wrong by 30"
+    },
+    {
+      "trial_index": 2055,
+      "classification": "exact_match",
+      "notes": "answer=6:30; 6:30 exact"
+    },
+    {
+      "trial_index": 2056,
+      "classification": "exact_match",
+      "notes": "answer=6:30; 6:30 exact"
+    },
+    {
+      "trial_index": 2057,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:00; 3:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2058,
+      "classification": "exact_match",
+      "notes": "answer=6:30; 6:30 exact"
+    },
+    {
+      "trial_index": 2059,
+      "classification": "wrong_by_more",
+      "notes": "answer=6:00; 6:00 \u2014 wrong by 30"
+    },
+    {
+      "trial_index": 2060,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55/5min"
+    },
+    {
+      "trial_index": 2061,
+      "classification": "exact_match",
+      "notes": "answer=11:55; 11:55 exact"
+    },
+    {
+      "trial_index": 2062,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55"
+    },
+    {
+      "trial_index": 2063,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55"
+    },
+    {
+      "trial_index": 2064,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55"
+    },
+    {
+      "trial_index": 2065,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:05; 11:05 \u2014 wrong"
+    },
+    {
+      "trial_index": 2066,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55"
+    },
+    {
+      "trial_index": 2067,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55"
+    },
+    {
+      "trial_index": 2068,
+      "classification": "wrong_by_more",
+      "notes": "answer=11:00; 11:00 \u2014 wrong by 55"
+    },
+    {
+      "trial_index": 2069,
+      "classification": "wrong_by_more",
+      "notes": "answer=10:05; 10:05 \u2014 wrong"
+    },
+    {
+      "trial_index": 2070,
+      "classification": "exact_match",
+      "notes": "answer=2:15; 2:15 exact (template)"
+    },
+    {
+      "trial_index": 2071,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:00; 3:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2072,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:45; 3:45 \u2014 wrong"
+    },
+    {
+      "trial_index": 2073,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:45; 3:45 \u2014 wrong"
+    },
+    {
+      "trial_index": 2074,
+      "classification": "wrong_by_more",
+      "notes": "answer=8:15; 8:15 \u2014 wrong"
+    },
+    {
+      "trial_index": 2075,
+      "classification": "wrong_by_more",
+      "notes": "answer=9:15; 9:15 \u2014 wrong by 30"
+    },
+    {
+      "trial_index": 2076,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:45; 3:45 \u2014 wrong"
+    },
+    {
+      "trial_index": 2077,
+      "classification": "wrong_by_more",
+      "notes": "answer=2:45; 2:45 \u2014 within 5 of 2:15? no, 30 off \u2014 wrong"
+    },
+    {
+      "trial_index": 2078,
+      "classification": "wrong_by_more",
+      "notes": "answer=3:00; 3:00 \u2014 wrong"
+    },
+    {
+      "trial_index": 2079,
+      "classification": "wrong_by_more",
+      "notes": "answer=6:00; 6:00 \u2014 wrong"
+    }
+  ]
+}

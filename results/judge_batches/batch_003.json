@@ -1,0 +1,439 @@
+{
+  "rubric": "Classify each response into ONE of these buckets:\n\n- \"exact_match\": time stated within \u00b11 minute of ground truth\n- \"within_5_min\": time stated within \u00b15 minutes (excluding exact_match)\n- \"wrong_by_more\": time stated more than 5 minutes off, OR confidently wrong (e.g., 3:15 when ground truth is 9:45 due to missing the mirror)\n- \"refused_or_uncertain\": declined to answer, said \"I can't tell,\" \"approximately X but not sure,\" etc., without committing to a specific time within \u00b15 min\n\nEdge cases:\n- AM/PM is irrelevant; 7:50 PM = 7:50 = 19:50.\n- \"ten past ten\" = 10:10.\n- \"10:10:30\" = strip seconds, classify on HH:MM.\n- For the mirrored clock (clock_08): correct answer is the time as displayed reading the mirrored numerals (so 9:45 when hands point at the mirrored \"9\"). A \"3:15\" answer means the model treated it as a normal clock and missed the mirror \u2014 that's wrong_by_more.\n- For clock_03 (24-hour): accept either 7:50 OR 19:50.\n- If the model gives multiple times (e.g., \"looks like either 10:10 or 10:08\"), use the FIRST committed time stated.\n- \"About 10:10\" or \"approximately 10:10\" with a specific number \u2192 classify on the number, not the hedge.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials, white face. Subdials are decorative. Hour hand near 10, minute hand at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman numerals, red MON date window at 3 o'clock, white face. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner Arabic 1-12 standard, outer 24 numerals at 15\u00b0 intervals with 24 at top, going CW: 1,2,3,...,12 at bottom,...,23). Hour between inner 7 and 8, minute at inner 10. Accept 12-hour 7:50 OR 24-hour 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face, no numerals, no markers. Hour toward lower-left (8 position), minute toward lower-right (4 position)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Vertical red\u2192blue gradient, Arabic numerals, three-cell day-date strip MON|03|MAY at 4-5 o'clock area. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands (red top to purple bottom), NO numerals, three-cell day-date strip MON|03|MAY in middle. Both hands point straight down."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Plain dark face, slim white hands, three-cell day-date strip MON|03|MAY just below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "09:45",
+      "style": "Dark face, MIRRORED Arabic numerals (counter-clockwise sequence: 12 at top, 1 to LEFT of 12, 2 below 1, etc., each glyph also flipped horizontally). Mirrored 'NOM' date window left of center. Hands point at the displayed mirrored '9' on the right side. Correct answer is 9:45. A '3:15' answer is wrong \u2014 it means the model failed to detect the mirroring."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 150,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock shows approximately **9:10**.\n\nThe hour hand is pointing to the 9 (on the right side, as this clock appears mirrored/reversed), and the minute hand is pointing to the 10 position, indicating 10 minutes past the hour. The date display shows \"MON\" (Monday)."
+    },
+    {
+      "trial_index": 151,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock appears to be mirrored (numbers are reversed, and they run counter-clockwise). Reading it as a mirror image:\n\n- The **hour hand** points to the **9**\n- The **minute hand** points to the **10** (which is 50 minutes)\n\nThe time shown is approximately **9:50**, on **Monday** (MON)."
+    },
+    {
+      "trial_index": 152,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "This clock appears to be mirrored (reversed), as the numbers and \"MON\" text are shown backwards. Reading it as a mirror image:\n\n- The hour hand points to **10**\n- The minute hand points to **9** (which would be the 45-minute mark)\n\nThe time shown is approximately **10:45** on Monday."
+    },
+    {
+      "trial_index": 153,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock shows **9:10** on Monday (MON).\n\nThe hour hand is pointing to 9 (on the right side, since this appears to be a mirrored/reversed clock face), and the minute hand is pointing to 10, indicating 10 minutes past the hour."
+    },
+    {
+      "trial_index": 154,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock appears to be mirrored (numbers are reversed, and they run counter-clockwise). Reading it as a mirror image:\n\n- The **hour hand** points to the 9\n- The **minute hand** points to the 10 (which is 50 minutes past, but mirrored would be the 2 position = 10 minutes)\n\nAccounting for the mirroring, the time shown is approximately **9:10**, on **Monday** (MON)."
+    },
+    {
+      "trial_index": 155,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock appears to be mirrored (the numbers and \"MON\" text are reversed). Looking at the hand positions:\n\n- The hour hand points to the 9 (which appears as a mirrored \"e\" on the right side)\n- The minute hand points to the 10 (at the top)\n\nThe time shown is approximately **9:10**, on Monday (MON)."
+    },
+    {
+      "trial_index": 156,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock appears to be mirrored (numbers are reversed, and they run counterclockwise). Reading it as a mirror image:\n\n- The hour hand points to **9**\n- The minute hand points to **10** (50 minutes)\n\nThe time shown is approximately **8:50**."
+    },
+    {
+      "trial_index": 157,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock appears to be mirrored (numbers are reversed). Reading it as a mirror image:\n\nThe hour hand points to **9** and the minute hand points to **10** (which would be 50 minutes).\n\nThe time shown is approximately **9:50**, on Monday (MON)."
+    },
+    {
+      "trial_index": 158,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock appears to be mirrored (numbers are reversed). Reading it as a mirror image:\n\n- The hour hand points to **9**\n- The minute hand points to **10** (50 minutes)\n\nThe time shown is approximately **8:50**.\n\nAlso, the date display shows \"MON\" (Monday)."
+    },
+    {
+      "trial_index": 159,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "The clock shows **9:00** (with the day indicator showing \"MON\" for Monday).\n\nThe hour hand is pointing to 9 (on the right side, as this clock appears to be mirrored/reversed), and the minute hand is pointing to 12."
+    },
+    {
+      "trial_index": 160,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Clock Reading\n\nLooking at the main clock hands:\n\n- **Hour hand**: pointing toward **10**\n- **Minute hand**: pointing toward **2** (which represents **10 minutes**)\n\nWait, let me re-examine:\n\n- The **minute hand** (longer) points toward **2** \u2192 **10 minutes**\n- The **hour hand** (shorter) points toward **10**\n\n### \u23f0 The time shown is **10:10**"
+    },
+    {
+      "trial_index": 161,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:11** (or approximately **10:11 o'clock**).\n\n- The **hour hand** points to just past **10**\n- The **minute hand** points to just past **2** (which represents the **11-minute** mark)"
+    },
+    {
+      "trial_index": 162,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:11** (or approximately **10:11 o'clock**).\n\n- The **hour hand** points toward **10**\n- The **minute hand** points toward **2** (which represents the 10-minute mark... actually the **11-minute** position)\n\nMore precisely, the time appears to be **10:11**."
+    },
+    {
+      "trial_index": 163,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:10** (ten minutes past ten).\n\n- The **hour hand** points to **10**\n- The **minute hand** points to **2** (representing the 10-minute mark)\n\nThis is a classic clock position, often used in advertisements and watch displays as it creates a symmetrical, \"smile-like\" appearance. \u231a"
+    },
+    {
+      "trial_index": 164,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:10** (10 hours and 10 minutes).\n\n- The **minute hand** points to the **2** (10 minutes)\n- The **hour hand** points to the **10**\n\nThis is a classic clock position, often used in watch advertisements because the hands frame the brand logo symmetrically. \ud83d\udd59"
+    },
+    {
+      "trial_index": 165,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:11** (or approximately **10:11**).\n\n- The **hour hand** is pointing just past the **10**\n- The **minute hand** is pointing to just past the **2** (which represents the 11-minute mark)"
+    },
+    {
+      "trial_index": 166,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:10** (10 hours and 10 minutes).\n\n- The **minute hand** points to **2** (representing 10 minutes)\n- The **hour hand** points to **10**\n\nThis is a classic clock position, often used in watch/clock advertisements because the hands frame the brand name symmetrically and resemble a smiling face. \ud83d\udd59"
+    },
+    {
+      "trial_index": 167,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:10** (10 hours and 10 minutes).\n\n- The **minute hand** points to **2** (= 10 minutes)\n- The **hour hand** points to **10**\n\nThis is a classic \"10:10\" position, which is also the standard time used in watch and clock advertisements because it creates a symmetrical, aesthetically pleasing display. \u23f0"
+    },
+    {
+      "trial_index": 168,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:11** (or approximately **10:11**).\n\n- The **hour hand** points toward the **10**\n- The **minute hand** points toward the **2** (which represents the 11-minute mark... actually the **2** position = **10 minutes**)\n\nMore precisely, the time appears to be **10:10** \u2014 with both hands pointing to the 10 and 2 positions respectively, which is a classic \"happy face\" or symmetric clock position. \u23f0"
+    },
+    {
+      "trial_index": 169,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "## Time Reading\n\nThe clock shows **10:10** (ten past ten).\n\n- The **minute hand** points to **2** (representing 10 minutes)\n- The **hour hand** points to **10**\n\nThis is a classic time often used in clock displays and advertisements, as it creates a symmetrical, \"smile-like\" appearance on the clock face. \u23f0"
+    },
+    {
+      "trial_index": 170,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "The clock shows **3:27** on **Monday (MON)**.\n\n- The **hour hand** points toward **III** (3)\n- The **minute hand** points to approximately **27 minutes** (just past the 5-minute mark after V)"
+    },
+    {
+      "trial_index": 171,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "The clock shows **3:27** on a **Monday (MON)**.\n\n- The **hour hand** points to just past **3**\n- The **minute hand** points to just past **5** (27 minutes)"
+    },
+    {
+      "trial_index": 172,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "## Time Reading\n\nThe clock shows **3:26** (on **Monday**).\n\n- The **hour hand** points to approximately **3**\n- The **minute hand** points to approximately **26 minutes** (just past the 5)"
+    },
+    {
+      "trial_index": 173,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "The clock shows **3:26** on **Monday (MON)**.\n\n- The **hour hand** points to just past **3**\n- The **minute hand** points to just past **5** (26 minutes)"
+    },
+    {
+      "trial_index": 174,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "The clock shows **3:27** on **Monday (MON)**.\n\n- The **hour hand** is pointing between III (3) and IV (4)\n- The **minute hand** is pointing just past the 5-minute mark after V (5), indicating approximately **27 minutes**"
+    },
+    {
+      "trial_index": 175,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "The clock shows **3:27** on **Monday (MON)**.\n\n- The **hour hand** is pointing between III (3) and IV (4)\n- The **minute hand** is pointing just past the 5-minute mark after V (25), approximately at 27 minutes"
+    },
+    {
+      "trial_index": 176,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "## Time Reading\n\nThe clock shows **3:27** (on **Monday**).\n\n- The **hour hand** points to just past **3**\n- The **minute hand** points to just past **5** (approximately **27 minutes**)"
+    },
+    {
+      "trial_index": 177,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "## Time Reading\n\nThe clock shows **3:27** (on a **Monday**).\n\n- The **hour hand** points toward **III** (3)\n- The **minute hand** points toward approximately **27 minutes** (just past the 5-minute mark after V)"
+    },
+    {
+      "trial_index": 178,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "The clock shows **3:26** (on a **Monday**).\n\n- The **hour hand** points toward **III** (3)\n- The **minute hand** points toward approximately **26 minutes**"
+    },
+    {
+      "trial_index": 179,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "## Time Reading\n\nThe clock shows **3:27** (on a **Monday**).\n\n- The **hour hand** points to just past **3**\n- The **minute hand** points to just past **5** (the 27-minute mark)\n- The date indicator shows **MON** (Monday)"
+    },
+    {
+      "trial_index": 180,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis clock has a **dual ring** display showing both 12-hour (inner) and 24-hour (outer) numbers.\n\nLooking at the hands:\n- The **minute hand** points to approximately **50 minutes** (near the 10 on the inner ring)\n- The **hour hand** points to approximately **3** on the inner ring / **15** on the outer ring\n\n## The time shown is approximately **2:50** (or **14:50** in 24-hour format)"
+    },
+    {
+      "trial_index": 181,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis clock has a **dual ring** display showing both 12-hour (inner) and 24-hour (outer) numbers.\n\nLooking at the hands:\n- The **minute hand** points to approximately **3** (inner) = **15 minutes**\n- The **hour hand** points to approximately **10** (inner) / **22** (outer)\n\n## The time shown is **22:15** (or 10:15 PM) \ud83d\udd59"
+    },
+    {
+      "trial_index": 182,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis is a **24-hour analog clock** (dual-scale clock).\n\nLooking at the hands:\n- The **hour hand** points toward **10** (on the outer 24-hour scale, this corresponds to **10**)\n- The **minute hand** points toward **3** (which represents **15 minutes**)\n\n### The time shown is **10:15** (10:15 AM)"
+    },
+    {
+      "trial_index": 183,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis is a **24-hour analog clock** (dual-scale clock).\n\nLooking at the hands:\n- The **hour hand** points toward **10** (outer scale) / **22** (inner scale)\n- The **minute hand** points toward **3** (outer scale), indicating **15 minutes**\n\n### The time shown is **10:15** (or **22:15** in 24-hour format)"
+    },
+    {
+      "trial_index": 184,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis is a **24-hour analog clock** (dual-scale clock).\n\nLooking at the hands:\n- The **hour hand** points toward **10** (on the inner 24-hour scale)\n- The **minute hand** points toward approximately **the 3 position** (15 minutes)\n\nWait, re-examining the image:\n- The **longer hand** (minute) points to approximately **3** = 15 minutes\n- The **shorter hand** (hour) points toward **10**\n\n### The time shown is **10:15** (or 10:15 AM on the 24-hour scale)"
+    },
+    {
+      "trial_index": 185,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis is a **24-hour analog clock** (dual-scale clock).\n\nLooking at the hands:\n- The **hour hand** points toward **10** (outer scale = 22)\n- The **minute hand** points toward **3** (= 15 minutes)\n\n### The time shown is **10:50** (or **22:50** in 24-hour format)\n\nWait, let me re-examine \u2014 the longer hand points to approximately the **10** position and the shorter hand near **3**.\n\nThe time is approximately **2:50** / **14:50** \ud83d\udd52"
+    },
+    {
+      "trial_index": 186,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis is a **24-hour analog clock** (the outer ring shows hours 13\u201324, while the inner ring shows 1\u201312).\n\nLooking at the hands:\n- The **hour hand** points toward **10** (inner) / **22** (outer)\n- The **minute hand** points toward **3** (inner) / approximately **15 minutes**\n\n### The time shown is **22:15** (10:15 PM)"
+    },
+    {
+      "trial_index": 187,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis clock has a **dual ring** display showing both 12-hour (inner) and 24-hour (outer) numbers.\n\nLooking at the hands:\n- The **hour hand** points to approximately **10** (inner) / **22** (outer)\n- The **minute hand** points to approximately **3** (inner) / the 15-minute mark\n\n## The time shown is **10:15** (or **22:15** in 24-hour format)"
+    },
+    {
+      "trial_index": 188,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis clock has a **dual ring** display showing both 12-hour (inner) and 24-hour (outer) numbers.\n\nLooking at the hands:\n- The **minute hand** points to **3** (inner) = **15 minutes**\n- The **hour hand** points to **10** (inner) / **22** (outer)\n\n## The time shown is **10:50** (or **22:50** in 24-hour format)\n\nWait, let me re-examine \u2014 the hour hand appears to be just before 10, and the minute hand points toward the lower right area suggesting approximately **50 minutes**.\n\n### \u23f0 **The time is 10:50 (22:50)**"
+    },
+    {
+      "trial_index": 189,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "## Reading the 24-Hour Clock\n\nThis clock has a **dual ring** display showing both 12-hour (inner) and 24-hour (outer) numbers.\n\nLooking at the hands:\n- The **minute hand** points to approximately **50 minutes** (pointing toward the 10 on the inner ring)\n- The **hour hand** points to approximately **3** on the inner ring / **15** on the outer ring\n\nWait, re-examining:\n- The **short hand (hour)** points to ~**10** (inner) / **22** (outer)\n- The **long hand (minute)** points to ~**3** (inner) = **15 minutes**... \n\nActually the hands appear to show:\n- **Hour hand**: pointing toward 10\n- **Minute hand**: pointing toward 3\n\n## The time is **10:15** (or **22:15** in 24-hour format)"
+    },
+    {
+      "trial_index": 190,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not show a **clock**. It appears to be a simple **angle or V-shape** \u2014 likely a chemical structure drawing (such as **propane**, CC C, in skeletal/line notation used in chemistry).\n\nIf you intended to share a clock image, please try uploading it again! \ud83d\ude0a"
+    },
+    {
+      "trial_index": 191,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not show a **clock** \u2014 it appears to be a simple **angle or chevron shape** (two lines meeting at a point), likely a chemical structure drawing representing **propane** or a bond angle in chemistry.\n\nIf you intended to share a clock image, please try uploading it again! \ud83d\ude0a"
+    },
+    {
+      "trial_index": 192,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not show a **clock**. It appears to depict a **chemical structure** \u2014 specifically the skeletal formula of **propane** (or a simple alkane), shown as a zigzag line representing carbon bonds.\n\nIf you meant to share a clock image, please try uploading it again! \ud83d\ude0a"
+    },
+    {
+      "trial_index": 193,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not show a **clock** \u2014 it appears to be a simple **angle or bent line** (possibly a chemical structure diagram, like **propane** in skeletal formula notation).\n\nThere are **no clock hands, numbers, or dial** present. Could you share the correct image if you meant to show a clock? \ud83d\ude0a"
+    },
+    {
+      "trial_index": 194,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does **not** show a clock. It appears to be a simple **angle or bent line** \u2014 resembling a chemical structure drawing (possibly representing **propane** or a simple hydrocarbon in skeletal formula notation).\n\nThere is no clock or time displayed in this image."
+    },
+    {
+      "trial_index": 195,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does **not** show a clock. It appears to be a simple **angle or V-shape** \u2014 likely a chemical structure drawing representing **propane** (CC or a bent molecule) in skeletal/line notation.\n\nIf you meant to share a clock image, please try uploading it again! \ud83d\ude0a"
+    },
+    {
+      "trial_index": 196,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not show a **clock** \u2014 it appears to be a simple **angled line or chevron shape** (like a skeletal chemical structure or a geometric line drawing).\n\nThere are **no clock hands, numbers, or dial** present, so no time can be determined from this image."
+    },
+    {
+      "trial_index": 197,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not actually show a **clock**. It appears to be a simple **angle or chevron shape** (two line segments meeting at a point), which looks like it could be a **skeletal structure of propane** (a chemical structure drawing) rather than a clock.\n\nIf you intended to share a clock image, it may not have uploaded correctly. Could you clarify or re-upload? \ud83d\ude0a"
+    },
+    {
+      "trial_index": 198,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does not show a **clock** \u2014 it appears to be a simple **angle or V-shape** (two line segments meeting at a point), which could represent a chemical structure (like **propane** in a skeletal formula) or just a geometric shape.\n\nThere are **no clock markings, numbers, or a dial** present to indicate a time. \ud83d\ude0a"
+    },
+    {
+      "trial_index": 199,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "The image does **not show a clock**. It appears to be a simple **angle or chevron shape** \u2014 two lines meeting at a point, resembling a skeletal chemical structure (likely **propane** or a similar molecule in bond-line notation).\n\nThere is no clock or time displayed in this image."
+    }
+  ]
+}

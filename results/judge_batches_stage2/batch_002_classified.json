@@ -1,0 +1,255 @@
+{
+  "batch_index": 2,
+  "classifications": [
+    {
+      "trial_index": 100,
+      "classification": "wrong_by_more",
+      "notes": "16:50 final commit; clock_03 accepts 7:50/19:50, not 16:50"
+    },
+    {
+      "trial_index": 101,
+      "classification": "wrong_by_more",
+      "notes": "16:50 final commit; not accepted"
+    },
+    {
+      "trial_index": 102,
+      "classification": "wrong_by_more",
+      "notes": "20:40 final commit; off from 19:50/7:50"
+    },
+    {
+      "trial_index": 103,
+      "classification": "wrong_by_more",
+      "notes": "19:40 final commit; 10 min off from 19:50"
+    },
+    {
+      "trial_index": 104,
+      "classification": "wrong_by_more",
+      "notes": "17:50 final commit; hour wrong"
+    },
+    {
+      "trial_index": 105,
+      "classification": "wrong_by_more",
+      "notes": "16:50 final commit; hour wrong"
+    },
+    {
+      "trial_index": 106,
+      "classification": "wrong_by_more",
+      "notes": "20:40 final commit; way off"
+    },
+    {
+      "trial_index": 107,
+      "classification": "wrong_by_more",
+      "notes": "20:50 final commit; hour wrong"
+    },
+    {
+      "trial_index": 108,
+      "classification": "wrong_by_more",
+      "notes": "16:50 final commit; hour wrong"
+    },
+    {
+      "trial_index": 109,
+      "classification": "wrong_by_more",
+      "notes": "8:50 final commit (also mentions 16:50/4:50); hour wrong by 1, not 7:50/19:50"
+    },
+    {
+      "trial_index": 110,
+      "classification": "exact_match",
+      "notes": "8:20 final commit; matches GT"
+    },
+    {
+      "trial_index": 111,
+      "classification": "within_5_min",
+      "notes": "8:25 final commit; 5 min off"
+    },
+    {
+      "trial_index": 112,
+      "classification": "within_5_min",
+      "notes": "8:25 final; 5 min off"
+    },
+    {
+      "trial_index": 113,
+      "classification": "wrong_by_more",
+      "notes": "7:22 final commit; hour off"
+    },
+    {
+      "trial_index": 114,
+      "classification": "exact_match",
+      "notes": "8:20 final"
+    },
+    {
+      "trial_index": 115,
+      "classification": "exact_match",
+      "notes": "8:20 final"
+    },
+    {
+      "trial_index": 116,
+      "classification": "exact_match",
+      "notes": "8:20 final"
+    },
+    {
+      "trial_index": 117,
+      "classification": "exact_match",
+      "notes": "8:20 final"
+    },
+    {
+      "trial_index": 118,
+      "classification": "exact_match",
+      "notes": "8:20 final"
+    },
+    {
+      "trial_index": 119,
+      "classification": "exact_match",
+      "notes": "8:20 final"
+    },
+    {
+      "trial_index": 120,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 121,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 122,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 123,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 124,
+      "classification": "wrong_by_more",
+      "notes": "3:15 final commit; hour wrong"
+    },
+    {
+      "trial_index": 125,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 126,
+      "classification": "wrong_by_more",
+      "notes": "3:15 final commit; hour wrong"
+    },
+    {
+      "trial_index": 127,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 128,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 129,
+      "classification": "exact_match",
+      "notes": "4:15 final"
+    },
+    {
+      "trial_index": 130,
+      "classification": "exact_match",
+      "notes": "6:30 final"
+    },
+    {
+      "trial_index": 131,
+      "classification": "exact_match",
+      "notes": "6:30 final (approximately)"
+    },
+    {
+      "trial_index": 132,
+      "classification": "within_5_min",
+      "notes": "6:32 final; 2 min off"
+    },
+    {
+      "trial_index": 133,
+      "classification": "exact_match",
+      "notes": "6:30 final"
+    },
+    {
+      "trial_index": 134,
+      "classification": "wrong_by_more",
+      "notes": "6:40 final; 10 min off"
+    },
+    {
+      "trial_index": 135,
+      "classification": "exact_match",
+      "notes": "6:30 final"
+    },
+    {
+      "trial_index": 136,
+      "classification": "exact_match",
+      "notes": "6:30 final"
+    },
+    {
+      "trial_index": 137,
+      "classification": "within_5_min",
+      "notes": "6:35 final; 5 min off"
+    },
+    {
+      "trial_index": 138,
+      "classification": "wrong_by_more",
+      "notes": "7:31 final; hour wrong"
+    },
+    {
+      "trial_index": 139,
+      "classification": "wrong_by_more",
+      "notes": "7:32 final; hour wrong"
+    },
+    {
+      "trial_index": 140,
+      "classification": "wrong_by_more",
+      "notes": "11:00 final; 55 min off from 11:55"
+    },
+    {
+      "trial_index": 141,
+      "classification": "exact_match",
+      "notes": "11:54 final; within 1 min"
+    },
+    {
+      "trial_index": 142,
+      "classification": "exact_match",
+      "notes": "11:55 final"
+    },
+    {
+      "trial_index": 143,
+      "classification": "exact_match",
+      "notes": "11:55 final"
+    },
+    {
+      "trial_index": 144,
+      "classification": "wrong_by_more",
+      "notes": "10:59 final; 56 min off"
+    },
+    {
+      "trial_index": 145,
+      "classification": "exact_match",
+      "notes": "11:55 final"
+    },
+    {
+      "trial_index": 146,
+      "classification": "exact_match",
+      "notes": "11:55 final"
+    },
+    {
+      "trial_index": 147,
+      "classification": "exact_match",
+      "notes": "11:55 final (after self-correction)"
+    },
+    {
+      "trial_index": 148,
+      "classification": "exact_match",
+      "notes": "11:55 final"
+    },
+    {
+      "trial_index": 149,
+      "classification": "exact_match",
+      "notes": "11:55 final"
+    }
+  ]
+}

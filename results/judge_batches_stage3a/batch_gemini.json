@@ -1,0 +1,199 @@
+{
+  "rubric": "Classify into ONE bucket: exact_match (\u00b11 min), within_5_min (\u00b15 excl. exact), wrong_by_more (>5 OR confidently wrong), refused_or_uncertain.\n\nEdges: Empty \u2192 refused. First committed time. Strip seconds. AM/PM irrelevant. Clock 03: 7:50 or 19:50. Clock 06: only 6:30 correct (5:30 is wrong by ~60 min). Clock 08: BOTH 9:45 and 2:15 acceptable.\n\nStage 3a responses include long methodical reasoning \u2014 score on FINAL committed time, not intermediate.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials. Hour near 10, minute at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman + red MON window at 3. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner 1-12, outer 24/1-23). Hour between inner 7-8, minute at inner 10. Accept 7:50 OR 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face. Hour lower-left (8), minute lower-right (4)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Red\u2192blue gradient + Arabic + MON|03|MAY at 4-5. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands, NO numerals, MON|03|MAY in middle. Both hands point straight down \u2014 minute at 6 (=30 min), hour just past 6 toward 7. NOTE: at 6:30 hour hand sits LEFT of straight down (going CW from 6 toward 7 sweeps left)."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Dark face slim white hands, MON|03|MAY below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "9:45 OR 2:15",
+      "style": "Dark face MIRRORED Arabic numerals (CCW: 12 top, 1 to LEFT of 12, etc., glyphs flipped). DUAL RUBRIC: 9:45 (mirror-aware) AND 2:15 (template-match) both correct. 3:00 or 3:15 = wrong."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 6000,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following the two-step procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker one. It is pointing slightly past the numeral '10', sitting between the '10' and the '11'.\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner one. It is pointing directly at the numeral '2', which represents 10 minutes.\n\nBased on this, the time is 10:10."
+    },
+    {
+      "trial_index": 6001,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following my methodical procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker one. It is pointing just past the numeral **10**.\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner one. It is pointing directly at the numeral **2**. On a clock, the \"2\" position represents 10 minutes past the hour.\n\nBased on this, the time shown is **10:10**."
+    },
+    {
+      "trial_index": 6002,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following my methodical procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker one. It is pointing just past the numeral \"10\", about one-fifth of the way towards the \"11\".\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner one. It is pointing directly at the numeral \"2\", which represents 10 minutes past the hour.\n\nBased on this analysis, the time shown on the clock is **10:10**."
+    },
+    {
+      "trial_index": 6003,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following the two-step procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker one. It is positioned just past the numeral \"10\", about one-sixth of the way towards \"11\".\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner one. It is pointing directly at the numeral \"2\", which represents 10 minutes past the hour (2 * 5 = 10).\n\nCombining these observations, the time shown on the clock is **10:10**."
+    },
+    {
+      "trial_index": 6004,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following the procedure:\n\n1.  **Identify the HOUR hand.** The hour hand is the shorter, thicker one. It is pointing just past the numeral 10.\n2.  **Identify the MINUTE hand.** The minute hand is the longer, thinner one. It is pointing directly at the numeral 2. This represents 10 minutes past the hour (2 * 5 = 10).\n\nCombining these observations, the time is 10:10."
+    },
+    {
+      "trial_index": 6005,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following my methodical procedure, here is my analysis of the clock:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker of the two large hands. It is pointing just past the numeral 10, indicating the hour is 10.\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner of the two large hands. It is pointing directly at the numeral 2. This position represents 10 minutes past the hour (2 * 5 = 10).\n\nHaving identified the positions of both hands, I can now state the time.\n\nThe clock shows **10:10**."
+    },
+    {
+      "trial_index": 6006,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following my methodical procedure:\n\n1.  **Identify the HOUR hand**: The shorter, thicker hand is pointing just past the numeral \"10\", about one-sixth of the way towards \"11\".\n2.  **Identify the MINUTE hand**: The longer, thinner hand is pointing directly at the numeral \"2\". This position represents 10 minutes (2 x 5 minutes).\n\nBased on these observations, the time is 10:10."
+    },
+    {
+      "trial_index": 6007,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following the two-step procedure:\n\n1.  **Identify the HOUR hand.** The hour hand is the shorter, thicker one. It is pointing just past the numeral 10.\n2.  **Identify the MINUTE hand.** The minute hand is the longer, thinner one. It is pointing directly at the numeral 2, which represents 10 minutes.\n\nBased on this, the time shown on the clock is **10:10**."
+    },
+    {
+      "trial_index": 6008,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following the two-step procedure:\n\n1.  **Identify the HOUR hand.** The hour hand is the shorter, thicker one. It is pointing just past the numeral 10, about one-sixth of the way between 10 and 11.\n2.  **Identify the MINUTE hand.** The minute hand is the longer, thinner one. It is pointing directly at the numeral 2, which represents 10 minutes.\n\nBased on this analysis, the time shown on the clock is **10:10**."
+    },
+    {
+      "trial_index": 6009,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "Following my methodical procedure, I will determine the time on the clock.\n\n1.  **Identify the HOUR hand.** The hour hand is the shorter, thicker of the two main hands. It is pointing slightly past the numeral \"10\".\n2.  **Identify the MINUTE hand.** The minute hand is the longer, thinner hand. It is pointing directly at the numeral \"2\". On a clock, the \"2\" position represents 10 minutes past the hour (2 * 5 = 10).\n\nHaving identified both hands, I can now commit to the time. The hour hand is just past 10, and the minute hand is at 10 minutes. Therefore, the time shown is 10:10."
+    },
+    {
+      "trial_index": 6010,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following my methodical procedure:\n\n1.  **Identify the HOUR hand.** The hour hand is the shorter, thicker one. It is positioned between the numerals II (2) and III (3). It is almost halfway between them, which is consistent with the minute hand being near the bottom of the clock face.\n2.  **Identify the MINUTE hand.** The minute hand is the longer, thinner one. It is pointing directly at the numeral V (5). The \"5\" position on a clock represents 25 minutes past the hour.\n\nBased on this analysis, the time shown is 2:25."
+    },
+    {
+      "trial_index": 6011,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following the two-step procedure:\n\n1.  **HOUR hand:** The hour hand is the shorter, thicker hand. It is positioned between the Roman numerals III (3) and IV (4). It has moved a little less than halfway past the III.\n2.  **MINUTE hand:** The minute hand is the longer, thinner hand. It is pointing directly at the Roman numeral V (5). This position represents 25 minutes.\n\nBased on this, the time shown is **3:25**."
+    },
+    {
+      "trial_index": 6012,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following my methodical procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker hand. It is positioned between the Roman numerals II (2) and III (3). It is almost halfway between them.\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner hand. It is pointing directly at the Roman numeral V (5). This position represents 25 minutes past the hour (5 x 5 = 25).\n\nBased on this analysis, the time shown on the clock is **2:25**."
+    },
+    {
+      "trial_index": 6013,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following my methodical procedure:\n\n1.  **HOUR hand:** The shorter, thicker hand is positioned between the Roman numerals II (2) and III (3). It is almost halfway between them, indicating the hour is 2.\n2.  **MINUTE hand:** The longer, thinner hand points directly at the Roman numeral V (5). This position represents 5 * 5 = 25 minutes.\n\nCombining these observations, the time shown on the clock is **2:25**."
+    },
+    {
+      "trial_index": 6014,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Based on my methodical analysis of the clock:\n\n1.  **HOUR hand:** The shorter, thicker hand is pointing between the Roman numerals III (3) and IV (4). It has moved past the III but has not yet reached the IV.\n2.  **MINUTE hand:** The longer, thinner hand is pointing directly at the Roman numeral V (5). This position represents 25 minutes past the hour (5 x 5 = 25).\n\nTherefore, the time shown on the clock is **3:25**."
+    },
+    {
+      "trial_index": 6015,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following my methodical procedure:\n\n1.  **Identify the HOUR hand.** The hour hand is the shorter, thicker one. It is pointing between the Roman numerals II (2) and III (3). It is not yet at the III.\n2.  **Identify the MINUTE hand.** The minute hand is the longer, thinner one. It is pointing directly at the Roman numeral V, which represents 25 minutes past the hour.\n\nBased on this analysis, the time shown on the clock is **2:25**."
+    },
+    {
+      "trial_index": 6016,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Based on my methodical analysis of the clock:\n\n1.  **HOUR hand:** The shorter, thicker hand is pointing between the Roman numerals II and III. It has passed the II but has not yet reached the III. This indicates the hour is 2.\n2.  **MINUTE hand:** The longer, thinner hand is pointing directly at the Roman numeral V. This position represents 25 minutes past the hour (5 x 5 = 25).\n\nTherefore, the time shown on the clock is **2:25**."
+    },
+    {
+      "trial_index": 6017,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following the two-step procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker one. It is pointing between the Roman numerals II (2) and III (3). It has moved past the II but has not yet reached the III.\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner one. It is pointing directly at the Roman numeral V (5). The \"5\" position on a clock face represents 25 minutes.\n\nBased on this analysis, the time shown is 2:25."
+    },
+    {
+      "trial_index": 6018,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following the methodical procedure:\n\n1.  **Identify the HOUR hand:** The shorter, thicker hand is the hour hand. It is positioned almost halfway between the Roman numerals III (3) and IV (4).\n2.  **Identify the MINUTE hand:** The longer, thinner hand is the minute hand. It is pointing directly at the Roman numeral V (5). This position represents 25 minutes past the hour (5 x 5 = 25).\n\nBased on these observations, the time is 3:25."
+    },
+    {
+      "trial_index": 6019,
+      "model_id": "gemini-2.5-pro",
+      "model_name": "Gemini 2.5 Pro",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "Following the two-step procedure:\n\n1.  **Identify the HOUR hand:** The hour hand is the shorter, thicker one. It is pointing between the Roman numerals II (2) and III (3). It is almost halfway between them. This indicates the hour is 2.\n2.  **Identify the MINUTE hand:** The minute hand is the longer, thinner one. It is pointing directly at the Roman numeral V (5). This position represents 25 minutes past the hour (5 x 5 = 25).\n\nBased on this analysis, the time shown on the clock is **2:25**."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "batch_index": "gemini",
+  "classifications": [
+    {"trial_index": 6000, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6001, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6002, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6003, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6004, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6005, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6006, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6007, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6008, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6009, "classification": "exact_match", "notes": "10:10 — correct"},
+    {"trial_index": 6010, "classification": "wrong_by_more", "notes": "2:25 — hour misread (off by 60 min)"},
+    {"trial_index": 6011, "classification": "exact_match", "notes": "3:25 — correct"},
+    {"trial_index": 6012, "classification": "wrong_by_more", "notes": "2:25 — hour misread"},
+    {"trial_index": 6013, "classification": "wrong_by_more", "notes": "2:25 — hour misread"},
+    {"trial_index": 6014, "classification": "exact_match", "notes": "3:25 — correct"},
+    {"trial_index": 6015, "classification": "wrong_by_more", "notes": "2:25 — hour misread"},
+    {"trial_index": 6016, "classification": "wrong_by_more", "notes": "2:25 — hour misread"},
+    {"trial_index": 6017, "classification": "wrong_by_more", "notes": "2:25 — hour misread"},
+    {"trial_index": 6018, "classification": "exact_match", "notes": "3:25 — correct"},
+    {"trial_index": 6019, "classification": "wrong_by_more", "notes": "2:25 — hour misread"}
+  ]
+}

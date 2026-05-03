@@ -1,0 +1,679 @@
+{
+  "rubric": "Classify into ONE bucket: exact_match (\u00b11 min), within_5_min (\u00b15 excl. exact), wrong_by_more (>5 OR confidently wrong), refused_or_uncertain.\n\nEdges: Empty \u2192 refused. First committed time. Strip seconds. AM/PM irrelevant. Clock 03: 7:50 or 19:50. Clock 06: only 6:30 correct (5:30 is wrong by ~60 min). Clock 08: BOTH 9:45 and 2:15 acceptable.\n\nStage 3a responses include long methodical reasoning \u2014 score on FINAL committed time, not intermediate.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials. Hour near 10, minute at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman + red MON window at 3. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner 1-12, outer 24/1-23). Hour between inner 7-8, minute at inner 10. Accept 7:50 OR 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face. Hour lower-left (8), minute lower-right (4)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Red\u2192blue gradient + Arabic + MON|03|MAY at 4-5. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands, NO numerals, MON|03|MAY in middle. Both hands point straight down \u2014 minute at 6 (=30 min), hour just past 6 toward 7. NOTE: at 6:30 hour hand sits LEFT of straight down (going CW from 6 toward 7 sweeps left)."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Dark face slim white hands, MON|03|MAY below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "9:45 OR 2:15",
+      "style": "Dark face MIRRORED Arabic numerals (CCW: 12 top, 1 to LEFT of 12, etc., glyphs flipped). DUAL RUBRIC: 9:45 (mirror-aware) AND 2:15 (template-match) both correct. 3:00 or 3:15 = wrong."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 1000,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:11**"
+    },
+    {
+      "trial_index": 1001,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1002,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:11**"
+    },
+    {
+      "trial_index": 1003,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1004,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1005,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1006,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1007,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:11**"
+    },
+    {
+      "trial_index": 1008,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1009,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1010,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:25**"
+    },
+    {
+      "trial_index": 1011,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:25**"
+    },
+    {
+      "trial_index": 1012,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1013,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:26**"
+    },
+    {
+      "trial_index": 1014,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:26**"
+    },
+    {
+      "trial_index": 1015,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:25**"
+    },
+    {
+      "trial_index": 1016,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:26**"
+    },
+    {
+      "trial_index": 1017,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1018,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:26**"
+    },
+    {
+      "trial_index": 1019,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "**03:26**"
+    },
+    {
+      "trial_index": 1020,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1021,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1022,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1023,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1024,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1025,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1026,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1027,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1028,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1029,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "**10:15**"
+    },
+    {
+      "trial_index": 1030,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1031,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1032,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1033,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1034,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1035,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1036,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1037,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1038,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1039,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "**10:10**"
+    },
+    {
+      "trial_index": 1040,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1041,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:30**"
+    },
+    {
+      "trial_index": 1042,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:30**"
+    },
+    {
+      "trial_index": 1043,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1044,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:30**"
+    },
+    {
+      "trial_index": 1045,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1046,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1047,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:30**"
+    },
+    {
+      "trial_index": 1048,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:27**"
+    },
+    {
+      "trial_index": 1049,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "**03:30**"
+    },
+    {
+      "trial_index": 1050,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1051,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "12:49"
+    },
+    {
+      "trial_index": 1052,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1053,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:01**"
+    },
+    {
+      "trial_index": 1054,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "12:49"
+    },
+    {
+      "trial_index": 1055,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1056,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1057,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1058,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1059,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "**12:49**"
+    },
+    {
+      "trial_index": 1060,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:59**"
+    },
+    {
+      "trial_index": 1061,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:59**"
+    },
+    {
+      "trial_index": 1062,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1063,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1064,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1065,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1066,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1067,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1068,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:59**"
+    },
+    {
+      "trial_index": 1069,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "**11:58**"
+    },
+    {
+      "trial_index": 1070,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:00**"
+    },
+    {
+      "trial_index": 1071,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:02**"
+    },
+    {
+      "trial_index": 1072,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:00**"
+    },
+    {
+      "trial_index": 1073,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:02**"
+    },
+    {
+      "trial_index": 1074,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:00**"
+    },
+    {
+      "trial_index": 1075,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:02**"
+    },
+    {
+      "trial_index": 1076,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:00**"
+    },
+    {
+      "trial_index": 1077,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:00**"
+    },
+    {
+      "trial_index": 1078,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:00**"
+    },
+    {
+      "trial_index": 1079,
+      "model_id": "claude-sonnet-4-6",
+      "model_name": "Sonnet 4.6",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "**09:02**"
+    }
+  ]
+}

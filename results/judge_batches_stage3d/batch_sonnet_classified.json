@@ -1,0 +1,405 @@
+{
+  "batch_index": "sonnet",
+  "classifications": [
+    {
+      "trial_index": 1000,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1001,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1002,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1003,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1004,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1005,
+      "classification": "exact_match",
+      "notes": "10:10"
+    },
+    {
+      "trial_index": 1006,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1007,
+      "classification": "exact_match",
+      "notes": "10:10"
+    },
+    {
+      "trial_index": 1008,
+      "classification": "wrong_by_more",
+      "notes": "2:50 (hands swapped)"
+    },
+    {
+      "trial_index": 1009,
+      "classification": "exact_match",
+      "notes": "10:10"
+    },
+    {
+      "trial_index": 1010,
+      "classification": "exact_match",
+      "notes": "3:25 (final)"
+    },
+    {
+      "trial_index": 1011,
+      "classification": "wrong_by_more",
+      "notes": "9:26"
+    },
+    {
+      "trial_index": 1012,
+      "classification": "exact_match",
+      "notes": "3:25"
+    },
+    {
+      "trial_index": 1013,
+      "classification": "exact_match",
+      "notes": "3:25"
+    },
+    {
+      "trial_index": 1014,
+      "classification": "wrong_by_more",
+      "notes": "2:25 (hour off by one)"
+    },
+    {
+      "trial_index": 1015,
+      "classification": "exact_match",
+      "notes": "3:25"
+    },
+    {
+      "trial_index": 1016,
+      "classification": "wrong_by_more",
+      "notes": "9:25"
+    },
+    {
+      "trial_index": 1017,
+      "classification": "wrong_by_more",
+      "notes": "9:26-9:27"
+    },
+    {
+      "trial_index": 1018,
+      "classification": "wrong_by_more",
+      "notes": "9:15 (final)"
+    },
+    {
+      "trial_index": 1019,
+      "classification": "wrong_by_more",
+      "notes": "9:25"
+    },
+    {
+      "trial_index": 1020,
+      "classification": "wrong_by_more",
+      "notes": "10:40"
+    },
+    {
+      "trial_index": 1021,
+      "classification": "wrong_by_more",
+      "notes": "10:15 / 22:15"
+    },
+    {
+      "trial_index": 1022,
+      "classification": "wrong_by_more",
+      "notes": "10:15"
+    },
+    {
+      "trial_index": 1023,
+      "classification": "wrong_by_more",
+      "notes": "22:15"
+    },
+    {
+      "trial_index": 1024,
+      "classification": "wrong_by_more",
+      "notes": "10:15"
+    },
+    {
+      "trial_index": 1025,
+      "classification": "wrong_by_more",
+      "notes": "10:15"
+    },
+    {
+      "trial_index": 1026,
+      "classification": "wrong_by_more",
+      "notes": "10:40"
+    },
+    {
+      "trial_index": 1027,
+      "classification": "wrong_by_more",
+      "notes": "10:40"
+    },
+    {
+      "trial_index": 1028,
+      "classification": "wrong_by_more",
+      "notes": "10:40"
+    },
+    {
+      "trial_index": 1029,
+      "classification": "wrong_by_more",
+      "notes": "10:15"
+    },
+    {
+      "trial_index": 1030,
+      "classification": "wrong_by_more",
+      "notes": "10:22"
+    },
+    {
+      "trial_index": 1031,
+      "classification": "wrong_by_more",
+      "notes": "4:50"
+    },
+    {
+      "trial_index": 1032,
+      "classification": "wrong_by_more",
+      "notes": "10:21-10:22"
+    },
+    {
+      "trial_index": 1033,
+      "classification": "wrong_by_more",
+      "notes": "10:20"
+    },
+    {
+      "trial_index": 1034,
+      "classification": "wrong_by_more",
+      "notes": "2:50"
+    },
+    {
+      "trial_index": 1035,
+      "classification": "wrong_by_more",
+      "notes": "10:20"
+    },
+    {
+      "trial_index": 1036,
+      "classification": "wrong_by_more",
+      "notes": "10:20"
+    },
+    {
+      "trial_index": 1037,
+      "classification": "wrong_by_more",
+      "notes": "4:40"
+    },
+    {
+      "trial_index": 1038,
+      "classification": "wrong_by_more",
+      "notes": "10:20"
+    },
+    {
+      "trial_index": 1039,
+      "classification": "wrong_by_more",
+      "notes": "10:20"
+    },
+    {
+      "trial_index": 1040,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1041,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1042,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1043,
+      "classification": "wrong_by_more",
+      "notes": "3:15"
+    },
+    {
+      "trial_index": 1044,
+      "classification": "wrong_by_more",
+      "notes": "3:15"
+    },
+    {
+      "trial_index": 1045,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1046,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1047,
+      "classification": "wrong_by_more",
+      "notes": "3:15"
+    },
+    {
+      "trial_index": 1048,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1049,
+      "classification": "exact_match",
+      "notes": "4:15"
+    },
+    {
+      "trial_index": 1050,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1051,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1052,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1053,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1054,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1055,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1056,
+      "classification": "wrong_by_more",
+      "notes": "10:30"
+    },
+    {
+      "trial_index": 1057,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1058,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1059,
+      "classification": "wrong_by_more",
+      "notes": "11:30"
+    },
+    {
+      "trial_index": 1060,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1061,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1062,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1063,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1064,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1065,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1066,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1067,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1068,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1069,
+      "classification": "wrong_by_more",
+      "notes": "10:00"
+    },
+    {
+      "trial_index": 1070,
+      "classification": "exact_match",
+      "notes": "9:45"
+    },
+    {
+      "trial_index": 1071,
+      "classification": "exact_match",
+      "notes": "9:45"
+    },
+    {
+      "trial_index": 1072,
+      "classification": "exact_match",
+      "notes": "9:45"
+    },
+    {
+      "trial_index": 1073,
+      "classification": "within_5_min",
+      "notes": "9:50 (5 min off 9:45)"
+    },
+    {
+      "trial_index": 1074,
+      "classification": "exact_match",
+      "notes": "9:45"
+    },
+    {
+      "trial_index": 1075,
+      "classification": "exact_match",
+      "notes": "9:45 (final after correction)"
+    },
+    {
+      "trial_index": 1076,
+      "classification": "within_5_min",
+      "notes": "9:50"
+    },
+    {
+      "trial_index": 1077,
+      "classification": "wrong_by_more",
+      "notes": "9:02"
+    },
+    {
+      "trial_index": 1078,
+      "classification": "wrong_by_more",
+      "notes": "9:00"
+    },
+    {
+      "trial_index": 1079,
+      "classification": "within_5_min",
+      "notes": "9:50"
+    }
+  ]
+}

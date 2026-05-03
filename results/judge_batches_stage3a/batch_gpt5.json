@@ -1,0 +1,623 @@
+{
+  "rubric": "Classify into ONE bucket: exact_match (\u00b11 min), within_5_min (\u00b15 excl. exact), wrong_by_more (>5 OR confidently wrong), refused_or_uncertain.\n\nEdges: Empty \u2192 refused. First committed time. Strip seconds. AM/PM irrelevant. Clock 03: 7:50 or 19:50. Clock 06: only 6:30 correct (5:30 is wrong by ~60 min). Clock 08: BOTH 9:45 and 2:15 acceptable.\n\nStage 3a responses include long methodical reasoning \u2014 score on FINAL committed time, not intermediate.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials. Hour near 10, minute at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman + red MON window at 3. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner 1-12, outer 24/1-23). Hour between inner 7-8, minute at inner 10. Accept 7:50 OR 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face. Hour lower-left (8), minute lower-right (4)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Red\u2192blue gradient + Arabic + MON|03|MAY at 4-5. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands, NO numerals, MON|03|MAY in middle. Both hands point straight down \u2014 minute at 6 (=30 min), hour just past 6 toward 7. NOTE: at 6:30 hour hand sits LEFT of straight down (going CW from 6 toward 7 sweeps left)."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Dark face slim white hands, MON|03|MAY below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "9:45 OR 2:15",
+      "style": "Dark face MIRRORED Arabic numerals (CCW: 12 top, 1 to LEFT of 12, etc., glyphs flipped). DUAL RUBRIC: 9:45 (mirror-aware) AND 2:15 (template-match) both correct. 3:00 or 3:15 = wrong."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 5000,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 10 and 11, about one-sixth of the way from 10 toward 11.\n2) Minute hand: The longer, thinner hand points at the 2, which is 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5001,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits just past 10, about one-sixth of the way toward 11.\n2) Minute hand: The longer, thinner hand points at the \u201c2,\u201d which represents 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5002,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 10 and 11, about one-sixth of the way past 10 toward 11.\n\n2) Minute hand (longer, thinner): It points at the 2, which represents 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5003,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "- Hour hand (shorter, thicker): Between 10 and 11, about one-sixth of the way past 10.\n- Minute hand (longer, thinner): Pointing at the 2, which equals 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5004,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 10 and 11, about a sixth of the way past 10.\n2) Minute hand: The longer, thinner hand points at the 2, which equals 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5005,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "- Hour hand (shorter, thicker): Between 10 and 11, about one-sixth of the way from 10 toward 11.\n- Minute hand (longer, thinner): Pointing at the 2, which marks 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5006,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 10 and 11, a little past 10 (about one-sixth of the way from 10 toward 11).\n2) Minute hand: The longer, thinner hand points at the 2, which represents 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5007,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 10 and 11, about one-sixth of the way from 10 toward 11.\n2) Minute hand: The longer, thinner hand points at the 2, which marks 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5008,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "- Hour hand: The shorter, thicker hand sits between 10 and 11, just a little past 10 (about one-sixth of the way toward 11).\n- Minute hand: The longer, thinner hand points at the numeral 2, which represents 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5009,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "- Hour hand: The shorter, thicker hand sits between 10 and 11, just past 10 (about one-sixth of the way toward 11).\n- Minute hand: The longer, thinner hand points at the numeral 2, which represents 10 minutes.\n\nTime: 10:10."
+    },
+    {
+      "trial_index": 5010,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand (shorter, thicker): Between III and IV, about two-fifths of the way from III toward IV.  \n2) Minute hand (longer, thinner): Pointing at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5011,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand (shorter, thicker): Between III and IV, a bit under halfway from III toward IV.\n2) Minute hand (longer, thinner): Pointing at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5012,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand (shorter, thicker): Between III and IV, about two-fifths of the way from 3 toward 4.  \n2) Minute hand (longer, thinner): Pointing at V, which is 25 minutes.\n\nTime: About 3:25."
+    },
+    {
+      "trial_index": 5013,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "- Hour hand (shorter, thicker): Between III and IV, a bit less than halfway from III toward IV.\n- Minute hand (longer, thinner): Pointing at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5014,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand (shorter, thicker): Between III and IV, a bit past III \u2014 roughly two-fifths of the way toward IV.  \n2) Minute hand (longer, thinner): Pointing at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5015,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "- Hour hand (shorter, thicker): It sits between III and IV, just past III\u2014about two-fifths of the way from III toward IV.\n- Minute hand (longer, thinner): It points at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5016,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between III and IV, a little less than halfway from III toward IV.\n2) Minute hand: The longer, thinner hand points at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5017,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "- Hour hand (shorter, thicker): Between III and IV, about 40% of the way past III.\n- Minute hand (longer, thinner): Pointing at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5018,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between III and IV, a bit past III (about two-fifths of the way toward IV).\n2) Minute hand: The longer, thinner hand points at V, which corresponds to 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5019,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between III and IV, about two-fifths of the way from III toward IV.\n2) Minute hand (longer, thinner): It points at V, which is 25 minutes.\n\nTime: 3:25."
+    },
+    {
+      "trial_index": 5020,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 7 and 8, about five-sixths of the way toward 8.\n2) Minute hand (longer, thinner): It points at the 10, which corresponds to 50 minutes.\n\nTime: 7:50."
+    },
+    {
+      "trial_index": 5021,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "1) Hour hand (shorter, thicker): between 7 and 8, about five-sixths of the way from 7 toward 8.\n2) Minute hand (longer, thinner): pointing at the 10, which marks 50 minutes.\n\nTime: 7:50 (19:50 on a 24-hour clock)."
+    },
+    {
+      "trial_index": 5022,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 7 and 8, most of the way toward 8.\n2) Minute hand (longer, thinner): It points at the 10, which equals 50 minutes.\n\nTime: 7:50."
+    },
+    {
+      "trial_index": 5023,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "- Hour hand (shorter, thicker): Between 7 and 8, well past 7 and close to 8 (about five-sixths of the way).\n- Minute hand (longer, thinner): Pointing at the 10, which equals 50 minutes.\n\nTime: 7:50 (or 19:50 on a 24-hour clock)."
+    },
+    {
+      "trial_index": 5024,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 7 and 8, closer to 8 (about five-sixths of the way from 7 toward 8).\n\n2) Minute hand: The longer, thinner hand points at the 10, which equals 50 minutes.\n\nTime: 7:50."
+    },
+    {
+      "trial_index": 5025,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "1) Hour hand (shorter, thicker): between 7 and 8, about five-sixths of the way from 7 toward 8.\n2) Minute hand (longer, thinner): pointing at the 10, which represents 50 minutes.\n\nTime: 7:50 (19:50 in 24-hour format)."
+    },
+    {
+      "trial_index": 5026,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "- Hour hand (shorter, thicker): Between 7 and 8, much closer to 8 (about five-sixths of the way from 7 toward 8).\n- Minute hand (longer, thinner): Pointing at the 10, which equals 50 minutes.\n\nTime: 7:50 (or 19:50 in 24-hour format)."
+    },
+    {
+      "trial_index": 5027,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "- Hour hand (short, thicker): Between 7 and 8, about five-sixths of the way from 7 toward 8.\n- Minute hand (long, thinner): Pointing at the 10, which equals 50 minutes.\n\nTime: 7:50."
+    },
+    {
+      "trial_index": 5028,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 7 and 8, well past 7 and close to 8 (about five-sixths of the way from 7 toward 8).\n\n2) Minute hand: The longer, thinner hand points at the numeral 10, which equals 50 minutes.\n\nTime: 7:50."
+    },
+    {
+      "trial_index": 5029,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_03",
+      "ground_truth_time": "07:50",
+      "raw_response": "- Hour hand: The shorter, thicker hand is between 7 and 8, very close to 8 (about five-sixths of the way from 7 toward 8).\n- Minute hand: The longer, thinner hand points at the 10, which is 50 minutes.\n\nTime: 7:50 (19:50 in 24-hour time)."
+    },
+    {
+      "trial_index": 5030,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand: The shorter, thicker hand is between 8 and 9, about one-third of the way from 8 toward 9.\n\n2) Minute hand: The longer, thinner hand points at the \u201c4\u201d position (which is 20 minutes).\n\nTime: 8:20."
+    },
+    {
+      "trial_index": 5031,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand: The shorter, thicker hand points between 7 and 8, about one-third of the way from 7 toward 8.\n2) Minute hand: The longer, thinner hand points at the 4, which is 20 minutes.\n\nTime: 7:20."
+    },
+    {
+      "trial_index": 5032,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 7 and 8, a little less than halfway from 7 toward 8.\n2) Minute hand (longer, thinner): Pointing at the 5, which is 25 minutes.\n\nTime: about 7:25."
+    },
+    {
+      "trial_index": 5033,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 7 and 8, a bit past 7 (about one\u2011third of the way toward 8).\n2) Minute hand (longer, thinner): Pointing to the 5, which represents 25 minutes.\n\nTime: about 7:25."
+    },
+    {
+      "trial_index": 5034,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 7 and 8, about one\u2011third of the way from 7 toward 8.\n2) Minute hand: The longer, thinner hand points to the \u201c5\u201d position, which is 25 minutes.\n\nTime: about 7:25."
+    },
+    {
+      "trial_index": 5035,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 7 and 8, a bit less than halfway from 7 toward 8.\n2) Minute hand: The longer, thinner hand points to the 5, which is 25 minutes.\n\nTime: 7:25."
+    },
+    {
+      "trial_index": 5036,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "- Hour hand (shorter, thicker): Between 7 and 8, about one-third of the way from 7 toward 8.\n- Minute hand (longer, thinner): Pointing at the 4 position, which is 20 minutes.\n\nTime: 7:20."
+    },
+    {
+      "trial_index": 5037,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "- Hour hand (shorter, thicker): Between 8 and 9, about one-third of the way from 8 toward 9.\n- Minute hand (longer, thinner): Pointing at the 4, which is 20 minutes.\n\nTime: approximately 8:20."
+    },
+    {
+      "trial_index": 5038,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 9 and 10, about one-third of the way from 9 toward 10.\n2) Minute hand (longer, thinner): Pointing at the 4, which equals 20 minutes.\n\nTime: 9:20."
+    },
+    {
+      "trial_index": 5039,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_04",
+      "ground_truth_time": "08:20",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 9 and 10, a little past 9 (roughly two-fifths of the way to 10).\n2) Minute hand (longer, thinner): At about the 5 position, which is 25 minutes.\n\nTime: 9:25."
+    },
+    {
+      "trial_index": 5040,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- Hour hand (shorter, thicker): Between 4 and 5, about one-quarter of the way from 4 toward 5.\n- Minute hand (longer, thinner): Pointing at the 3, which represents 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5041,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "1) Hour hand: the shorter, thicker hand is between 4 and 5, about a quarter of the way from 4 toward 5.  \n2) Minute hand: the longer, thinner hand points at the 3, which is 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5042,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 4 and 5, about a quarter of the way from 4 toward 5.  \n2) Minute hand (longer, thinner): It points at the 3, which is 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5043,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- Hour hand: The shorter, thicker hand sits between 4 and 5, about a quarter of the way from 4 toward 5.\n- Minute hand: The longer, thinner hand points at the 3, which is 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5044,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 4 and 5, about one-quarter of the way from 4 toward 5.  \n2) Minute hand (longer, thinner): Pointing at the 3, which is 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5045,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "1) Hour hand: The shorter, thicker hand is between 4 and 5, about one-quarter of the way from 4 toward 5.  \n2) Minute hand: The longer, thinner hand points at the 3, which represents 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5046,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "1) Hour hand: The shorter, thicker hand is between 4 and 5, about one-quarter of the way from 4 toward 5.\n2) Minute hand: The longer, thinner hand points at the 3, which represents 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5047,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- Hour hand (shorter, thicker): Between 4 and 5, about a quarter of the way from 4 toward 5.\n- Minute hand (longer, thinner): Pointing at the 3, which is 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5048,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- Hour hand (shorter, thicker): Between 4 and 5, about one-quarter of the way from 4 toward 5.\n- Minute hand (longer, thinner): Pointing at the 3, which is 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5049,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_05",
+      "ground_truth_time": "04:15",
+      "raw_response": "- Hour hand: The shorter, thicker hand sits between 4 and 5, about a quarter of the way from 4 toward 5.\n- Minute hand: The longer, thinner hand points at the 3, which represents 15 minutes.\n\nTime: 4:15."
+    },
+    {
+      "trial_index": 5050,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits about halfway between 6 and 7.\n2) Minute hand: The longer, thinner hand points at the 6, which is 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5051,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits about halfway between 6 and 7.\n2) Minute hand: The longer, thinner hand points at the 6, which marks 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5052,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits halfway between 5 and 6.\n\n2) Minute hand (longer, thinner): It points at the 6, which equals 30 minutes.\n\nTime: 5:30."
+    },
+    {
+      "trial_index": 5053,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 6 and 7, about halfway from 6 toward 7.  \n2) Minute hand (longer, thinner): It points at the 6, which is 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5054,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 6 and 7, about halfway from 6 toward 7.\n2) Minute hand: The longer, thinner hand points at the 6, which represents 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5055,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "- Hour hand: The shorter, thicker hand sits between 6 and 7, about halfway from 6 toward 7.\n- Minute hand: The longer, thinner hand points at the 6 position, which is 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5056,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 6 and 7, about halfway toward 7.\n2) Minute hand (longer, thinner): Pointing at the 6, which is 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5057,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 6 and 7, about halfway from 6 toward 7.  \n2) Minute hand: The longer, thinner hand points at the 6, which is 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5058,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 6 and 7, about halfway between them.  \n2) Minute hand: The longer, thinner hand points at the 6 position, which represents 30 minutes.\n\nTime: 6:30."
+    },
+    {
+      "trial_index": 5059,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "1) Hour hand: The shorter, thicker hand sits between 5 and 6, about halfway.\n2) Minute hand: The longer, thinner hand points at the 6, which is 30 minutes.\n\nTime: 5:30."
+    },
+    {
+      "trial_index": 5060,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): pointing at 11.\n2) Minute hand (longer, thinner): pointing at the 12 position, which is 0 minutes.\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 5061,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 11 and 12, very close to 12.\n2) Minute hand (longer, thinner): It points at the 11, which is 55 minutes.\n\nTime: 11:55."
+    },
+    {
+      "trial_index": 5062,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand: It is the shorter, thicker hand. It sits between 11 and 12, very close to 12.\n2) Minute hand: It is the longer, thinner hand. It points at the 11, which corresponds to 55 minutes.\n\nTime: 11:55."
+    },
+    {
+      "trial_index": 5063,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 11 and 12, very close to 12 (about 11/12 of the way from 11 toward 12).\n2) Minute hand (longer, thinner): Pointing at the 11 position, which is 55 minutes.\n\nTime: 11:55."
+    },
+    {
+      "trial_index": 5064,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): pointing at 11.\n2) Minute hand (longer, thinner): pointing at 12 (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 5065,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "- Hour hand: The shorter, thicker hand points at 11.\n- Minute hand: The longer, thinner hand points at 12 (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 5066,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): Points directly at the 11.\n2) Minute hand (longer, thinner): Points at the 12 position, which is 0 minutes.\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 5067,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand: The shorter, thicker hand is pointing directly at the 11.\n2) Minute hand: The longer, thinner hand is pointing at the 12 (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 5068,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): It points at the 11.\n2) Minute hand (longer, thinner): It points at the 12 position (0 minutes).\n\nTime: 11:00."
+    },
+    {
+      "trial_index": 5069,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 11 and 12, very close to 12 (about nine-tenths of the way from 11 toward 12).\n2) Minute hand (longer, thinner): Pointing at the 11 position, which is 55 minutes.\n\nTime: 11:55."
+    },
+    {
+      "trial_index": 5070,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "1) Hour hand (shorter, thicker): It sits between 2 and 3, about one-quarter of the way from 2 toward 3.  \n2) Minute hand (longer, thinner): It points at the 3 position, which is 15 minutes.\n\nTime: 2:15."
+    },
+    {
+      "trial_index": 5071,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "1) Hour hand: The shorter, thicker hand is between 2 and 3, about one quarter of the way from 2 toward 3.\n\n2) Minute hand: The longer, thinner hand points at the 3 position, which corresponds to 15 minutes.\n\nTime: 2:15."
+    },
+    {
+      "trial_index": 5072,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "1) Hour hand (shorter, thicker): Between 1 and 2, about one-sixth of the way from 1 toward 2.\n2) Minute hand (longer, thinner): Pointing at the 2 position, which equals 10 minutes.\n\nTime: 1:10."
+    }
+  ]
+}

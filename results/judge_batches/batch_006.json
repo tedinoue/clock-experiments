@@ -1,0 +1,255 @@
+{
+  "rubric": "Classify each response into ONE of these buckets:\n\n- \"exact_match\": time stated within \u00b11 minute of ground truth\n- \"within_5_min\": time stated within \u00b15 minutes (excluding exact_match)\n- \"wrong_by_more\": time stated more than 5 minutes off, OR confidently wrong (e.g., 3:15 when ground truth is 9:45 due to missing the mirror)\n- \"refused_or_uncertain\": declined to answer, said \"I can't tell,\" \"approximately X but not sure,\" etc., without committing to a specific time within \u00b15 min\n\nEdge cases:\n- AM/PM is irrelevant; 7:50 PM = 7:50 = 19:50.\n- \"ten past ten\" = 10:10.\n- \"10:10:30\" = strip seconds, classify on HH:MM.\n- For the mirrored clock (clock_08): correct answer is the time as displayed reading the mirrored numerals (so 9:45 when hands point at the mirrored \"9\"). A \"3:15\" answer means the model treated it as a normal clock and missed the mirror \u2014 that's wrong_by_more.\n- For clock_03 (24-hour): accept either 7:50 OR 19:50.\n- If the model gives multiple times (e.g., \"looks like either 10:10 or 10:08\"), use the FIRST committed time stated.\n- \"About 10:10\" or \"approximately 10:10\" with a specific number \u2192 classify on the number, not the hedge.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials, white face. Subdials are decorative. Hour hand near 10, minute hand at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman numerals, red MON date window at 3 o'clock, white face. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner Arabic 1-12 standard, outer 24 numerals at 15\u00b0 intervals with 24 at top, going CW: 1,2,3,...,12 at bottom,...,23). Hour between inner 7 and 8, minute at inner 10. Accept 12-hour 7:50 OR 24-hour 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face, no numerals, no markers. Hour toward lower-left (8 position), minute toward lower-right (4 position)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Vertical red\u2192blue gradient, Arabic numerals, three-cell day-date strip MON|03|MAY at 4-5 o'clock area. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands (red top to purple bottom), NO numerals, three-cell day-date strip MON|03|MAY in middle. Both hands point straight down."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Plain dark face, slim white hands, three-cell day-date strip MON|03|MAY just below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "09:45",
+      "style": "Dark face, MIRRORED Arabic numerals (counter-clockwise sequence: 12 at top, 1 to LEFT of 12, 2 below 1, etc., each glyph also flipped horizontally). Mirrored 'NOM' date window left of center. Hands point at the displayed mirrored '9' on the right side. Correct answer is 9:45. A '3:15' answer is wrong \u2014 it means the model failed to detect the mirroring."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 300,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "5:28 (about)"
+    },
+    {
+      "trial_index": 301,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "5:31"
+    },
+    {
+      "trial_index": 302,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "6:30"
+    },
+    {
+      "trial_index": 303,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "5:30"
+    },
+    {
+      "trial_index": 304,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "6:33"
+    },
+    {
+      "trial_index": 305,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "6:30"
+    },
+    {
+      "trial_index": 306,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "About 6:32 (with the second hand at 30 seconds)."
+    },
+    {
+      "trial_index": 307,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "About 6:28."
+    },
+    {
+      "trial_index": 308,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 309,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55 (five minutes to twelve)"
+    },
+    {
+      "trial_index": 310,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 311,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 312,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 313,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 314,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 315,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 316,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:55"
+    },
+    {
+      "trial_index": 317,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "11:00"
+    },
+    {
+      "trial_index": 318,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "2:15"
+    },
+    {
+      "trial_index": 319,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "10:10"
+    },
+    {
+      "trial_index": 320,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "10:15"
+    },
+    {
+      "trial_index": 321,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "10:15"
+    },
+    {
+      "trial_index": 322,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "2:15"
+    },
+    {
+      "trial_index": 323,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "2:15"
+    },
+    {
+      "trial_index": 324,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "2:15"
+    },
+    {
+      "trial_index": 325,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "2:15"
+    },
+    {
+      "trial_index": 326,
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "10:10"
+    }
+  ]
+}

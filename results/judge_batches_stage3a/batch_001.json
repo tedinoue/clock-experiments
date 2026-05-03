@@ -1,0 +1,439 @@
+{
+  "rubric": "Classify into ONE bucket: exact_match (\u00b11 min), within_5_min (\u00b15 excl. exact), wrong_by_more (>5 OR confidently wrong), refused_or_uncertain.\n\nEdges: Empty \u2192 refused. First committed time. Strip seconds. AM/PM irrelevant. Clock 03: 7:50 or 19:50. Clock 06: only 6:30 correct (5:30 is wrong by ~60 min). Clock 08: BOTH 9:45 and 2:15 acceptable.\n\nStage 3a responses include long methodical reasoning \u2014 score on FINAL committed time, not intermediate.",
+  "ground_truth": {
+    "clock_01": {
+      "time": "10:10",
+      "style": "Arabic chronograph + 3 subdials. Hour near 10, minute at 2."
+    },
+    "clock_02": {
+      "time": "03:25",
+      "style": "Roman + red MON window at 3. Hour just past III, minute at V."
+    },
+    "clock_03": {
+      "time": "07:50",
+      "style": "24-hour double ring (inner 1-12, outer 24/1-23). Hour between inner 7-8, minute at inner 10. Accept 7:50 OR 19:50."
+    },
+    "clock_04": {
+      "time": "08:20",
+      "style": "Two hands only, no face. Hour lower-left (8), minute lower-right (4)."
+    },
+    "clock_05": {
+      "time": "04:15",
+      "style": "Red\u2192blue gradient + Arabic + MON|03|MAY at 4-5. Hour at 4, minute at 3."
+    },
+    "clock_06": {
+      "time": "06:30",
+      "style": "Rainbow horizontal bands, NO numerals, MON|03|MAY in middle. Both hands point straight down \u2014 minute at 6 (=30 min), hour just past 6 toward 7. NOTE: at 6:30 hour hand sits LEFT of straight down (going CW from 6 toward 7 sweeps left)."
+    },
+    "clock_07": {
+      "time": "11:55",
+      "style": "Dark face slim white hands, MON|03|MAY below center. Hour near 12 from 11 side, minute at 11."
+    },
+    "clock_08": {
+      "time": "9:45 OR 2:15",
+      "style": "Dark face MIRRORED Arabic numerals (CCW: 12 top, 1 to LEFT of 12, etc., glyphs flipped). DUAL RUBRIC: 9:45 (mirror-aware) AND 2:15 (template-match) both correct. 3:00 or 3:15 = wrong."
+    }
+  },
+  "trials": [
+    {
+      "trial_index": 50,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock following the two-step procedure.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is the shorter white hand. It is pointing at the 6.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is the longer white hand. It is pointing at the 12.\n\nWhen the minute hand points at 12, that means 0 minutes (the top of the hour).\n\n**The time shown is 6:00**"
+    },
+    {
+      "trial_index": 51,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock carefully.\n\n**Step 1: HOUR hand (shorter, thicker hand)**\nThe hour hand is the shorter white hand. It is pointing straight down at the 6 position.\n\n**Step 2: MINUTE hand (longer, thinner hand)**\nThe minute hand is the longer white hand. It is pointing straight up at the 12 position.\n\nWhen the minute hand points at 12, it means 0 minutes (or the top of the hour).\nWhen the hour hand points at 6, it means 6 o'clock.\n\n**The time shown is 6:00** (six o'clock)."
+    },
+    {
+      "trial_index": 52,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll follow the two-step procedure to read this clock.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is the shorter white hand. It points directly at the 12.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is the longer white hand. It points at the 6, which represents 30 minutes.\n\n**Time: 12:30**"
+    },
+    {
+      "trial_index": 53,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock following the two-step procedure.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is the shorter white hand. It points straight down at the 6 position.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is the longer white hand. It points straight up at the 12 position, which represents 0 minutes.\n\n**The time shown is 6:00**"
+    },
+    {
+      "trial_index": 54,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify each hand carefully.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe shorter hand is pointing straight down at the 6.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe longer hand is pointing straight up at the 12.\n\n**Committed time: 6:00**"
+    },
+    {
+      "trial_index": 55,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock following the two-step procedure.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is the shorter white hand pointing downward. It is positioned at the 6 on the clock face.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is the longer white hand. It is pointing upward at the 12 on the clock face. Since the 12 represents 0 minutes (the top of the hour), this means 0 minutes past the hour.\n\n**The time shown is 6:00**"
+    },
+    {
+      "trial_index": 56,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe shorter hand is pointing straight down at the 6 position.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe longer hand is pointing straight up at the 12 position.\n\nWhen the minute hand points at 12, that represents 0 minutes (the top of the hour).\nWhen the hour hand points at 6, that represents 6 o'clock.\n\n**The time shown is 6:00**"
+    },
+    {
+      "trial_index": 57,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is the shorter white hand. It is pointing directly at the **12**.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is the longer white hand. It is pointing at the **6**, which represents **30 minutes**.\n\n**The time shown is 12:30**"
+    },
+    {
+      "trial_index": 58,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe shorter hand is pointing straight up at the 12.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe longer hand is pointing straight down at the 6, which represents 30 minutes.\n\n**The time shown is 12:30**"
+    },
+    {
+      "trial_index": 59,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_06",
+      "ground_truth_time": "06:30",
+      "raw_response": "I'll identify both hands on this clock carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe shorter, thicker hand is pointing straight down at the 6 position.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe longer, thinner hand is pointing straight up at the 12 position.\n\n**The time shown is 6:00** (or 18:00 in 24-hour format)."
+    },
+    {
+      "trial_index": 60,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: HOUR hand (shorter, thicker)**\nThe hour hand is pointing between the 1 and 2, positioned closer to the 1. This indicates the hour is 1.\n\n**Step 2: MINUTE hand (longer, thinner)**\nThe minute hand is pointing at the 2. Since each numeral represents 5 minutes, the 2 represents 10 minutes.\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 61,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "# Clock Reading Analysis\n\n**Step 1: Identify the HOUR hand (shorter, thicker)**\nThe hour hand is pointing between the 1 and 2, positioned approximately 1/3 of the way between these numerals.\n\n**Step 2: Identify the MINUTE hand (longer, thinner)**\nThe minute hand is pointing at the 2, which represents 10 minutes (2 \u00d7 5 = 10).\n\n**Committed Time: 1:10**"
+    },
+    {
+      "trial_index": 62,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify each hand carefully.\n\n**Step 1: HOUR hand (shorter, thicker)**\nThe shorter hand points at the numeral 1.\n\n**Step 2: MINUTE hand (longer, thinner)**\nThe longer hand points at the numeral 2, which represents 10 minutes (2 \u00d7 5 = 10).\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 63,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify the hands on this clock step by step.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe shorter, thicker hand points between the 1 and 2, positioned roughly 1/3 of the way from the 1 toward the 2. This indicates the hour is 1.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe longer, thinner hand points at the 2, which represents 2 \u00d7 5 = 10 minutes.\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 64,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify each hand carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe shorter hand points between 1 and 2, positioned about 1/3 of the way between these numerals, leaning toward 1.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe longer hand points at the 2, which represents 10 minutes (2 \u00d7 5 = 10).\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 65,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll follow the two-step procedure to read this clock.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe shorter hand is pointing at the 1. It is positioned directly at the 1 numeral.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe longer hand is pointing at the 2. Since each numeral represents 5 minutes, the hand at 2 means 2 \u00d7 5 = 10 minutes.\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 66,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is pointing between the 1 and 2, positioned closer to the 1. This indicates the hour is 1.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is pointing at the 2, which represents 2 \u00d7 5 = 10 minutes.\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 67,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter, thicker)**\nThe hour hand is pointing between the 1 and 2, positioned closer to the 1. This indicates the hour is 1.\n\n**Step 2: Identify the MINUTE hand (longer, thinner)**\nThe minute hand is pointing at the 2. Since each numeral represents 5 minutes, the 2 represents 10 minutes.\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 68,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is pointing between the 1 and 2, closer to the 1. This indicates the hour is 1.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is pointing at the 2, which represents 2 \u00d7 5 = 10 minutes.\n\n**The time shown is 1:10**"
+    },
+    {
+      "trial_index": 69,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_07",
+      "ground_truth_time": "11:55",
+      "raw_response": "I'll identify both hands carefully.\n\n**Step 1: HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing between the 1 and 2, positioned roughly 1/3 of the way from 1 toward 2.\n\n**Step 2: MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing at the 2, which represents 10 minutes (2 \u00d7 5 = 10).\n\n**Time: 1:10**"
+    },
+    {
+      "trial_index": 70,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing at the 3.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing at the 12.\n\n**Committing to the time:**\nWhen the minute hand points at 12, that indicates 0 minutes (the top of the hour).\nThe hour hand pointing at 3 indicates the hour is 3.\n\n**The time shown is 3:00**"
+    },
+    {
+      "trial_index": 71,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll identify both hands on this clock carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker)**\nThe hour hand is pointing at the 3.\n\n**Step 2: Identify the MINUTE hand (longer, thinner)**\nThe minute hand is pointing at the 12.\n\n**Determining the time:**\n- When the minute hand points at 12, it means 0 minutes (the top of the hour)\n- The hour hand pointing at 3 means the hour is 3\n\n**The time is 3:00**"
+    },
+    {
+      "trial_index": 72,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing at the 3.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing at the 6, which represents 30 minutes.\n\n**The time shown is 3:30**"
+    },
+    {
+      "trial_index": 73,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll read this clock carefully by identifying both hands.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is pointing directly at the 3.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is pointing at the 12.\n\nWhen the minute hand points at 12, that represents 0 minutes (the top of the hour).\n\n**The time shown is 3:00**"
+    },
+    {
+      "trial_index": 74,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll identify both hands on this clock systematically.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing at the 3. This indicates the hour is 3.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing at the 12. This indicates 0 minutes (or the top of the hour).\n\n**The time shown is 3:00.**"
+    },
+    {
+      "trial_index": 75,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll read this clock by identifying both hands carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing directly at the numeral **3**.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing directly at the numeral **12**.\n\nWhen the minute hand points at 12, that represents **0 minutes** (the top of the hour).\n\n**The time shown is 3:00** (or 3 o'clock)."
+    },
+    {
+      "trial_index": 76,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll identify both hands on this clock carefully.\n\n**Step 1: HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing at the 3.\n\n**Step 2: MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing at the 2, which represents 10 minutes (2 \u00d7 5 = 10).\n\n**The time shown is 3:10**"
+    },
+    {
+      "trial_index": 77,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll follow the two-step procedure to read this clock.\n\n**Step 1: Identify the HOUR hand (shorter and thicker)**\nThe hour hand is the shorter hand pointing to the right side of the clock. It is positioned at the **3**.\n\n**Step 2: Identify the MINUTE hand (longer and thinner)**\nThe minute hand is the longer hand pointing upward and to the right. It is positioned at the **12**.\n\nWhen the minute hand points at 12, that represents **0 minutes** (the top of the hour).\n\n**The time shown is 3:00** (or 3 o'clock)."
+    },
+    {
+      "trial_index": 78,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I need to identify both hands on this clock carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is the shorter hand pointing to the right side of the clock. It appears to be pointing at the **3**.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is the longer hand. It is pointing upward and to the right, at the **1**.\nWhen the minute hand points at 1, that represents 1 \u00d7 5 = **5 minutes**.\n\n**The time shown is 3:05.**"
+    },
+    {
+      "trial_index": 79,
+      "model_id": "claude-haiku-4-5-20251001",
+      "model_name": "Haiku 4.5",
+      "clock_id": "clock_08",
+      "ground_truth_time": "09:45",
+      "raw_response": "I'll identify both hands on this clock carefully.\n\n**Step 1: Identify the HOUR hand (shorter, thicker hand)**\nThe hour hand is pointing at the 3.\n\n**Step 2: Identify the MINUTE hand (longer, thinner hand)**\nThe minute hand is pointing at the 12.\n\n**Committed time: 3:00**"
+    },
+    {
+      "trial_index": 80,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"10\" numeral on the left side of the clock.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"2\" numeral on the right side of the clock. Position \"2\" represents 10 minutes.\n\nThe time shown is **10:10**."
+    },
+    {
+      "trial_index": 81,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"10\" position on the left side of the clock.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"2\" position on the right side, which represents 10 minutes.\n\nThe time is **10:10**."
+    },
+    {
+      "trial_index": 82,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"10\" numeral on the left side.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"2\" numeral on the right side. Position 2 = 10 minutes past the hour.\n\nTime: **10:10**"
+    },
+    {
+      "trial_index": 83,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"10\" numeral on the left side.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"2\" numeral on the right side. Position \"2\" = 10 minutes.\n\nThe time shown is **10:10**."
+    },
+    {
+      "trial_index": 84,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"10\" numeral on the left side.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"2\" numeral on the right side. At position 2, this represents 10 minutes.\n\nThe time shown is **10:10**."
+    },
+    {
+      "trial_index": 85,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: the shorter, thicker hand points toward the \"10\" numeral on the left side of the clock.\n\n2. MINUTE hand: the longer, thinner hand points toward the \"2\" numeral on the right side, which represents 10 minutes.\n\nTime: **10:10**"
+    },
+    {
+      "trial_index": 86,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: the shorter, thicker hand points to the upper-left, toward the \"10\" numeral.\n\n2. MINUTE hand: the longer, thinner hand points to the upper-right, toward the \"2\" numeral, which represents 10 minutes.\n\nThe time is **10:10**."
+    },
+    {
+      "trial_index": 87,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: the shorter, thicker hand points to the upper left, at the \"10\" numeral.\n2. MINUTE hand: the longer, thinner hand points to the right, at the \"2\" numeral, which represents 10 minutes.\n\nThe time shown is **10:10**."
+    },
+    {
+      "trial_index": 88,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: the shorter, thicker hand points toward the \"10\" numeral on the upper left.\n\n2. MINUTE hand: the longer, thinner hand points toward the \"2\" numeral on the upper right, which represents 10 minutes.\n\nThe time shown is **10:10**."
+    },
+    {
+      "trial_index": 89,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_01",
+      "ground_truth_time": "10:10",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"10\" numeral on the left side.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"2\" numeral on the right side. The \"2\" position represents 10 minutes.\n\nThe time shown is **10:10**."
+    },
+    {
+      "trial_index": 90,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. **Hour hand**: The shorter, thicker hand points toward the right side, ending near the \"III\" numeral. It points directly at III.\n\n2. **Minute hand**: The longer, thinner hand extends downward toward the \"V\" numeral. V represents the 5th hour position, which equals 5 \u00d7 5 = 25 minutes.\n\n**Time: 3:25**"
+    },
+    {
+      "trial_index": 91,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III.\n\n2. MINUTE hand: The longer, thinner hand points downward toward the V numeral. The V position represents 25 minutes (5 \u00d7 5).\n\nThe time is **3:25**."
+    },
+    {
+      "trial_index": 92,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III (3).\n\n2. MINUTE hand: The longer, thinner hand points down toward the V numeral (the 5 position). Each numeral = 5 minutes, so V = 25 minutes.\n\nThe time is **3:25**."
+    },
+    {
+      "trial_index": 93,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III (3).\n\n2. MINUTE hand: The longer, thinner hand points down and slightly right, toward the V numeral. V represents the 5th hour position, which is 5 \u00d7 5 = 25 minutes.\n\nTime: **3:25**"
+    },
+    {
+      "trial_index": 94,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III (3).\n\n2. MINUTE hand: The longer, thinner hand points down and slightly right, toward the V numeral. The numeral V represents 25 minutes (5 \u00d7 5).\n\nTime: **3:25**"
+    },
+    {
+      "trial_index": 95,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III.\n\n2. MINUTE hand: The longer, thinner hand points downward toward the V numeral. Position V represents 5 \u00d7 5 = 25 minutes.\n\nThe time shown is **3:25**."
+    },
+    {
+      "trial_index": 96,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III (3).\n\n2. MINUTE hand: The longer, thinner hand points down and slightly right, toward the V numeral. The V position represents 25 minutes (5 \u00d7 5).\n\nThe time shown is **3:25**."
+    },
+    {
+      "trial_index": 97,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III.\n\n2. MINUTE hand: The longer, thinner hand points downward toward the V numeral. The V position represents 5 \u00d7 5 = 25 minutes.\n\nThe time shown is **3:25**."
+    },
+    {
+      "trial_index": 98,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the \"V\" position (5), extending down and slightly right from center.\n\n2. MINUTE hand: The longer, thinner hand points toward the \"III\" position (3), extending right from center. A hand at III represents 15 minutes.\n\nThe time shown is **5:15**."
+    },
+    {
+      "trial_index": 99,
+      "model_id": "claude-opus-4-7",
+      "model_name": "Opus 4.7",
+      "clock_id": "clock_02",
+      "ground_truth_time": "03:25",
+      "raw_response": "1. HOUR hand: The shorter, thicker hand points toward the right side, ending near the III numeral. It points at III (3).\n\n2. MINUTE hand: The longer, thinner hand extends down and slightly right, pointing at the V numeral. V represents the 5th hour position, which equals 25 minutes.\n\nThe time is **3:25**."
+    }
+  ]
+}
