@@ -2,7 +2,7 @@
 
 Raw data, code, and analysis for a controlled experiment across 5 frontier models on 8 analog clocks under 6 prompting conditions. About 2,400 trials.
 
-**Substack writeup:** *(link to come)* — `SUBSTACK_DRAFT.md` in this repo is the source.
+**Substack writeup:** [What "AI Can't Read Clocks" Actually Means](https://synthsentience.substack.com/p/what-ai-cant-read-clocks-actually) (Synth Sentience, 2026-05-03). The article reads from this repo's data.
 
 **Original claim being tested:** [Jing Hu, 2nd Order Thinkers, Substack note 2026-05-03](https://substack.com/@jinghuu/note/c-250006786): *"even with the best and latest LLM, take Claude Opus for example, only got this right at a coin toss."*
 
