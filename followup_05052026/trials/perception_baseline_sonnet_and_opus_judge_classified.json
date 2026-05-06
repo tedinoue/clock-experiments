@@ -1,0 +1,7935 @@
+{
+  "method": "ai-judge fresh-context, N=10 baseline, sonnet+opus side-by-side",
+  "judge_model": "claude-opus-4-7[1m]",
+  "n_trials": 840,
+  "n_ambiguous_flagged": 0,
+  "trials": [
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 1,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 2,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 3,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 4,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 5,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 6,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 7,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 8,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 9,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 10,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 2,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 3,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 4,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 6,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 7,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 8,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 9,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 10,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 1,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 9,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 1,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 2,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 3,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 4,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 6,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 7,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 8,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 9,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 10,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 3,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 4,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 5,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 6,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 7,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 8,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 10,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 5,
+      "extracted_answer": "4",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 6,
+      "extracted_answer": "4",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 10,
+      "extracted_answer": "4",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 1,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 2,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 3,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 4,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 5,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 6,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 7,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 8,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 9,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 10,
+      "extracted_answer": "7",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 2,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 4,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 6,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 7,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 8,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 9,
+      "extracted_answer": "8",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 10,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 1,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 1,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 2,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 3,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 4,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 5,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 6,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 7,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 8,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 9,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 10,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 3,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 4,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 5,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 6,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 7,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 8,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 10,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 2,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 5,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 6,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 9,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 1,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "off_by_more"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 3,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 4,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "off_by_more"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 6,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 7,
+      "extracted_answer": "3",
+      "classification": "off_by_more"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 8,
+      "extracted_answer": "4",
+      "classification": "off_by_more"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 9,
+      "extracted_answer": "3",
+      "classification": "off_by_more"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 10,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 1,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 1,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 2,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 3,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 4,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 6,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 7,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 8,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 9,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 10,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 2,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 5,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 6,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 9,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 1,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 2,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 5,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 6,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 9,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 1,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 2,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 3,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 4,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 5,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 6,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 7,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 8,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 9,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 10,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 1,
+      "extracted_answer": "8",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 2,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 4,
+      "extracted_answer": "8",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 6,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 7,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 9,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 1,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 4,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 1,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 2,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 3,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 4,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 6,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 7,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 8,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 9,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 10,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 1,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 3,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 5,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 6,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 1,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 5,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 6,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 8,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 2,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 8,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 9,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 6,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 1,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 2,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 3,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 4,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 5,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 6,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 7,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 8,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 9,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 10,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 2,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 3,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 4,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 6,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 7,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 8,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 9,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 10,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 4,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 7,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 8,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 10,
+      "extracted_answer": "1",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 1,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 2,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 3,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 4,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 6,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 7,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 8,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 9,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 10,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 3,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 4,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 5,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 6,
+      "extracted_answer": "5",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 7,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 8,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 10,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 1,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 2,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 5,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 6,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 9,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 1,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 2,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 3,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 4,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 5,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 6,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 7,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 8,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 9,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 10,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 2,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 3,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 4,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 6,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 7,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 8,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 9,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 10,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 1,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 10,
+      "extracted_answer": "1",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 1,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 2,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 3,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 4,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 5,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 6,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 7,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 8,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 9,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 10,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 1,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 2,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 3,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 4,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 5,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 6,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 7,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 8,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 10,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 1,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 2,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 3,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 4,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 5,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 6,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 7,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 8,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 9,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b1",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 10,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 1,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 2,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 3,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 4,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 5,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 6,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 7,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 8,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 9,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_000",
+      "truth": "12",
+      "trial": 10,
+      "extracted_answer": "12",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 1,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 2,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 3,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 4,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 5,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 6,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 7,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 8,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 9,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_030",
+      "truth": "1",
+      "trial": 10,
+      "extracted_answer": "1",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 1,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 2,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 3,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 5,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 6,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 8,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 9,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_060",
+      "truth": "2",
+      "trial": 10,
+      "extracted_answer": "2",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 1,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 2,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 3,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 4,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 6,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 8,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 9,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_090",
+      "truth": "3",
+      "trial": 10,
+      "extracted_answer": "3",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 1,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 2,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 3,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 4,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 5,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 6,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 7,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 8,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 9,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_120",
+      "truth": "4",
+      "trial": 10,
+      "extracted_answer": "4",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 1,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 2,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 3,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 4,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 5,
+      "extracted_answer": "6",
+      "classification": "off_by_one"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 6,
+      "extracted_answer": "7",
+      "classification": "off_by_more"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 7,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 8,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 9,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_150",
+      "truth": "5",
+      "trial": 10,
+      "extracted_answer": "5",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 1,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 2,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 3,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 4,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 5,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 6,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 7,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 8,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 9,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_180",
+      "truth": "6",
+      "trial": 10,
+      "extracted_answer": "6",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 1,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 2,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 3,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 4,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 5,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 6,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 7,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 8,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 9,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_210",
+      "truth": "7",
+      "trial": 10,
+      "extracted_answer": "7",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 1,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 2,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 3,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 4,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 5,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 6,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 7,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 8,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 9,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_240",
+      "truth": "8",
+      "trial": 10,
+      "extracted_answer": "8",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 1,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 2,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 3,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 4,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 5,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 6,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 7,
+      "extracted_answer": "2",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 8,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 9,
+      "extracted_answer": "9",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_270",
+      "truth": "9",
+      "trial": 10,
+      "extracted_answer": "3",
+      "classification": "opposite"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 1,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 2,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 3,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 4,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 5,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 6,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 7,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 8,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 9,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_300",
+      "truth": "10",
+      "trial": 10,
+      "extracted_answer": "10",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 1,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 2,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 3,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 4,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 5,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 6,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 7,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 8,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 9,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b2",
+      "stimulus_label": "angle_330",
+      "truth": "11",
+      "trial": 10,
+      "extracted_answer": "11",
+      "classification": "exact"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 1,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 2,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 5,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b3",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 1,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 3,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.0_equal",
+      "truth": "equal",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "equal_called_unequal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "up",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.1_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.2_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.3_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "equal",
+      "classification": "unequal_called_equal"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 5,
+      "extracted_answer": "up",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_up",
+      "truth": "up",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "reversed"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 1,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 2,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 3,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 4,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 5,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 6,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 7,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 8,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 9,
+      "extracted_answer": "right",
+      "classification": "correct"
+    },
+    {
+      "model": "claude-opus-4-7",
+      "condition": "b4",
+      "stimulus_label": "ratio_1.5_right",
+      "truth": "right",
+      "trial": 10,
+      "extracted_answer": "right",
+      "classification": "correct"
+    }
+  ],
+  "per_stimulus_summary": {
+    "sonnet": {
+      "b1": {
+        "angle_000": {
+          "exact": 10
+        },
+        "angle_030": {
+          "exact": 10
+        },
+        "angle_060": {
+          "exact": 8,
+          "off_by_one": 2
+        },
+        "angle_090": {
+          "exact": 10
+        },
+        "angle_120": {
+          "exact": 10
+        },
+        "angle_150": {
+          "off_by_one": 6,
+          "exact": 4
+        },
+        "angle_180": {
+          "off_by_one": 7,
+          "exact": 3
+        },
+        "angle_210": {
+          "opposite": 6,
+          "exact": 3,
+          "off_by_one": 1
+        },
+        "angle_240": {
+          "opposite": 10
+        },
+        "angle_270": {
+          "exact": 10
+        },
+        "angle_300": {
+          "opposite": 10
+        },
+        "angle_330": {
+          "opposite": 10
+        }
+      },
+      "b2": {
+        "angle_000": {
+          "exact": 5,
+          "off_by_more": 5
+        },
+        "angle_030": {
+          "exact": 1,
+          "off_by_one": 9
+        },
+        "angle_060": {
+          "exact": 10
+        },
+        "angle_090": {
+          "exact": 10
+        },
+        "angle_120": {
+          "exact": 2,
+          "off_by_one": 8
+        },
+        "angle_150": {
+          "exact": 10
+        },
+        "angle_180": {
+          "exact": 10
+        },
+        "angle_210": {
+          "off_by_one": 2,
+          "exact": 4,
+          "opposite": 4
+        },
+        "angle_240": {
+          "opposite": 10
+        },
+        "angle_270": {
+          "opposite": 10
+        },
+        "angle_300": {
+          "opposite": 10
+        },
+        "angle_330": {
+          "opposite": 10
+        }
+      },
+      "b3": {
+        "ratio_1.0_equal": {
+          "equal_called_unequal": 7,
+          "correct": 3
+        },
+        "ratio_1.1_up": {
+          "correct": 10
+        },
+        "ratio_1.1_right": {
+          "correct": 9,
+          "reversed": 1
+        },
+        "ratio_1.2_up": {
+          "correct": 10
+        },
+        "ratio_1.2_right": {
+          "correct": 10
+        },
+        "ratio_1.3_up": {
+          "correct": 10
+        },
+        "ratio_1.3_right": {
+          "correct": 10
+        },
+        "ratio_1.5_up": {
+          "correct": 10
+        },
+        "ratio_1.5_right": {
+          "correct": 10
+        }
+      },
+      "b4": {
+        "ratio_1.0_equal": {
+          "equal_called_unequal": 8,
+          "correct": 2
+        },
+        "ratio_1.1_up": {
+          "correct": 7,
+          "unequal_called_equal": 1,
+          "reversed": 2
+        },
+        "ratio_1.1_right": {
+          "correct": 10
+        },
+        "ratio_1.2_up": {
+          "correct": 10
+        },
+        "ratio_1.2_right": {
+          "correct": 9,
+          "unequal_called_equal": 1
+        },
+        "ratio_1.3_up": {
+          "correct": 10
+        },
+        "ratio_1.3_right": {
+          "correct": 10
+        },
+        "ratio_1.5_up": {
+          "correct": 10
+        },
+        "ratio_1.5_right": {
+          "correct": 10
+        }
+      }
+    },
+    "opus": {
+      "b1": {
+        "angle_000": {
+          "exact": 10
+        },
+        "angle_030": {
+          "exact": 10
+        },
+        "angle_060": {
+          "off_by_one": 5,
+          "exact": 5
+        },
+        "angle_090": {
+          "exact": 10
+        },
+        "angle_120": {
+          "exact": 9,
+          "off_by_one": 1
+        },
+        "angle_150": {
+          "exact": 10
+        },
+        "angle_180": {
+          "exact": 10
+        },
+        "angle_210": {
+          "opposite": 10
+        },
+        "angle_240": {
+          "opposite": 10
+        },
+        "angle_270": {
+          "exact": 10
+        },
+        "angle_300": {
+          "exact": 8,
+          "opposite": 2
+        },
+        "angle_330": {
+          "exact": 10
+        }
+      },
+      "b2": {
+        "angle_000": {
+          "exact": 10
+        },
+        "angle_030": {
+          "exact": 10
+        },
+        "angle_060": {
+          "exact": 10
+        },
+        "angle_090": {
+          "exact": 8,
+          "off_by_one": 2
+        },
+        "angle_120": {
+          "exact": 10
+        },
+        "angle_150": {
+          "exact": 8,
+          "off_by_one": 1,
+          "off_by_more": 1
+        },
+        "angle_180": {
+          "exact": 10
+        },
+        "angle_210": {
+          "exact": 10
+        },
+        "angle_240": {
+          "exact": 10
+        },
+        "angle_270": {
+          "opposite": 6,
+          "exact": 4
+        },
+        "angle_300": {
+          "exact": 10
+        },
+        "angle_330": {
+          "exact": 10
+        }
+      },
+      "b3": {
+        "ratio_1.0_equal": {
+          "correct": 3,
+          "equal_called_unequal": 7
+        },
+        "ratio_1.1_up": {
+          "unequal_called_equal": 10
+        },
+        "ratio_1.1_right": {
+          "correct": 5,
+          "unequal_called_equal": 5
+        },
+        "ratio_1.2_up": {
+          "unequal_called_equal": 4,
+          "correct": 6
+        },
+        "ratio_1.2_right": {
+          "reversed": 8,
+          "unequal_called_equal": 2
+        },
+        "ratio_1.3_up": {
+          "correct": 10
+        },
+        "ratio_1.3_right": {
+          "unequal_called_equal": 4,
+          "correct": 4,
+          "reversed": 2
+        },
+        "ratio_1.5_up": {
+          "correct": 10
+        },
+        "ratio_1.5_right": {
+          "correct": 10
+        }
+      },
+      "b4": {
+        "ratio_1.0_equal": {
+          "correct": 3,
+          "equal_called_unequal": 7
+        },
+        "ratio_1.1_up": {
+          "unequal_called_equal": 5,
+          "reversed": 5
+        },
+        "ratio_1.1_right": {
+          "correct": 7,
+          "reversed": 1,
+          "unequal_called_equal": 2
+        },
+        "ratio_1.2_up": {
+          "correct": 1,
+          "reversed": 7,
+          "unequal_called_equal": 2
+        },
+        "ratio_1.2_right": {
+          "correct": 5,
+          "unequal_called_equal": 5
+        },
+        "ratio_1.3_up": {
+          "correct": 4,
+          "unequal_called_equal": 6
+        },
+        "ratio_1.3_right": {
+          "correct": 8,
+          "unequal_called_equal": 2
+        },
+        "ratio_1.5_up": {
+          "reversed": 9,
+          "correct": 1
+        },
+        "ratio_1.5_right": {
+          "correct": 10
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "sonnet": {
+      "b1_n": 120,
+      "b1_exact_pct": 56.7,
+      "b1_off_by_one_or_better_pct": 70.0,
+      "b1_off_by_more_pct": 0.0,
+      "b1_opposite_pct": 30.0,
+      "b1_refused_pct": 0.0,
+      "b2_n": 120,
+      "b2_exact_pct": 43.3,
+      "b2_off_by_one_or_better_pct": 59.2,
+      "b2_off_by_more_pct": 4.2,
+      "b2_opposite_pct": 36.7,
+      "b2_refused_pct": 0.0,
+      "b3_n": 90,
+      "b3_correct_pct": 91.1,
+      "b3_reversed_pct": 1.1,
+      "b3_equal_called_unequal_pct": 7.8,
+      "b3_unequal_called_equal_pct": 0.0,
+      "b3_refused_pct": 0.0,
+      "b4_n": 90,
+      "b4_correct_pct": 86.7,
+      "b4_reversed_pct": 2.2,
+      "b4_equal_called_unequal_pct": 8.9,
+      "b4_unequal_called_equal_pct": 2.2,
+      "b4_refused_pct": 0.0
+    },
+    "opus": {
+      "b1_n": 120,
+      "b1_exact_pct": 76.7,
+      "b1_off_by_one_or_better_pct": 81.7,
+      "b1_off_by_more_pct": 0.0,
+      "b1_opposite_pct": 18.3,
+      "b1_refused_pct": 0.0,
+      "b2_n": 120,
+      "b2_exact_pct": 91.7,
+      "b2_off_by_one_or_better_pct": 94.2,
+      "b2_off_by_more_pct": 0.8,
+      "b2_opposite_pct": 5.0,
+      "b2_refused_pct": 0.0,
+      "b3_n": 90,
+      "b3_correct_pct": 53.3,
+      "b3_reversed_pct": 11.1,
+      "b3_equal_called_unequal_pct": 7.8,
+      "b3_unequal_called_equal_pct": 27.8,
+      "b3_refused_pct": 0.0,
+      "b4_n": 90,
+      "b4_correct_pct": 43.3,
+      "b4_reversed_pct": 24.4,
+      "b4_equal_called_unequal_pct": 7.8,
+      "b4_unequal_called_equal_pct": 24.4,
+      "b4_refused_pct": 0.0
+    }
+  }
+}

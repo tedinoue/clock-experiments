@@ -4,6 +4,8 @@ Raw data, code, and analysis for a controlled experiment across 5 frontier model
 
 **Substack writeup:** [What "AI Can't Read Clocks" Actually Means](https://synthsentience.substack.com/p/what-ai-cant-read-clocks-actually) (Synth Sentience, 2026-05-03). The article reads from this repo's data.
 
+**Follow-up (2026-05-05):** see [`followup_05052026/`](followup_05052026/) for the next experimental round, which asks whether dialogic teaching, system-prompt synthesis, or other prompting shapes can REPAIR the failures surfaced in the original. Surfaces hand-identification swap as a separable failure mode, refines the "encoder floor" finding into model-specific perceptual mechanisms, and includes ~1,300 additional trials across Sonnet 4.6 and Opus 4.7. Draft summary paper at [`followup_05052026/PAPER_DRAFT.md`](followup_05052026/PAPER_DRAFT.md).
+
 **Original claim being tested:** [Jing Hu, 2nd Order Thinkers, Substack note 2026-05-03](https://substack.com/@jinghuu/note/c-250006786): *"even with the best and latest LLM, take Claude Opus for example, only got this right at a coin toss."*
 
 ## TL;DR

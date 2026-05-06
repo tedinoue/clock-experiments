@@ -1,0 +1,4714 @@
+{
+  "method": "ai-judge fresh-context, original 2026-05-03 single-shot Sonnet trials",
+  "judge_model": "claude-opus-4-7[1m]",
+  "trials": [
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 1,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 2,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:11",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 3,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:11",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 4,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 5,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 6,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:11",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 7,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 8,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 9,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_01",
+      "trial": 10,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 1,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 2,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 3,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 4,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 5,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 6,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 7,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 8,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 9,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_02",
+      "trial": 10,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 1,
+      "ground_truth": "07:50",
+      "extracted_answer": "14:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=251"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 2,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 3,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 4,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 5,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 6,
+      "ground_truth": "07:50",
+      "extracted_answer": "14:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=251"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 7,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 8,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 9,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=180, swap_dist=11"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_03",
+      "trial": 10,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 1,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 2,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 3,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 4,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 5,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 6,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 7,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 8,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 9,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_04",
+      "trial": 10,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 1,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 2,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 3,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 4,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 5,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 6,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 7,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 8,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 9,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_05",
+      "trial": 10,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 1,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 2,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 3,
+      "ground_truth": "06:30",
+      "extracted_answer": "1:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 4,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 5,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 6,
+      "ground_truth": "06:30",
+      "extracted_answer": "1:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 7,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 8,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 9,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_06",
+      "trial": 10,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=330"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 1,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 2,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:58",
+      "classification": "wrong_other",
+      "notes": "truth_dist=63, swap_dist=118"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 3,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 4,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 5,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 6,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 7,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 8,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 9,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_07",
+      "trial": 10,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=55, swap_dist=110"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 1,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 2,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 3,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 4,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 5,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 6,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 7,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 8,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:01",
+      "classification": "wrong_other",
+      "notes": "truth_dist=44, swap_dist=48"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 9,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S1",
+      "label": "clock_08",
+      "trial": 10,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 1,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 2,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 3,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 4,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 5,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 6,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 7,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 8,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 9,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_01",
+      "trial": 10,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 1,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 2,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 3,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 4,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 5,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 6,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 7,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 8,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 9,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_02",
+      "trial": 10,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 1,
+      "ground_truth": "07:50",
+      "extracted_answer": "9:40",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=55"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 2,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 1 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 3,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 1 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 4,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 5,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 6,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 7,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 8,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 9,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_03",
+      "trial": 10,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 1,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 2,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 3,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 4,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:35",
+      "classification": "wrong_other",
+      "notes": "truth_dist=15, swap_dist=233"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 5,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 6,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 7,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 8,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 9,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_04",
+      "trial": 10,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 1,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 2,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 3,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 4,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 5,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 6,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 7,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 8,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 9,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_05",
+      "trial": 10,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 1,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 2,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 3,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 4,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 5,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 6,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 7,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 8,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 9,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_06",
+      "trial": 10,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 1,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 2,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:00",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 3,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 4,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 5,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=85, swap_dist=30"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 6,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 7,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 8,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 9,
+      "ground_truth": "11:55",
+      "extracted_answer": "12:00",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_07",
+      "trial": 10,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=25, swap_dist=30"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 1,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 2,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 3,
+      "ground_truth": "09:45",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=11"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 4,
+      "ground_truth": "09:45",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=11"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 5,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 6,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 7,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 8,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 9,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S2",
+      "label": "clock_08",
+      "trial": 10,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 1,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 2,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 3,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 4,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 5,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 6,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 7,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 8,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 9,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_01",
+      "trial": 10,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 1,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 2,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 3,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 4,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 5,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 6,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 7,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 8,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 9,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_02",
+      "trial": 10,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 1,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 2,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 3,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 4,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 5,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 6,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 7,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 8,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 9,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_03",
+      "trial": 10,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 1,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 2,
+      "ground_truth": "08:20",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=65, swap_dist=283"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 3,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 4,
+      "ground_truth": "08:20",
+      "extracted_answer": "9:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=60, swap_dist=278"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 5,
+      "ground_truth": "08:20",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=65, swap_dist=283"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 6,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 7,
+      "ground_truth": "08:20",
+      "extracted_answer": "9:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=60, swap_dist=278"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 8,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 9,
+      "ground_truth": "08:20",
+      "extracted_answer": "9:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=60, swap_dist=278"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_04",
+      "trial": 10,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 1,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 2,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 3,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 4,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 5,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 6,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=20"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 7,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 8,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 9,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_05",
+      "trial": 10,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 1,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 2,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 3,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 4,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 5,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 6,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 7,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 8,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 9,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_06",
+      "trial": 10,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 1,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 2,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:58",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 2 min"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 3,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 4,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 5,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 6,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:58",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 2 min"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 7,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:58",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 2 min"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 8,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:02",
+      "classification": "wrong_other",
+      "notes": "truth_dist=113, swap_dist=58"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 9,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_07",
+      "trial": 10,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 1,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 2,
+      "ground_truth": "09:45",
+      "extracted_answer": "8:45",
+      "classification": "wrong_other",
+      "notes": "truth_dist=60, swap_dist=64"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 3,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 4,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 5,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 6,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 7,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 8,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 9,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3a",
+      "label": "clock_08",
+      "trial": 10,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 1,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:13",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 2,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 3,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 4,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 5,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 6,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 7,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 8,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 9,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_01",
+      "trial": 10,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 1,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 2,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 3,
+      "ground_truth": "03:25",
+      "extracted_answer": "2:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=60, swap_dist=170"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 4,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 5,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 6,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 7,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 8,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 9,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_02",
+      "trial": 10,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 1,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:35",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 2,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 3,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 4,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 5,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 6,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 7,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 8,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=180, swap_dist=11"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 9,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_03",
+      "trial": 10,
+      "ground_truth": "07:50",
+      "extracted_answer": "9:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=45"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 1,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 2,
+      "ground_truth": "08:20",
+      "extracted_answer": "5:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=175, swap_dist=43"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 3,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 4,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 5,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 6,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 7,
+      "ground_truth": "08:20",
+      "extracted_answer": "8:20",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 8,
+      "ground_truth": "08:20",
+      "extracted_answer": "7:05",
+      "classification": "wrong_other",
+      "notes": "truth_dist=75, swap_dist=143"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 9,
+      "ground_truth": "08:20",
+      "extracted_answer": null,
+      "classification": "refused_or_ambiguous",
+      "notes": "no parseable time"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_04",
+      "trial": 10,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 1,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 2,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 3,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 4,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 5,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 6,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 7,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 8,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 9,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_05",
+      "trial": 10,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 1,
+      "ground_truth": "06:30",
+      "extracted_answer": "10:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=240, swap_dist=240"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 2,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 3,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 4,
+      "ground_truth": "06:30",
+      "extracted_answer": "10:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=240, swap_dist=240"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 5,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 6,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 7,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 8,
+      "ground_truth": "06:30",
+      "extracted_answer": "10:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=240, swap_dist=240"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 9,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_06",
+      "trial": 10,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=360"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 1,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 2,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 3,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 4,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 5,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 6,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 7,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 8,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 9,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_07",
+      "trial": 10,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:00",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 1,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 2,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 3,
+      "ground_truth": "09:45",
+      "extracted_answer": "3:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=11"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 4,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 5,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 6,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 7,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 8,
+      "ground_truth": "09:45",
+      "extracted_answer": "2:45",
+      "classification": "wrong_other",
+      "notes": "truth_dist=30, swap_dist=26"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 9,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3b",
+      "label": "clock_08",
+      "trial": 10,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 1,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:11",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 2,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 3,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:11",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 4,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 5,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 6,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 7,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 8,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:11",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 9,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_01",
+      "trial": 10,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 1,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 2,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 3,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 4,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 5,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 6,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 7,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 8,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:27",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=2 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 9,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_02",
+      "trial": 10,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:26",
+      "classification": "exact",
+      "notes": "matches truth (dist=1 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 1,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 2,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 3,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 4,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 5,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 6,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 7,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 8,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 9,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_03",
+      "trial": 10,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 1,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 2,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 3,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 4,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 5,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 6,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 7,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 8,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 9,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_04",
+      "trial": 10,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:10",
+      "classification": "wrong_other",
+      "notes": "truth_dist=110, swap_dist=328"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 1,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:27",
+      "classification": "wrong_other",
+      "notes": "truth_dist=48, swap_dist=6"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 2,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=9"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 3,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=9"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 4,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:27",
+      "classification": "wrong_other",
+      "notes": "truth_dist=48, swap_dist=6"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 5,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=9"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 6,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:27",
+      "classification": "wrong_other",
+      "notes": "truth_dist=48, swap_dist=6"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 7,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:27",
+      "classification": "wrong_other",
+      "notes": "truth_dist=48, swap_dist=6"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 8,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=9"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 9,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:27",
+      "classification": "wrong_other",
+      "notes": "truth_dist=48, swap_dist=6"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_05",
+      "trial": 10,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=9"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 1,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 2,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 3,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 4,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:01",
+      "classification": "wrong_other",
+      "notes": "truth_dist=331, swap_dist=331"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 5,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 6,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 7,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 8,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 9,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_06",
+      "trial": 10,
+      "ground_truth": "06:30",
+      "extracted_answer": "12:49",
+      "classification": "wrong_other",
+      "notes": "truth_dist=341, swap_dist=341"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 1,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:59",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=4 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 2,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:59",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=4 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 3,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 4,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 5,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 6,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 7,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 8,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 9,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:59",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=4 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_07",
+      "trial": 10,
+      "ground_truth": "11:55",
+      "extracted_answer": "11:58",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=3 min)"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 1,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 2,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:02",
+      "classification": "wrong_other",
+      "notes": "truth_dist=43, swap_dist=47"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 3,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 4,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:02",
+      "classification": "wrong_other",
+      "notes": "truth_dist=43, swap_dist=47"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 5,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 6,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:02",
+      "classification": "wrong_other",
+      "notes": "truth_dist=43, swap_dist=47"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 7,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 8,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 9,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3c",
+      "label": "clock_08",
+      "trial": 10,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:02",
+      "classification": "wrong_other",
+      "notes": "truth_dist=43, swap_dist=47"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 1,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 2,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 3,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 4,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 5,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 6,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 7,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 8,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 9,
+      "ground_truth": "10:10",
+      "extracted_answer": "2:50",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_01",
+      "trial": 10,
+      "ground_truth": "10:10",
+      "extracted_answer": "10:10",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 1,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 2,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:26",
+      "classification": "wrong_other",
+      "notes": "truth_dist=359, swap_dist=249"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 3,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 4,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 5,
+      "ground_truth": "03:25",
+      "extracted_answer": "2:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=60, swap_dist=170"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 6,
+      "ground_truth": "03:25",
+      "extracted_answer": "3:25",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 7,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 8,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:27",
+      "classification": "wrong_other",
+      "notes": "truth_dist=358, swap_dist=250"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 9,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=350, swap_dist=238"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_02",
+      "trial": 10,
+      "ground_truth": "03:25",
+      "extracted_answer": "9:25",
+      "classification": "wrong_other",
+      "notes": "truth_dist=360, swap_dist=248"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 1,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 1 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 2,
+      "ground_truth": "07:50",
+      "extracted_answer": "22:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 3,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 4,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 5,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 6,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 7,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 1 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 8,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 1 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 9,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 1 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_03",
+      "trial": 10,
+      "ground_truth": "07:50",
+      "extracted_answer": "10:15",
+      "classification": "wrong_other",
+      "notes": "truth_dist=145, swap_dist=20"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 1,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:22",
+      "classification": "wrong_other",
+      "notes": "truth_dist=122, swap_dist=340"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 2,
+      "ground_truth": "08:20",
+      "extracted_answer": "5:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=200, swap_dist=18"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 3,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:22",
+      "classification": "wrong_other",
+      "notes": "truth_dist=122, swap_dist=340"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 4,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 5,
+      "ground_truth": "08:20",
+      "extracted_answer": "2:50",
+      "classification": "wrong_other",
+      "notes": "truth_dist=330, swap_dist=110"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 6,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 7,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 8,
+      "ground_truth": "08:20",
+      "extracted_answer": "4:40",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 0 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 9,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_04",
+      "trial": 10,
+      "ground_truth": "08:20",
+      "extracted_answer": "10:20",
+      "classification": "wrong_other",
+      "notes": "truth_dist=120, swap_dist=338"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 1,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 2,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 3,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 4,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 5,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 6,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 7,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 8,
+      "ground_truth": "04:15",
+      "extracted_answer": "3:15",
+      "classification": "hand_swap",
+      "notes": "matches swap target within 5 min"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 9,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_05",
+      "trial": 10,
+      "ground_truth": "04:15",
+      "extracted_answer": "4:15",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 1,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 2,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 3,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 4,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 5,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 6,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 7,
+      "ground_truth": "06:30",
+      "extracted_answer": "10:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=240, swap_dist=240"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 8,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 9,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_06",
+      "trial": 10,
+      "ground_truth": "06:30",
+      "extracted_answer": "11:30",
+      "classification": "wrong_other",
+      "notes": "truth_dist=300, swap_dist=300"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 1,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 2,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 3,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 4,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 5,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 6,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 7,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 8,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 9,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_07",
+      "trial": 10,
+      "ground_truth": "11:55",
+      "extracted_answer": "10:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=115, swap_dist=60"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 1,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 2,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 3,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 4,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 5,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 6,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:45",
+      "classification": "exact",
+      "notes": "matches truth (dist=0 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 7,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 8,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:02",
+      "classification": "wrong_other",
+      "notes": "truth_dist=43, swap_dist=47"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 9,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:00",
+      "classification": "wrong_other",
+      "notes": "truth_dist=45, swap_dist=49"
+    },
+    {
+      "condition": "S3d",
+      "label": "clock_08",
+      "trial": 10,
+      "ground_truth": "09:45",
+      "extracted_answer": "9:50",
+      "classification": "within_5",
+      "notes": "within 5 of truth (dist=5 min)"
+    }
+  ],
+  "per_clock_summary": {
+    "S1": {
+      "clock_01": {
+        "exact": 10,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_02": {
+        "exact": 3,
+        "within_5": 7,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_03": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_04": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 10
+      },
+      "clock_05": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 2,
+        "wrong_other": 8,
+        "refused": 0
+      },
+      "clock_06": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_07": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_08": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      }
+    },
+    "S2": {
+      "clock_01": {
+        "exact": 10,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_02": {
+        "exact": 1,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 9,
+        "refused": 0
+      },
+      "clock_03": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 2,
+        "wrong_other": 8,
+        "refused": 0
+      },
+      "clock_04": {
+        "exact": 5,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 4,
+        "refused": 1
+      },
+      "clock_05": {
+        "exact": 1,
+        "within_5": 0,
+        "hand_swap": 9,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_06": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_07": {
+        "exact": 0,
+        "within_5": 4,
+        "hand_swap": 2,
+        "wrong_other": 4,
+        "refused": 0
+      },
+      "clock_08": {
+        "exact": 2,
+        "within_5": 6,
+        "hand_swap": 0,
+        "wrong_other": 2,
+        "refused": 0
+      }
+    },
+    "S3a": {
+      "clock_01": {
+        "exact": 10,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_02": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_03": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_04": {
+        "exact": 1,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 9,
+        "refused": 0
+      },
+      "clock_05": {
+        "exact": 7,
+        "within_5": 0,
+        "hand_swap": 2,
+        "wrong_other": 1,
+        "refused": 0
+      },
+      "clock_06": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_07": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 4,
+        "wrong_other": 6,
+        "refused": 0
+      },
+      "clock_08": {
+        "exact": 5,
+        "within_5": 1,
+        "hand_swap": 0,
+        "wrong_other": 4,
+        "refused": 0
+      }
+    },
+    "S3b": {
+      "clock_01": {
+        "exact": 8,
+        "within_5": 1,
+        "hand_swap": 1,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_02": {
+        "exact": 3,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 7,
+        "refused": 0
+      },
+      "clock_03": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 1,
+        "wrong_other": 9,
+        "refused": 0
+      },
+      "clock_04": {
+        "exact": 2,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 5,
+        "refused": 3
+      },
+      "clock_05": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 10,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_06": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_07": {
+        "exact": 0,
+        "within_5": 1,
+        "hand_swap": 9,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_08": {
+        "exact": 2,
+        "within_5": 2,
+        "hand_swap": 0,
+        "wrong_other": 6,
+        "refused": 0
+      }
+    },
+    "S3c": {
+      "clock_01": {
+        "exact": 10,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_02": {
+        "exact": 8,
+        "within_5": 2,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_03": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_04": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_05": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_06": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_07": {
+        "exact": 0,
+        "within_5": 10,
+        "hand_swap": 0,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_08": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      }
+    },
+    "S3d": {
+      "clock_01": {
+        "exact": 3,
+        "within_5": 0,
+        "hand_swap": 7,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_02": {
+        "exact": 4,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 6,
+        "refused": 0
+      },
+      "clock_03": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 4,
+        "wrong_other": 6,
+        "refused": 0
+      },
+      "clock_04": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 1,
+        "wrong_other": 9,
+        "refused": 0
+      },
+      "clock_05": {
+        "exact": 7,
+        "within_5": 0,
+        "hand_swap": 3,
+        "wrong_other": 0,
+        "refused": 0
+      },
+      "clock_06": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_07": {
+        "exact": 0,
+        "within_5": 0,
+        "hand_swap": 0,
+        "wrong_other": 10,
+        "refused": 0
+      },
+      "clock_08": {
+        "exact": 5,
+        "within_5": 3,
+        "hand_swap": 0,
+        "wrong_other": 2,
+        "refused": 0
+      }
+    }
+  },
+  "aggregate": {
+    "S1": {
+      "n": 80,
+      "exact_pct": 16.2,
+      "exact_or_within5_pct": 25.0,
+      "hand_swap_pct": 2.5
+    },
+    "S2": {
+      "n": 80,
+      "exact_pct": 23.8,
+      "exact_or_within5_pct": 36.2,
+      "hand_swap_pct": 16.2
+    },
+    "S3a": {
+      "n": 80,
+      "exact_pct": 28.8,
+      "exact_or_within5_pct": 30.0,
+      "hand_swap_pct": 7.5
+    },
+    "S3b": {
+      "n": 80,
+      "exact_pct": 18.8,
+      "exact_or_within5_pct": 23.8,
+      "hand_swap_pct": 26.2
+    },
+    "S3c": {
+      "n": 80,
+      "exact_pct": 22.5,
+      "exact_or_within5_pct": 37.5,
+      "hand_swap_pct": 0.0
+    },
+    "S3d": {
+      "n": 80,
+      "exact_pct": 23.8,
+      "exact_or_within5_pct": 27.5,
+      "hand_swap_pct": 18.8
+    }
+  }
+}

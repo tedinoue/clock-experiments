@@ -1,0 +1,642 @@
+[
+  {
+    "label": "clock_01",
+    "trial": 1,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 33,
+    "raw_response": "The minute hand points to about 2 (10 minutes past) and the hour hand points toward 10.\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 2,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 35,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2 (roughly the 13-minute mark).\n\n**10:13**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 3,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 42,
+    "raw_response": "The minute hand points to about 2 (10 minutes past) and the hour hand points between 10 and 11, closer to 10.\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 4,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 33,
+    "raw_response": "The hour hand points toward 10 and the minute hand toward 2 (about 10 minutes past).\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 5,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 34,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2 (approximately 10 minutes past).\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 6,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 26,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2.\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 7,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 91,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2 (roughly at the 2 position, indicating ~10 minutes past... actually the minute hand is near 2, which is 10 minutes).\n\nLooking more carefully: the minute hand points to just past 2 (~11 minutes) and the hour hand is between 9 and 10.\n\n**09:11**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 8,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 34,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2 (approximately 10 minutes past).\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 9,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 26,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2.\n\n**10:10**"
+  },
+  {
+    "label": "clock_01",
+    "trial": 10,
+    "ground_truth": "10:10",
+    "input_tokens": 627,
+    "output_tokens": 34,
+    "raw_response": "The hour hand points toward 10 and the minute hand points toward 2 (roughly 10 minutes past).\n\n**10:10**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 1,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 37,
+    "raw_response": "The hour hand points toward V (5) and the minute hand points toward III (3, i.e., 15 minutes).\n\n**05:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 2,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 103,
+    "raw_response": "The hour hand points toward V (roughly 4\u20135 area) and the minute hand points toward III (15 minutes). \n\n**04:47**\n\nWait, let me re-examine. The longer hand points left toward IX area, and the shorter hand points down-right toward V.\n\n- Minute hand \u2192 pointing left (~IX = 45 minutes)\n- Hour hand \u2192 pointing toward V (~4:45 position)\n\n**04:45**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 3,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 33,
+    "raw_response": "The hour hand points toward V (5) and the minute hand points toward III (3, ~15 minutes).\n\n**05:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 4,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 76,
+    "raw_response": "The hour hand points toward V (near 5) and the minute hand points toward III (15 minutes). \n\n**04:58** \u2014 actually, let me re-examine: the minute hand points to about the 3 (15 min) and the hour hand is between 4 and 5.\n\n**04:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 5,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 37,
+    "raw_response": "The hour hand points toward V (5) and the minute hand points toward III (3, i.e., 15 minutes).\n\n**05:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 6,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 33,
+    "raw_response": "The hour hand points toward V (5) and the minute hand points toward III (3, ~15 minutes).\n\n**05:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 7,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 34,
+    "raw_response": "The hour hand points toward V (5) and the minute hand points toward III (3, = 15 minutes).\n\n**05:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 8,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 38,
+    "raw_response": "The hour hand points toward V (about 5 o'clock position) and the minute hand points toward III (15 minutes). \n\n**05:15**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 9,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 37,
+    "raw_response": "The minute hand points to about V (5, so 25 minutes) and the hour hand points just past III (3). \n\n**03:25**"
+  },
+  {
+    "label": "clock_02",
+    "trial": 10,
+    "ground_truth": "3:25",
+    "input_tokens": 627,
+    "output_tokens": 54,
+    "raw_response": "The hour hand points toward V (5) and the minute hand points toward III area... Looking more carefully: the minute hand extends to about the 3 (right side), and the hour hand points down toward V.\n\n**05:15**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 1,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 58,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe hour hand points toward 10 (inner ring) and the minute hand points toward 3 (right side).\n\nThe time is **10:15**."
+  },
+  {
+    "label": "clock_03",
+    "trial": 2,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 106,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe minute hand points to approximately 10 (pointing upper-left), and the hour hand points to approximately 8 (pointing lower-left). Both hands meet near the center-right.\n\nThe hour hand points toward the \"10\" position on the inner ring = 10, and the minute hand points toward the \"8\" region suggesting ~40 minutes.\n\n**10:40**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 3,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 125,
+    "raw_response": "Looking at the clock, it has a 24-hour double-ring face. The hands both appear to meet near the center-right area.\n\n- The minute hand points toward roughly the 8 position (on the inner ring) \u2192 ~40 minutes\n- The hour hand points toward roughly the 10 position (on the inner ring) \u2192 10 hours\n\nWait \u2014 both hands originate from center. The longer hand (minute) points down-right toward ~40 minutes, and the shorter hand points upper-left toward ~10.\n\n**10:40**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 4,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 61,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe hour hand points toward 10 (inner ring) and the minute hand points toward 3 (right side, indicating 15 minutes).\n\n**10:15**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 5,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 61,
+    "raw_response": "Looking at the clock, it has a 24-hour double ring face.\n\nThe hour hand points toward 10 (upper left) and the minute hand points toward the lower left area near 8 (roughly 40 minutes).\n\nTime: **10:40**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 6,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 55,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe hour hand points toward **10** (inner ring) and the minute hand points toward **3** (right side).\n\n**10:15**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 7,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 57,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe hour hand points toward **10** (on the inner ring) and the minute hand points toward **3** (right side).\n\n**10:15**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 8,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 61,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe hour hand points toward **10** (inner ring) and the minute hand points toward **3** (right side, indicating 15 minutes).\n\n**10:15**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 9,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 168,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe **minute hand** points toward 10 (pointing upper-left) \u2014 that's about the 50-minute mark.\nThe **hour hand** points toward 8 (pointing lower-left) \u2014 on the inner ring, that's about 8.\n\nWait, let me re-examine: the hands meet at the center. The longer hand points toward ~10 o'clock position (upper-left), and the shorter hand points toward ~8 o'clock position (lower-left).\n\n- Hour hand \u2192 pointing to inner \"8\" area \u2248 8\n- Minute hand \u2192 pointing to outer ~50 minutes\n\n**09:50**"
+  },
+  {
+    "label": "clock_03",
+    "trial": 10,
+    "ground_truth": "7:50",
+    "input_tokens": 627,
+    "output_tokens": 61,
+    "raw_response": "Looking at the clock, I can see it's a 24-hour double-ring face.\n\nThe hour hand points toward 10 (inner ring), and the minute hand points toward 3 (right side, indicating ~15 minutes).\n\n**10:15**"
+  },
+  {
+    "label": "clock_04",
+    "trial": 1,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 59,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (upper left direction)\n- The right hand points toward roughly 4\u20135 (lower right direction)\n\nThis looks like approximately **10:20**."
+  },
+  {
+    "label": "clock_04",
+    "trial": 2,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 53,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8 (going upper-left)\n- The right hand points toward roughly 4 (going lower-right)\n\n**08:20**"
+  },
+  {
+    "label": "clock_04",
+    "trial": 3,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 65,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward ~8 (roughly 8 o'clock position)\n- The right hand points toward ~4 (roughly 4 o'clock position)\n\nThis suggests the time is approximately **08:20**."
+  },
+  {
+    "label": "clock_04",
+    "trial": 4,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 59,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (upper left direction)\n- The right hand points toward roughly 4\u20135 (lower right direction)\n\nThis looks like approximately **10:20**."
+  },
+  {
+    "label": "clock_04",
+    "trial": 5,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 55,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (about 8)\n- The right hand points toward roughly 4\u20135 (about 4)\n\n**08:20**"
+  },
+  {
+    "label": "clock_04",
+    "trial": 6,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 61,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (upper left direction from center)\n- The right hand points toward roughly 4\u20135 (lower right direction)\n\nThis looks like approximately **08:22**."
+  },
+  {
+    "label": "clock_04",
+    "trial": 7,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 59,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (upper left direction)\n- The right hand points toward roughly 4\u20135 (lower right direction)\n\nThis looks like approximately **10:20**."
+  },
+  {
+    "label": "clock_04",
+    "trial": 8,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 59,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (upper left direction)\n- The right hand points toward roughly 4\u20135 (lower right direction)\n\nThis looks like approximately **10:20**."
+  },
+  {
+    "label": "clock_04",
+    "trial": 9,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 71,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward roughly 8\u20139 (upper left direction) \u2192 hour hand near **8**\n- The right hand points toward roughly 4\u20135 (lower right direction) \u2192 minute hand near **40\u201342**\n\n**08:40**"
+  },
+  {
+    "label": "clock_04",
+    "trial": 10,
+    "ground_truth": "8:20",
+    "input_tokens": 627,
+    "output_tokens": 64,
+    "raw_response": "Looking at the two hands meeting near the center:\n\n- The left hand points toward ~8 (roughly 7-8 o'clock position)\n- The right hand points toward ~4 (roughly 4 o'clock position)\n\nThis looks like **07:20**."
+  },
+  {
+    "label": "clock_05",
+    "trial": 1,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 86,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4 (near the 4-5 area, but given the minute hand position, the hour is ~4).\n\n**03:15**\n\nWait \u2014 looking again: the long hand points to 3 and the short hand also appears near 4. \n\n**04:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 2,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 98,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4 (near the 4-5 area, slightly below 3).\n\nLooking more carefully: the long hand points to 3, and the short hand points toward ~4-5 area (around 4:something). The minute hand is at 3 (15 min), hour hand near 4.\n\n**03:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 3,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 83,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4 (near the 4-5 area, but the longer hand is clearly at 3 and shorter near 4).\n\nLooking again: the long hand reaches to 3, and the short hand is between 4 and 5.\n\n**04:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 4,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 88,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4 (near the 4-5 area, slightly below 3 o'clock position).\n\nLooking more carefully: the long hand points to 3 (exactly at 3) and the short hand is near 4-5 area pointing toward ~4.\n\n**03:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 5,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 33,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4. \n\n**04:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 6,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 38,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points to about 5 (near 5). \n\n**05:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 7,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 32,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points near 5. \n\n**05:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 8,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 38,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4 (near 4). \n\n**04:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 9,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 68,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4 (near the 4-5 area, slightly below 4).\n\nWait \u2014 the long hand points to 3 and the short hand also appears near 4.\n\n**03:15**"
+  },
+  {
+    "label": "clock_05",
+    "trial": 10,
+    "ground_truth": "4:15",
+    "input_tokens": 627,
+    "output_tokens": 33,
+    "raw_response": "The minute hand points to 3 (15 minutes) and the hour hand points just past 4. \n\n**04:15**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 1,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 35,
+    "raw_response": "The minute hand points straight down (6 o'clock position) and the hour hand points slightly left of 12. \n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 2,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 45,
+    "raw_response": "The minute hand points straight down (6 o'clock position = 30 minutes), and the hour hand points slightly left of 12, indicating just before 12.\n\n**11:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 3,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 74,
+    "raw_response": "The minute hand points straight down (6 o'clock position = 30 minutes), and the hour hand points slightly left of 12, suggesting just before 12. Looking more carefully, the hour hand is near 12 and the minute hand is at 6 \u2014 that's **12:30**.\n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 4,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 40,
+    "raw_response": "The minute hand points straight down (6 o'clock position = 30 minutes) and the hour hand points slightly left of 12. \n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 5,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 45,
+    "raw_response": "The minute hand points straight down (6 o'clock position = 30 minutes), and the hour hand points slightly left of 12, indicating just before 12.\n\n**11:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 6,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 35,
+    "raw_response": "The minute hand points straight down (6 o'clock position) and the hour hand points slightly left of 12. \n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 7,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 80,
+    "raw_response": "The minute hand points straight down (6 o'clock position) and the hour hand points to about 12. The hands are close together near 12/6...\n\nLooking more carefully: the minute hand is at 6 (30 minutes) and the hour hand is near 12, slightly left \u2014 suggesting ~12:30.\n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 8,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 72,
+    "raw_response": "The minute hand points straight down (6 o'clock position) and the hour hand points to about 12:30 area \u2014 both hands are near 12/6.\n\nLooking more carefully: the hour hand is slightly left of 12, and the minute hand points straight down to 6.\n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 9,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 60,
+    "raw_response": "The minute hand points straight down (6 o'clock position = 30 minutes), and the hour hand points slightly left of 12. Looking more carefully, the hour hand is near 12 and the minute hand is at 6.\n\n**12:30**"
+  },
+  {
+    "label": "clock_06",
+    "trial": 10,
+    "ground_truth": "6:30",
+    "input_tokens": 627,
+    "output_tokens": 35,
+    "raw_response": "The minute hand points straight down (6 o'clock position) and the hour hand points slightly left of 12. \n\n**12:30**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 1,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 2,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight down (6) and the hour hand points to about 10. \n\n**10:30**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 3,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 4,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 39,
+    "raw_response": "The minute hand points straight down (6 o'clock position, 30 minutes) and the hour hand points to about 10. \n\n**10:30**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 5,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 52,
+    "raw_response": "The hour hand points to about 10 and the minute hand points straight down to 12... wait \u2014 the minute hand is pointing nearly straight up (12) and the hour hand is pointing toward 10.\n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 6,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 7,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 8,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 9,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_07",
+    "trial": 10,
+    "ground_truth": "11:55",
+    "input_tokens": 627,
+    "output_tokens": 29,
+    "raw_response": "The minute hand points straight up (12) and the hour hand points to about 10. \n\n**10:00**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 1,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 50,
+    "raw_response": "The clock face is mirrored (numerals run counter-clockwise). The minute hand points to 9 (straight left) and the hour hand points slightly above toward 10.\n\nTime: **03:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 2,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 73,
+    "raw_response": "The clock is mirrored (numerals run counter-clockwise with flipped glyphs).\n\nThe minute hand points to 9 (left), and the hour hand points just above 10 (upper right area). In the mirrored layout, this reads as approximately **09:48**.\n\n**09:48**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 3,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 103,
+    "raw_response": "The clock face is mirrored (numerals run counter-clockwise). The minute hand points to 9 (straight left) and the hour hand points toward 10.\n\n**03:00**\n\nWait \u2014 let me re-read. The minute hand is pointing directly to 9 (left side) = 45 minutes, and the hour hand is angled slightly upward toward 10. That gives approximately **09:45**.\n\n**09:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 4,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 50,
+    "raw_response": "The clock face is mirrored (numerals run counter-clockwise). The minute hand points to 9 (straight left) and the hour hand points slightly above toward 10.\n\nTime: **03:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 5,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 50,
+    "raw_response": "The clock face is mirrored (numerals run counter-clockwise). The minute hand points to 9 (straight left) and the hour hand points slightly above toward 10.\n\nTime: **03:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 6,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 67,
+    "raw_response": "The clock is mirrored (numerals run counter-clockwise with flipped glyphs).\n\nThe minute hand points to 9 (left side) and the hour hand points slightly above 9 toward 10.\n\nIn the mirrored layout, this reads as **09:45**."
+  },
+  {
+    "label": "clock_08",
+    "trial": 7,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 50,
+    "raw_response": "The clock face is mirrored (numerals run counter-clockwise). The minute hand points to 9 (straight left) and the hour hand points slightly above toward 10.\n\nTime: **03:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 8,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 64,
+    "raw_response": "The clock is mirrored (numerals run counter-clockwise with flipped glyphs).\n\nThe minute hand points to 9 (right side = 9 in mirrored), and the hour hand points slightly above toward 10.\n\nTime: **09:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 9,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 103,
+    "raw_response": "The clock face is mirrored (numerals run counter-clockwise). The minute hand points to 9 (straight left) and the hour hand points toward 10.\n\nTime: **09:00**\n\nWait \u2014 let me reconsider. The minute hand is at the 9 position (leftward, = 45 minutes) and the hour hand is angled up toward 10. That gives approximately **09:45**.\n\n**09:45**"
+  },
+  {
+    "label": "clock_08",
+    "trial": 10,
+    "ground_truth": "9:45 OR 2:15",
+    "input_tokens": 627,
+    "output_tokens": 65,
+    "raw_response": "The clock is mirrored (numerals run counter-clockwise with flipped glyphs).\n\nThe minute hand points to 9 (left side) and the hour hand points toward 10 (upper right). In the mirrored layout, this reads as **09:50**."
+  }
+]
