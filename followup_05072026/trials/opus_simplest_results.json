@@ -1,0 +1,206 @@
+{
+  "thinking_off": [
+    {
+      "stimulus": "simple_03_00.png",
+      "truth": "3:00",
+      "answer": "3:00",
+      "correct": true,
+      "response": "The clock shows **3:00**.\n\nThe hour hand is pointing directly at the 3, and the minute hand is pointing straight up at the 12, which indicates the start of the hour. So it's three o'clock exactly.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 73
+    },
+    {
+      "stimulus": "simple_09_00.png",
+      "truth": "9:00",
+      "answer": "9:00",
+      "correct": true,
+      "response": "The clock shows **9:00**.\n\nThe hour hand is pointing directly at the 9, and the minute hand is pointing straight up at the 12, which indicates it's exactly on the hour.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 64
+    },
+    {
+      "stimulus": "simple_01_15.png",
+      "truth": "1:15",
+      "answer": "1:15",
+      "correct": true,
+      "response": "Let me look carefully at the clock.\n\nThe hour hand is pointing between the 1 and 2, closer to the 1 area but angled toward 2. The minute hand is pointing straight at the 3, which means 15 minutes past the hour.\n\nSince the minute hand is at 15 minutes, the hour hand should be just past the hour number \u2014 and it appears to be just past the 1.\n\nSo the time is **1:15**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 134
+    },
+    {
+      "stimulus": "simple_04_30.png",
+      "truth": "4:30",
+      "answer": "4:30",
+      "correct": true,
+      "response": "Let me look carefully at the clock.\n\nThe minute hand (the longer one) is pointing at the 6, which means it's 30 minutes past the hour.\n\nThe hour hand (the shorter one) is pointing between the 4 and 5, which is consistent with the time being halfway between 4:00 and 5:00.\n\nSo the clock shows **4:30**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 115
+    },
+    {
+      "stimulus": "simple_07_45.png",
+      "truth": "7:45",
+      "answer": "8:45",
+      "correct": false,
+      "response": "Let me look carefully at the clock.\n\nThe hour hand (shorter, thicker) is pointing toward the 8.\nThe minute hand (longer, thinner) is pointing toward the 9.\n\nWhen the minute hand is on the 9, that means 45 minutes past the hour. Since the hour hand is between 8 and 9 (closer to 9 because we're 45 minutes into the 8 o'clock hour), the time is **8:45**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 144
+    },
+    {
+      "stimulus": "simple_02_35.png",
+      "truth": "2:35",
+      "answer": "2:35",
+      "correct": true,
+      "response": "Let me look carefully at the clock.\n\nThe hour hand is the shorter one, pointing toward the 2 (between 2 and 3, but closer to where it would be if it's around 35 minutes past the hour).\n\nThe minute hand is the longer one, pointing at the 7, which represents 35 minutes.\n\nSince the minute hand is at 35 minutes past, the hour hand should be a bit past the 2, moving toward 3 \u2014 which matches what I see.\n\nSo the time is **2:35**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 159
+    },
+    {
+      "stimulus": "simple_08_25.png",
+      "truth": "8:25",
+      "answer": "8:25",
+      "correct": true,
+      "response": "Let me look carefully at the clock.\n\nThe hour hand is the shorter one, pointing toward the 8-9 area, between 8 and 9 but closer to 9.\n\nThe minute hand is the longer one, pointing at the 5, which means 25 minutes past the hour.\n\nSince the minute hand is at 25 minutes, the hour hand should be a little less than halfway between 8 and 9 \u2014 and that matches what I see.\n\nSo the time is **8:25**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 149
+    },
+    {
+      "stimulus": "simple_05_50.png",
+      "truth": "5:50",
+      "answer": "10:30",
+      "correct": false,
+      "response": "Let me read this carefully.\n\nThe minute hand (the longer hand) is pointing at the 6, which means it's at 30 minutes past the hour.\n\nThe hour hand (the shorter hand) is pointing at the 10. When the minute hand is at the 6 (half past), the hour hand should be halfway between two numbers. Since it appears to be at the 10, but with the minute hand at 6, the hour hand would more accurately be between 10 and 11... though here it looks like it's pointing close to the 10.\n\nGiven the positions, I believe this clock shows **10:30** (half past ten).",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 191
+    },
+    {
+      "stimulus": "simple_10_30.png",
+      "truth": "10:30",
+      "answer": "10:30",
+      "correct": true,
+      "response": "Looking at the clock carefully:\n\n- The **hour hand** is pointing toward the **10**, but slightly past it, leaning toward the 11. Since the minute hand is at the 6 (half past), the hour hand should be halfway between 10 and 11 \u2014 which matches what I see.\n- The **minute hand** is pointing straight down at the **6**, which means **30 minutes**.\n\nSo the time shown is **10:30**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 139
+    },
+    {
+      "stimulus": "simple_11_40.png",
+      "truth": "11:40",
+      "answer": "12:40",
+      "correct": false,
+      "response": "Let me look carefully at the clock.\n\nThe **hour hand** (shorter) is pointing roughly between the 12 and the 1, but it looks closer to the 12 \u2014 actually, looking again, it appears to point near the 12.\n\nThe **minute hand** (longer) is pointing at the **8**, which means 40 minutes past the hour.\n\nSince the minute hand is at 40 minutes, the hour hand should be about two-thirds of the way from one number to the next. The hour hand appears to be between 12 and 1, closer to 12, which means the hour is **12** (and it's moving toward 1).\n\nSo the time is **12:40**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 204
+    }
+  ],
+  "thinking_on": [
+    {
+      "stimulus": "simple_03_00.png",
+      "truth": "3:00",
+      "answer": "3:00",
+      "correct": true,
+      "response": "The clock shows **3:00**.\n\nThe hour hand is pointing directly at the 3, and the minute hand is pointing straight up at the 12, which indicates exactly three o'clock.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 63
+    },
+    {
+      "stimulus": "simple_09_00.png",
+      "truth": "9:00",
+      "answer": "9:00",
+      "correct": true,
+      "response": "The clock shows **9:00**.\n\nThe hour hand is pointing directly at the 9, and the minute hand is pointing straight up at the 12, which indicates the top of the hour.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 61
+    },
+    {
+      "stimulus": "simple_01_15.png",
+      "truth": "1:15",
+      "answer": "1:15",
+      "correct": true,
+      "response": "The clock shows **1:15**.\n\nThe hour hand is pointing just past the 1, and the minute hand is pointing at the 3, which represents 15 minutes past the hour.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 60
+    },
+    {
+      "stimulus": "simple_04_30.png",
+      "truth": "4:30",
+      "answer": "4:30",
+      "correct": true,
+      "response": "The clock shows **4:30**.\n\nThe hour hand is pointing between the 4 and 5, which tells us it's after 4 o'clock but not yet 5. The minute hand is pointing straight down at the 6, which means 30 minutes past the hour.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 85
+    },
+    {
+      "stimulus": "simple_07_45.png",
+      "truth": "7:45",
+      "answer": "7:45",
+      "correct": true,
+      "response": "The clock shows **7:45**.\n\nI can tell because:\n- The **minute hand** is pointing at the 9, which means 45 minutes past the hour.\n- The **hour hand** is between the 7 and 8, closer to the 8 \u2014 which makes sense since at :45, the hour hand has moved three-quarters of the way from 7 toward 8. So the hour is still 7.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 170
+    },
+    {
+      "stimulus": "simple_02_35.png",
+      "truth": "2:35",
+      "answer": "2:35",
+      "correct": true,
+      "response": "The clock shows **2:35**.\n\n- The hour hand is pointing between the 2 and the 3, closer to the 3, which indicates it's still the 2 o'clock hour (moving toward 3).\n- The minute hand is pointing at the 7, and each number represents 5 minutes, so 7 \u00d7 5 = 35 minutes.\n\nSo the time is **2:35**.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 123
+    },
+    {
+      "stimulus": "simple_08_25.png",
+      "truth": "8:25",
+      "answer": "8:25",
+      "correct": true,
+      "response": "The clock shows **8:25**.\n\n- The **minute hand** (longer) is pointing at the **5**, which means 25 minutes past the hour (5 \u00d7 5 = 25).\n- The **hour hand** (shorter) is pointing between the **8** and **9**, closer to 8, which makes sense since we're not yet halfway to 9.\n\nSo the time is **8:25**. \ud83d\udd57",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 229
+    },
+    {
+      "stimulus": "simple_05_50.png",
+      "truth": "5:50",
+      "answer": "5:50",
+      "correct": true,
+      "response": "The clock shows **5:50**.\n\nThe hour hand is pointing just before 6, and the minute hand is pointing at 10, which represents 50 minutes past the hour. Since the hour hand hasn't quite reached 6 yet, the hour is 5 \u2014 making the time 5:50.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 95
+    },
+    {
+      "stimulus": "simple_10_30.png",
+      "truth": "10:30",
+      "answer": "10:30",
+      "correct": true,
+      "response": "The clock shows **10:30**.\n\nThe hour hand is pointing between the 10 and 11 (closer to halfway), and the minute hand is pointing straight down at the 6, which indicates 30 minutes past the hour.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 75
+    },
+    {
+      "stimulus": "simple_11_40.png",
+      "truth": "11:40",
+      "answer": "12:40",
+      "correct": false,
+      "response": "The clock shows **12:40**.\n\nThe hour hand is pointing near the 12 (just slightly past it, leaning toward 1), and the minute hand is pointing at the 8, which represents 40 minutes past the hour.",
+      "thinking_chars": 0,
+      "in_tok": 457,
+      "out_tok": 75
+    }
+  ]
+}

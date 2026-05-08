@@ -1,0 +1,135 @@
+"""Color-coded clock + explicit conversion rule in the prompt.
+
+Tests whether the position-to-hour conversion error is in-context-
+correctable. Same color-clock stimuli, but the prompt explicitly states
+the "earlier numeral" convention. If 7:45/11:40/5:50 read correctly with
+this prompt, the conversion error is convention-naming-correctable.
+If they still fail, the error is deeper than language-level instruction.
+
+10 stimuli × 5 trials × 2 models = 100 calls.
+"""
+import argparse, base64, json, os, re, sys, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from anthropic import Anthropic
+
+ROOT = Path("/Users/tedinoue/work/claude-workspace/scratch/clocks_training")
+STIM_DIR = ROOT / "color_clocks"
+SONNET = "claude-sonnet-4-6"
+OPUS = "claude-opus-4-7"
+THINKING_BUDGET = 6000
+MAX_TOKENS = 12000
+
+R1_SYSTEM = (
+    "You are an attentive student. The Salon (Terry) is teaching you to read "
+    "analog clocks across multiple turns. Engage seriously, answer carefully."
+)
+
+USER_PROMPT = (
+    "What time does this clock show? On this clock the hour hand is RED "
+    "and the minute hand is BLUE.\n\n"
+    "Reminder on convention: the hour is determined by the numeral the "
+    "hour hand has most recently passed, not the next one it's approaching. "
+    "If the hour hand is between two numerals, the hour is the EARLIER "
+    "numeral (the smaller one going clockwise), regardless of how close to "
+    "the next numeral it sits. The minute hand tells you how many minutes "
+    "past that hour."
+)
+
+STIMULI = [(3,0), (9,0), (1,15), (4,30), (7,45), (10,30), (2,35), (5,50), (11,40), (8,25)]
+
+def encode_image(p):
+    return "image/png", base64.standard_b64encode(p.read_bytes()).decode()
+
+def run_one(client, model, image_path):
+    media_type, b64 = encode_image(image_path)
+    kwargs = dict(
+        model=model,
+        max_tokens=MAX_TOKENS,
+        system=R1_SYSTEM,
+        messages=[{"role": "user", "content": [
+            {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": b64}},
+            {"type": "text", "text": USER_PROMPT},
+        ]}],
+    )
+    if "opus" in model:
+        kwargs["thinking"] = {"type": "adaptive"}
+        kwargs["output_config"] = {"effort": "high"}
+    else:
+        kwargs["thinking"] = {"type": "enabled", "budget_tokens": THINKING_BUDGET}
+    last_err = None
+    for attempt in range(3):
+        try:
+            resp = client.messages.create(**kwargs)
+            text = "".join(b.text for b in resp.content if b.type == "text")
+            return text, resp.usage.input_tokens, resp.usage.output_tokens
+        except Exception as e:
+            last_err = e
+            time.sleep(2 + attempt * 3)
+    raise last_err
+
+def extract_time(text):
+    bold = re.findall(r'\*\*\s*(\d{1,2}:\d{2})\s*\*\*', text)
+    if bold: return bold[-1]
+    m = re.findall(r'\b(\d{1,2}:\d{2})\b', text)
+    return m[-1] if m else None
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--model", required=True, choices=[SONNET, OPUS])
+    ap.add_argument("--n", type=int, default=5)
+    ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--out", required=True)
+    args = ap.parse_args()
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not api_key:
+        print("ERROR: ANTHROPIC_API_KEY not set", file=sys.stderr); sys.exit(2)
+    client = Anthropic(api_key=api_key)
+
+    trials = []
+    for h, m in STIMULI:
+        for trial in range(args.n):
+            trials.append({"h": h, "m": m, "truth": f"{h}:{m:02d}", "trial": trial+1})
+    total = len(trials)
+    print(f"\n=== Color-clock + convention rule: {args.model} n={args.n} (total {total} calls) ===")
+
+    results = [None] * total
+    def do_trial(idx, t):
+        path = STIM_DIR / f"color_{t['h']:02d}_{t['m']:02d}.png"
+        try:
+            text, in_tok, out_tok = run_one(client, args.model, path)
+            ans = extract_time(text)
+            return idx, {"truth": t["truth"], "trial": t["trial"], "answer": ans, "response": text, "in_tok": in_tok, "out_tok": out_tok}
+        except Exception as e:
+            return idx, {"truth": t["truth"], "trial": t["trial"], "error": str(e)}
+
+    completed = 0
+    with ThreadPoolExecutor(max_workers=args.workers) as ex:
+        futures = [ex.submit(do_trial, i, t) for i, t in enumerate(trials)]
+        for fut in as_completed(futures):
+            idx, r = fut.result()
+            results[idx] = r
+            completed += 1
+            if completed % 10 == 0 or completed == total:
+                print(f"  ...{completed}/{total} done")
+
+    out_path = ROOT / args.out
+    out_path.write_text(json.dumps({
+        "model": args.model, "n_per_stim": args.n,
+        "stimuli": STIMULI, "results": results,
+    }, indent=2))
+    print(f"\nSaved: {out_path}")
+
+    correct = sum(1 for r in results if r.get("answer") == r["truth"])
+    print(f"Exact: {correct}/{total} = {correct/total*100:.0f}%")
+    print("\nPer-stimulus:")
+    for h, m in STIMULI:
+        truth = f"{h}:{m:02d}"
+        cell = [r for r in results if r["truth"] == truth]
+        ok = sum(1 for r in cell if r.get("answer") == truth)
+        answers = [r.get("answer", "?") for r in cell]
+        print(f"  {truth:<6}  {ok}/{len(cell)}  answers: {answers}")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,1487 @@
+{
+  "model": "claude-opus-4-7",
+  "length": "full",
+  "n_per_angle": 5,
+  "results": [
+    {
+      "angle": 0,
+      "trial": 1,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 0,
+      "trial": 2,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 0,
+      "trial": 3,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 0,
+      "trial": 4,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 0,
+      "trial": 5,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 5,
+      "trial": 1,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 5,
+      "trial": 2,
+      "answer": "A",
+      "response": "The line points at A.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 5,
+      "trial": 3,
+      "answer": "A",
+      "response": "The line points at letter **A**.",
+      "in_tok": 505,
+      "out_tok": 14
+    },
+    {
+      "angle": 5,
+      "trial": 4,
+      "answer": "A",
+      "response": "The line points at A.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 5,
+      "trial": 5,
+      "answer": "A",
+      "response": "The line points to A.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 10,
+      "trial": 1,
+      "answer": "B",
+      "response": "The line points at B.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 10,
+      "trial": 2,
+      "answer": "B",
+      "response": "The line points at B.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 10,
+      "trial": 3,
+      "answer": "B",
+      "response": "The line points at B.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 10,
+      "trial": 4,
+      "answer": "B",
+      "response": "The line points to B.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 10,
+      "trial": 5,
+      "answer": "B",
+      "response": "The line points at B.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 15,
+      "trial": 1,
+      "answer": "B",
+      "response": "The line points toward **B**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 15,
+      "trial": 2,
+      "answer": "B",
+      "response": "The line points toward **B**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 15,
+      "trial": 3,
+      "answer": "B",
+      "response": "The line points toward **B**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 15,
+      "trial": 4,
+      "answer": "B",
+      "response": "The line points at B.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 15,
+      "trial": 5,
+      "answer": "B",
+      "response": "B",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 20,
+      "trial": 1,
+      "answer": "C",
+      "response": "C",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 20,
+      "trial": 2,
+      "answer": "C",
+      "response": "C",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 20,
+      "trial": 3,
+      "answer": "C",
+      "response": "The line points toward C.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 20,
+      "trial": 4,
+      "answer": "C",
+      "response": "C",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 20,
+      "trial": 5,
+      "answer": "C",
+      "response": "The line points toward C.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 25,
+      "trial": 1,
+      "answer": "C",
+      "response": "The line points at C.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 25,
+      "trial": 2,
+      "answer": "C",
+      "response": "The line points at C.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 25,
+      "trial": 3,
+      "answer": "C",
+      "response": "The line points toward the top of the scale, between C and D area. Looking carefully, it appears to point at C.\n\nC",
+      "in_tok": 505,
+      "out_tok": 39
+    },
+    {
+      "angle": 25,
+      "trial": 4,
+      "answer": "C",
+      "response": "The line points toward the top of the arc, between C and D, closer to C.\n\nC",
+      "in_tok": 505,
+      "out_tok": 28
+    },
+    {
+      "angle": 25,
+      "trial": 5,
+      "answer": "C",
+      "response": "The line points to C.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 30,
+      "trial": 1,
+      "answer": "D",
+      "response": "D",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 30,
+      "trial": 2,
+      "answer": "D",
+      "response": "The line points toward **D**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 30,
+      "trial": 3,
+      "answer": "D",
+      "response": "D",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 30,
+      "trial": 4,
+      "answer": "D",
+      "response": "D",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 30,
+      "trial": 5,
+      "answer": "D",
+      "response": "D",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 35,
+      "trial": 1,
+      "answer": "D",
+      "response": "The line points at letter D.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 35,
+      "trial": 2,
+      "answer": "D",
+      "response": "The line points toward **D**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 35,
+      "trial": 3,
+      "answer": "D",
+      "response": "The line points toward **D**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 35,
+      "trial": 4,
+      "answer": "D",
+      "response": "The line points toward the upper portion of the scale, between D and E. Looking carefully, it appears to point at **D**.\n\nD",
+      "in_tok": 505,
+      "out_tok": 43
+    },
+    {
+      "angle": 35,
+      "trial": 5,
+      "answer": "D",
+      "response": "The line points to letter D.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 40,
+      "trial": 1,
+      "answer": "E",
+      "response": "E",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 40,
+      "trial": 2,
+      "answer": "E",
+      "response": "E",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 40,
+      "trial": 3,
+      "answer": "E",
+      "response": "E",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 40,
+      "trial": 4,
+      "answer": "E",
+      "response": "E",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 40,
+      "trial": 5,
+      "answer": "E",
+      "response": "E",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 45,
+      "trial": 1,
+      "answer": "F",
+      "response": "F",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 45,
+      "trial": 2,
+      "answer": "F",
+      "response": "The line points at F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 45,
+      "trial": 3,
+      "answer": "F",
+      "response": "The line points at F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 45,
+      "trial": 4,
+      "answer": "F",
+      "response": "The line points at F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 45,
+      "trial": 5,
+      "answer": "F",
+      "response": "F",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 50,
+      "trial": 1,
+      "answer": "F",
+      "response": "The line points to F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 50,
+      "trial": 2,
+      "answer": "F",
+      "response": "The line points to F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 50,
+      "trial": 3,
+      "answer": "F",
+      "response": "F",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 50,
+      "trial": 4,
+      "answer": "F",
+      "response": "The line points at F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 50,
+      "trial": 5,
+      "answer": "F",
+      "response": "The line points at F.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 55,
+      "trial": 1,
+      "answer": "G",
+      "response": "The line points at G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 55,
+      "trial": 2,
+      "answer": "G",
+      "response": "The line points at G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 55,
+      "trial": 3,
+      "answer": "G",
+      "response": "The line points at G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 55,
+      "trial": 4,
+      "answer": "G",
+      "response": "The line points at G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 55,
+      "trial": 5,
+      "answer": "G",
+      "response": "G",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 60,
+      "trial": 1,
+      "answer": "G",
+      "response": "G",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 60,
+      "trial": 2,
+      "answer": "G",
+      "response": "The line points at G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 60,
+      "trial": 3,
+      "answer": "G",
+      "response": "G",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 60,
+      "trial": 4,
+      "answer": "G",
+      "response": "The line points to G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 60,
+      "trial": 5,
+      "answer": "G",
+      "response": "The line points at G.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 65,
+      "trial": 1,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 65,
+      "trial": 2,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 65,
+      "trial": 3,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 65,
+      "trial": 4,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 65,
+      "trial": 5,
+      "answer": "H",
+      "response": "The line points at H.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 70,
+      "trial": 1,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 70,
+      "trial": 2,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 70,
+      "trial": 3,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 70,
+      "trial": 4,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 70,
+      "trial": 5,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 75,
+      "trial": 1,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 75,
+      "trial": 2,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 75,
+      "trial": 3,
+      "answer": "I",
+      "response": "The line points at I.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 75,
+      "trial": 4,
+      "answer": "I",
+      "response": "The line points at I.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 75,
+      "trial": 5,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 80,
+      "trial": 1,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 80,
+      "trial": 2,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 80,
+      "trial": 3,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 80,
+      "trial": 4,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 80,
+      "trial": 5,
+      "answer": "I",
+      "response": "I",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 85,
+      "trial": 1,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 85,
+      "trial": 2,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 85,
+      "trial": 3,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 85,
+      "trial": 4,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 85,
+      "trial": 5,
+      "answer": "J",
+      "response": "The line points at J.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 90,
+      "trial": 1,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 90,
+      "trial": 2,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 90,
+      "trial": 3,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 90,
+      "trial": 4,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 90,
+      "trial": 5,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 95,
+      "trial": 1,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 95,
+      "trial": 2,
+      "answer": "K",
+      "response": "The line points horizontally to the right from the pivot, reaching the curve near the middle of the half-circle. Looking at the labels, J and K are at the rightmost points, with the line appearing to land between them, closest to J/K.\n\nExamining more carefully, the line ends right at the K position.\n\nK",
+      "in_tok": 505,
+      "out_tok": 96
+    },
+    {
+      "angle": 95,
+      "trial": 3,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 95,
+      "trial": 4,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 95,
+      "trial": 5,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 100,
+      "trial": 1,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 100,
+      "trial": 2,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 100,
+      "trial": 3,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 100,
+      "trial": 4,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 100,
+      "trial": 5,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 105,
+      "trial": 1,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 105,
+      "trial": 2,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 105,
+      "trial": 3,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 105,
+      "trial": 4,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 105,
+      "trial": 5,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 110,
+      "trial": 1,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 110,
+      "trial": 2,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 110,
+      "trial": 3,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 110,
+      "trial": 4,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 110,
+      "trial": 5,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 115,
+      "trial": 1,
+      "answer": "L",
+      "response": "The line points to L.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 115,
+      "trial": 2,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 115,
+      "trial": 3,
+      "answer": "L",
+      "response": "The line points to L.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 115,
+      "trial": 4,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 115,
+      "trial": 5,
+      "answer": "L",
+      "response": "L",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 120,
+      "trial": 1,
+      "answer": "M",
+      "response": "The line points at M.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 120,
+      "trial": 2,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 209
+    },
+    {
+      "angle": 120,
+      "trial": 3,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 50
+    },
+    {
+      "angle": 120,
+      "trial": 4,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 120,
+      "trial": 5,
+      "answer": "M",
+      "response": "The line points at M.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 125,
+      "trial": 1,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 125,
+      "trial": 2,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 125,
+      "trial": 3,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 125,
+      "trial": 4,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 125,
+      "trial": 5,
+      "answer": "M",
+      "response": "M",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 130,
+      "trial": 1,
+      "answer": "N",
+      "response": "The line points at N.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 130,
+      "trial": 2,
+      "answer": "N",
+      "response": "The line points at N.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 130,
+      "trial": 3,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 130,
+      "trial": 4,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 96
+    },
+    {
+      "angle": 130,
+      "trial": 5,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 48
+    },
+    {
+      "angle": 135,
+      "trial": 1,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 179
+    },
+    {
+      "angle": 135,
+      "trial": 2,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 87
+    },
+    {
+      "angle": 135,
+      "trial": 3,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 489
+    },
+    {
+      "angle": 135,
+      "trial": 4,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 572
+    },
+    {
+      "angle": 135,
+      "trial": 5,
+      "answer": "N",
+      "response": "N",
+      "in_tok": 505,
+      "out_tok": 201
+    },
+    {
+      "angle": 140,
+      "trial": 1,
+      "answer": "O",
+      "response": "The line points toward O.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 140,
+      "trial": 2,
+      "answer": "O",
+      "response": "The line points toward O.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 140,
+      "trial": 3,
+      "answer": "O",
+      "response": "The line points toward O.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 140,
+      "trial": 4,
+      "answer": "O",
+      "response": "The line points toward O.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 140,
+      "trial": 5,
+      "answer": "O",
+      "response": "The line points toward O.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 145,
+      "trial": 1,
+      "answer": "P",
+      "response": "The line points at P.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 145,
+      "trial": 2,
+      "answer": "P",
+      "response": "The line points toward **P**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 145,
+      "trial": 3,
+      "answer": "P",
+      "response": "P",
+      "in_tok": 505,
+      "out_tok": 46
+    },
+    {
+      "angle": 145,
+      "trial": 4,
+      "answer": "P",
+      "response": "The line points toward P.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 145,
+      "trial": 5,
+      "answer": "P",
+      "response": "The line points at P.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 150,
+      "trial": 1,
+      "answer": "P",
+      "response": "P",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 150,
+      "trial": 2,
+      "answer": "P",
+      "response": "P",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 150,
+      "trial": 3,
+      "answer": "P",
+      "response": "The line points at P.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 150,
+      "trial": 4,
+      "answer": "P",
+      "response": "The line points at P.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 150,
+      "trial": 5,
+      "answer": "P",
+      "response": "P",
+      "in_tok": 505,
+      "out_tok": 5
+    },
+    {
+      "angle": 155,
+      "trial": 1,
+      "answer": "Q",
+      "response": "The line points toward Q.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 155,
+      "trial": 2,
+      "answer": "Q",
+      "response": "Q",
+      "in_tok": 505,
+      "out_tok": 50
+    },
+    {
+      "angle": 155,
+      "trial": 3,
+      "answer": "Q",
+      "response": "The line points at Q.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 155,
+      "trial": 4,
+      "answer": "Q",
+      "response": "The line points toward Q.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 155,
+      "trial": 5,
+      "answer": "Q",
+      "response": "The line points toward Q.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 160,
+      "trial": 1,
+      "answer": "Q",
+      "response": "The line points at Q.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 160,
+      "trial": 2,
+      "answer": "Q",
+      "response": "The line points toward Q.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 160,
+      "trial": 3,
+      "answer": "Q",
+      "response": "The line points at Q.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 160,
+      "trial": 4,
+      "answer": "Q",
+      "response": "The line points at Q.",
+      "in_tok": 505,
+      "out_tok": 11
+    },
+    {
+      "angle": 160,
+      "trial": 5,
+      "answer": "Q",
+      "response": "The line points toward Q.",
+      "in_tok": 505,
+      "out_tok": 12
+    },
+    {
+      "angle": 165,
+      "trial": 1,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 106
+    },
+    {
+      "angle": 165,
+      "trial": 2,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 63
+    },
+    {
+      "angle": 165,
+      "trial": 3,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 120
+    },
+    {
+      "angle": 165,
+      "trial": 4,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 53
+    },
+    {
+      "angle": 165,
+      "trial": 5,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 58
+    },
+    {
+      "angle": 170,
+      "trial": 1,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 37
+    },
+    {
+      "angle": 170,
+      "trial": 2,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 37
+    },
+    {
+      "angle": 170,
+      "trial": 3,
+      "answer": "R",
+      "response": "The line points toward **R**.",
+      "in_tok": 505,
+      "out_tok": 13
+    },
+    {
+      "angle": 170,
+      "trial": 4,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 109
+    },
+    {
+      "angle": 170,
+      "trial": 5,
+      "answer": "R",
+      "response": "The line points at R.",
+      "in_tok": 505,
+      "out_tok": 10
+    },
+    {
+      "angle": 175,
+      "trial": 1,
+      "answer": "S",
+      "response": "S",
+      "in_tok": 505,
+      "out_tok": 220
+    },
+    {
+      "angle": 175,
+      "trial": 2,
+      "answer": "S",
+      "response": "Looking at the diagram, the pivot dot is located in the upper-middle area, and the black line extends nearly straight downward with a very slight rightward tilt, ending at the bottom of the half-circle scale where letter S is positioned.\n\n**S**",
+      "in_tok": 505,
+      "out_tok": 543
+    },
+    {
+      "angle": 175,
+      "trial": 3,
+      "answer": "S",
+      "response": "S",
+      "in_tok": 505,
+      "out_tok": 118
+    },
+    {
+      "angle": 175,
+      "trial": 4,
+      "answer": "R",
+      "response": "R",
+      "in_tok": 505,
+      "out_tok": 170
+    },
+    {
+      "angle": 175,
+      "trial": 5,
+      "answer": "R",
+      "response": "Looking at the diagram, the pivot is in the upper-left interior area, and the black line extends downward and slightly to the right, reaching the arc near the bottom of the half-circle. That position aligns with the tick mark for R.\n\n**R**",
+      "in_tok": 505,
+      "out_tok": 365
+    },
+    {
+      "angle": 180,
+      "trial": 1,
+      "answer": "S",
+      "response": "S",
+      "in_tok": 505,
+      "out_tok": 46
+    },
+    {
+      "angle": 180,
+      "trial": 2,
+      "answer": "S",
+      "response": "The line extends straight downward from the pivot to the position labeled **S**.",
+      "in_tok": 505,
+      "out_tok": 123
+    },
+    {
+      "angle": 180,
+      "trial": 3,
+      "answer": "S",
+      "response": "S",
+      "in_tok": 505,
+      "out_tok": 38
+    },
+    {
+      "angle": 180,
+      "trial": 4,
+      "answer": "S",
+      "response": "S",
+      "in_tok": 505,
+      "out_tok": 68
+    },
+    {
+      "angle": 180,
+      "trial": 5,
+      "answer": "S",
+      "response": "S",
+      "in_tok": 505,
+      "out_tok": 51
+    }
+  ]
+}

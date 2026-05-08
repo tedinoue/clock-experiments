@@ -1,0 +1,448 @@
+{
+  "model": "claude-sonnet-4-6",
+  "n_per_stim": 5,
+  "stimuli": [
+    [
+      3,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      4,
+      30
+    ],
+    [
+      7,
+      45
+    ],
+    [
+      10,
+      30
+    ],
+    [
+      2,
+      35
+    ],
+    [
+      5,
+      50
+    ],
+    [
+      11,
+      40
+    ],
+    [
+      8,
+      25
+    ]
+  ],
+  "results": [
+    {
+      "truth": "3:00",
+      "trial": 1,
+      "answer": "3:00",
+      "response": "## 3:00\n\nThe **minute hand** (longer hand) is pointing straight up to **12**, and the **hour hand** (shorter hand) is pointing directly to **3**.\n\nWhen the minute hand is on the 12, it means it is exactly on the hour \u2014 so the time is **3 o'clock**.",
+      "in_tok": 442,
+      "out_tok": 112
+    },
+    {
+      "truth": "3:00",
+      "trial": 2,
+      "answer": "3:00",
+      "response": "## 3:00\n\nThe **minute hand** (longer hand) is pointing straight up at **12**, and the **hour hand** (shorter hand) is pointing directly to the right at **3**.\n\nWhen the minute hand is on 12, it means it's exactly on the hour \u2014 so the time is **3 o'clock**.",
+      "in_tok": 442,
+      "out_tok": 114
+    },
+    {
+      "truth": "3:00",
+      "trial": 3,
+      "answer": "3:00",
+      "response": "## 3:00\n\nThe **minute hand** (longer hand) is pointing straight up to **12**, and the **hour hand** (shorter hand) is pointing directly to **3**.\n\nWhen the minute hand is on the 12, it means it's exactly on the hour \u2014 so this clock shows **3 o'clock**.",
+      "in_tok": 442,
+      "out_tok": 112
+    },
+    {
+      "truth": "3:00",
+      "trial": 4,
+      "answer": "3:00",
+      "response": "## 3:00\n\nThe **minute hand** (longer hand) is pointing straight up to **12**, and the **hour hand** (shorter hand) is pointing directly to **3**.\n\nWhen the minute hand points to 12, it means it's exactly on the hour \u2014 so this clock shows **3 o'clock**.",
+      "in_tok": 442,
+      "out_tok": 111
+    },
+    {
+      "truth": "3:00",
+      "trial": 5,
+      "answer": "3:00",
+      "response": "## 3:00\n\nThe **minute hand** (longer hand) is pointing straight up to **12**, and the **hour hand** (shorter hand) is pointing directly to **3**, so the time shown is **3 o'clock**.",
+      "in_tok": 442,
+      "out_tok": 93
+    },
+    {
+      "truth": "9:00",
+      "trial": 1,
+      "answer": "9:00",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- The **minute hand** (longer hand) is pointing straight up to **12**\n- The **hour hand** (shorter hand) is pointing directly at **9**\n\nThe time shown is **9:00** (nine o'clock). \u23f0",
+      "in_tok": 442,
+      "out_tok": 130
+    },
+    {
+      "truth": "9:00",
+      "trial": 2,
+      "answer": "9:00",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- The **minute hand** (longer hand) is pointing straight up to **12**\n- The **hour hand** (shorter hand) is pointing directly at **9**\n\nThe time shown is **9:00** (nine o'clock). \u2705",
+      "in_tok": 442,
+      "out_tok": 129
+    },
+    {
+      "truth": "9:00",
+      "trial": 3,
+      "answer": "9:00",
+      "response": "## Reading the Clock\n\nLooking carefully at both hands:\n\n- **Minute hand** (long hand) \u2192 pointing straight up to **12**\n- **Hour hand** (short hand) \u2192 pointing directly to **9**\n\nThe time shown is **9:00** (nine o'clock). \u23f0",
+      "in_tok": 442,
+      "out_tok": 124
+    },
+    {
+      "truth": "9:00",
+      "trial": 4,
+      "answer": "9:00",
+      "response": "## Reading the Clock\n\nLooking at this clock carefully:\n\n- The **minute hand** (longer hand) is pointing straight up to **12**\n- The **hour hand** (shorter hand) is pointing directly to **9**\n\nThe time shown is **9:00** (nine o'clock). \u23f0",
+      "in_tok": 442,
+      "out_tok": 132
+    },
+    {
+      "truth": "9:00",
+      "trial": 5,
+      "answer": "9:00",
+      "response": "## 9:00\n\nThe **minute hand** (long hand) is pointing straight up to **12**, and the **hour hand** (short hand) is pointing directly to **9**, which means the time is exactly **9 o'clock**.",
+      "in_tok": 442,
+      "out_tok": 110
+    },
+    {
+      "truth": "1:15",
+      "trial": 1,
+      "answer": "12:15",
+      "response": "## The clock shows **12:15**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand): Points directly at the **3**, which means **15 minutes** past the hour.\n- **Hour hand** (shorter hand): Points just past **12**, angled toward the **1**, confirming the hour is **12**.\n\nSo the time is **12:15** (quarter past twelve). \u2705",
+      "in_tok": 442,
+      "out_tok": 635
+    },
+    {
+      "truth": "1:15",
+      "trial": 2,
+      "answer": "1:15",
+      "response": "## The clock shows **1:15**\n\nHere's how I read it:\n\n- \u23f1\ufe0f **Minute hand** (longer): pointing directly at the **3** \u2192 15 minutes\n- \ud83d\udd50 **Hour hand** (shorter): pointing toward the **1**, slightly past it \u2192 1 o'clock hour\n\nSo the time is **1:15**.",
+      "in_tok": 442,
+      "out_tok": 280
+    },
+    {
+      "truth": "1:15",
+      "trial": 3,
+      "answer": "1:15",
+      "response": "## The clock shows **1:15**\n\nHere's how I read it:\n\n- \u23f1\ufe0f **Minute hand** (longer hand) \u2192 pointing at the **3**, which means **15 minutes**\n- \ud83d\udd50 **Hour hand** (shorter hand) \u2192 pointing just past the **1**\n\nAt 1:15, the hour hand would be **one-quarter of the way** between the 1 and 2, which matches what we see here.\n\nSo the time is **1:15** (one fifteen). \u2705",
+      "in_tok": 442,
+      "out_tok": 535
+    },
+    {
+      "truth": "1:15",
+      "trial": 4,
+      "answer": "12:15",
+      "response": "## The clock shows **12:15**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing at the **3**, which means **15 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing just past the **12**, which means it's the **12 o'clock hour**\n\nSo the time is **12:15**. \ud83d\udd67",
+      "in_tok": 442,
+      "out_tok": 408
+    },
+    {
+      "truth": "1:15",
+      "trial": 5,
+      "answer": "1:15",
+      "response": "## The clock shows **1:15**\n\nHere's how I read it:\n\n- \u23f1\ufe0f **Minute hand** (longer): pointing directly at the **3** \u2192 15 minutes\n- \ud83d\udd50 **Hour hand** (shorter): pointing just past the **1** \u2192 1 o'clock hour\n\nSo the time is **1:15** (one fifteen).",
+      "in_tok": 442,
+      "out_tok": 373
+    },
+    {
+      "truth": "4:30",
+      "trial": 1,
+      "answer": "4:30",
+      "response": "## The clock shows **4:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer): pointing straight down to the **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing between the **4** and **5**, closer to halfway \u2192 indicating the 4 o'clock hour\n\nSince the minute hand is at the 6 (halfway through the hour), the hour hand is correctly positioned **halfway between 4 and 5**, confirming **4:30**.",
+      "in_tok": 442,
+      "out_tok": 337
+    },
+    {
+      "truth": "4:30",
+      "trial": 2,
+      "answer": "4:30",
+      "response": "## The clock shows **4:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer): pointing straight down to the **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing **between 4 and 5**, exactly halfway \u2192 4 o'clock + 30 minutes\n\nSo the time is **4:30** (half past four). \u2705",
+      "in_tok": 442,
+      "out_tok": 330
+    },
+    {
+      "truth": "4:30",
+      "trial": 3,
+      "answer": "4:30",
+      "response": "## The clock shows **4:30**\n\nHere's how I read it:\n\n- The **minute hand** (longer hand) points straight down to the **6**, which represents **30 minutes**\n- The **hour hand** (shorter hand) points between the **4** and **5**, which is consistent with the half-hour mark past 4\n\nSo the time is **4:30** (four thirty, or half past four). \ud83d\udd5f",
+      "in_tok": 442,
+      "out_tok": 296
+    },
+    {
+      "truth": "4:30",
+      "trial": 4,
+      "answer": "4:30",
+      "response": "## The clock shows **4:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer): pointing straight down to **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing halfway between **4 and 5** \u2192 which is exactly where the hour hand sits at 4:30\n\nSo the time is **4:30** (half past four). \u2705",
+      "in_tok": 442,
+      "out_tok": 289
+    },
+    {
+      "truth": "4:30",
+      "trial": 5,
+      "answer": "4:30",
+      "response": "## The clock shows **4:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand): pointing straight down to the **6**, which means **30 minutes**\n- **Hour hand** (shorter hand): pointing between the **4** and **5**, which is consistent with **4:30** (at half past the hour, the hour hand sits halfway between two numbers)",
+      "in_tok": 442,
+      "out_tok": 321
+    },
+    {
+      "truth": "7:45",
+      "trial": 1,
+      "answer": "7:45",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- **Minute hand** (longer): pointing directly at the **9** \u2192 45 minutes\n- **Hour hand** (shorter): pointing between **7** and **8**, closer to 8 \u2192 consistent with 7:45\n\n### The time is **7:45**",
+      "in_tok": 442,
+      "out_tok": 395
+    },
+    {
+      "truth": "7:45",
+      "trial": 2,
+      "answer": "8:45",
+      "response": "## The Clock Shows **8:45**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing directly at the **9**, which represents **45 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing between **8 and 9**, but closer to the 9, which is consistent with **8 o'clock** (at 8:45, the hour hand has moved \u00be of the way from 8 toward 9)\n\nSo the time is **8:45**.",
+      "in_tok": 442,
+      "out_tok": 419
+    },
+    {
+      "truth": "7:45",
+      "trial": 3,
+      "answer": "7:45",
+      "response": "## The clock shows **7:45**\n\nHere's how I read it:\n\n- **Minute hand** (longer): Points directly at the **9**, which means **45 minutes**\n- **Hour hand** (shorter): Points between **7 and 8**, closer to 8 \u2014 which is correct for 7:45, as the hour hand moves toward the next hour as minutes pass\n\nSo the time is **7:45**.",
+      "in_tok": 442,
+      "out_tok": 412
+    },
+    {
+      "truth": "7:45",
+      "trial": 4,
+      "answer": "8:45",
+      "response": "## The clock shows **8:45**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing directly at the **9**, which represents **45 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing between **8 and 9**, but much closer to the 9, which is consistent with being **three-quarters through the 8 o'clock hour**\n\nSo the time is **8:45**.",
+      "in_tok": 442,
+      "out_tok": 371
+    },
+    {
+      "truth": "7:45",
+      "trial": 5,
+      "answer": "8:45",
+      "response": "## The Clock Shows **8:45**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing directly at the **9**, which represents **45 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing between the **8 and 9**, but closer to the 9, which is consistent with **8 o'clock** (since at 8:45, the hour hand has moved \u00be of the way toward 9)\n\nSo the time is **8:45** \u23f0",
+      "in_tok": 442,
+      "out_tok": 350
+    },
+    {
+      "truth": "10:30",
+      "trial": 1,
+      "answer": "10:30",
+      "response": "## The clock shows **10:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand): pointing straight down to the **6**, which means **30 minutes**\n- **Hour hand** (shorter hand): pointing between the **10** and **11**, which is exactly where it should be at the half-hour mark past 10\n\nSo the time is **10:30** (ten thirty). \u23f0",
+      "in_tok": 442,
+      "out_tok": 248
+    },
+    {
+      "truth": "10:30",
+      "trial": 2,
+      "answer": "10:30",
+      "response": "## The clock shows **10:30**\n\nHere's how I can tell:\n\n- **Minute hand** (longer hand): Points straight down at **6**, which means **30 minutes**\n- **Hour hand** (shorter hand): Points **between 10 and 11**, which is exactly where it should be at the half-hour mark past 10\n\nSo the time is **10:30** (ten thirty).",
+      "in_tok": 442,
+      "out_tok": 307
+    },
+    {
+      "truth": "10:30",
+      "trial": 3,
+      "answer": "10:30",
+      "response": "## The clock shows **10:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand): pointing straight down at the **6**, which means **30 minutes**\n- **Hour hand** (shorter hand): pointing between the **10** and **11**, which is exactly where it should be at the half-hour mark past 10\n\nSo the time is **10:30** (ten thirty). \u2705",
+      "in_tok": 442,
+      "out_tok": 257
+    },
+    {
+      "truth": "10:30",
+      "trial": 4,
+      "answer": "10:30",
+      "response": "## The clock shows **10:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing straight down at the **6** = **30 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing halfway between the **10** and **11** = **10 o'clock hour**\n\nSince the minute hand is at 30 minutes, the hour hand is correctly shown *halfway* between 10 and 11. \u2705\n\n**Time: 10:30**",
+      "in_tok": 442,
+      "out_tok": 266
+    },
+    {
+      "truth": "10:30",
+      "trial": 5,
+      "answer": "10:30",
+      "response": "## The clock shows **10:30**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing straight down at **6** = 30 minutes\n- **Hour hand** (shorter hand) \u2192 pointing **between 10 and 11**, halfway through = 10 o'clock hour\n\nSo the time is **10:30** (ten thirty). \u2705",
+      "in_tok": 442,
+      "out_tok": 290
+    },
+    {
+      "truth": "2:35",
+      "trial": 1,
+      "answer": "7:15",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- **Minute hand** (longer): pointing to the **3** \u2192 15 minutes\n- **Hour hand** (shorter): pointing toward the **7**\n\nThe time shown is **7:15** \u23f0",
+      "in_tok": 442,
+      "out_tok": 297
+    },
+    {
+      "truth": "2:35",
+      "trial": 2,
+      "answer": "7:15",
+      "response": "## Reading the Clock\n\nLet me carefully identify each hand:\n\n- **Minute hand** (longer): Points toward the **3** \u2192 **15 minutes**\n- **Hour hand** (shorter): Points toward the **7** (slightly past it, consistent with 15 minutes elapsed) \u2192 **7 o'clock hour**\n\n### \u23f0 The time shown is **7:15**",
+      "in_tok": 442,
+      "out_tok": 455
+    },
+    {
+      "truth": "2:35",
+      "trial": 3,
+      "answer": "7:15",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- **Minute hand** (longer): points to the **3** \u2192 15 minutes\n- **Hour hand** (shorter): points just past the **7**\n\n### The time is **7:15**",
+      "in_tok": 442,
+      "out_tok": 328
+    },
+    {
+      "truth": "2:35",
+      "trial": 4,
+      "answer": "7:15",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- **Minute hand** (longer): pointing to the **3** \u2192 15 minutes\n- **Hour hand** (shorter): pointing just past the **7**\n\nThe time shown is **7:15**.",
+      "in_tok": 442,
+      "out_tok": 239
+    },
+    {
+      "truth": "2:35",
+      "trial": 5,
+      "answer": "7:15",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- The **minute hand** (longer) points to the **3** \u2192 15 minutes\n- The **hour hand** (shorter) points toward the **7** \u2192 7 o'clock\n\n### The time shown is **7:15**",
+      "in_tok": 442,
+      "out_tok": 319
+    },
+    {
+      "truth": "5:50",
+      "trial": 1,
+      "answer": "10:30",
+      "response": "## Reading the Clock\n\nLooking at the two hands:\n\n- **Minute hand** (longer): pointing to **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing to **10** \u2192 10 o'clock\n\nThe time shown is **10:30**.",
+      "in_tok": 442,
+      "out_tok": 132
+    },
+    {
+      "truth": "5:50",
+      "trial": 2,
+      "answer": "10:30",
+      "response": "## Reading the Clock\n\nLooking at the two hands:\n\n- **Minute hand** (longer): pointing to **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing to **10**\n\nThe time shown is **10:30**.",
+      "in_tok": 442,
+      "out_tok": 117
+    },
+    {
+      "truth": "5:50",
+      "trial": 3,
+      "answer": "10:30",
+      "response": "## Reading the Clock\n\nLooking at the two hands:\n\n- **Minute hand** (longer): pointing straight down at **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing at **10**\n\nThe time shown is **10:30** (half past ten). \u2705",
+      "in_tok": 442,
+      "out_tok": 135
+    },
+    {
+      "truth": "5:50",
+      "trial": 4,
+      "answer": "10:30",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- **Minute hand** (longer): pointing to **6** \u2192 30 minutes\n- **Hour hand** (shorter): pointing to **10**\n\nThe time shown is **10:30**.",
+      "in_tok": 442,
+      "out_tok": 118
+    },
+    {
+      "truth": "5:50",
+      "trial": 5,
+      "answer": "10:30",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- The **minute hand** (longer) points to **6** \u2192 30 minutes\n- The **hour hand** (shorter) points to **10** \u2192 10 o'clock\n\n### The time is **10:30**",
+      "in_tok": 442,
+      "out_tok": 141
+    },
+    {
+      "truth": "11:40",
+      "trial": 1,
+      "answer": "11:40",
+      "response": "## The clock shows **11:40**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing at **8**, which means **40 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing between **11 and 12**, but closer to 12, which is consistent with 11:40 (as the hour hand moves toward 12 as the minutes progress)",
+      "in_tok": 442,
+      "out_tok": 317
+    },
+    {
+      "truth": "11:40",
+      "trial": 2,
+      "answer": "8:00",
+      "response": "## The clock shows **8:00**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing straight up to **12** = 00 minutes\n- **Hour hand** (shorter hand) \u2192 pointing directly at **8** = 8 o'clock\n\nSo the time is exactly **8:00**.",
+      "in_tok": 442,
+      "out_tok": 401
+    },
+    {
+      "truth": "11:40",
+      "trial": 3,
+      "answer": "11:40",
+      "response": "## The clock shows **11:40**\n\nHere's how I read it:\n\n- **Minute hand** (longer hand) \u2192 pointing at **8**, which means **40 minutes**\n- **Hour hand** (shorter hand) \u2192 pointing just before **12**, which means it's still in the **11 o'clock hour**\n\nAt 11:40, the hour hand would be **\u2154 of the way** between 11 and 12, which matches what we see. \u2705",
+      "in_tok": 442,
+      "out_tok": 393
+    },
+    {
+      "truth": "11:40",
+      "trial": 4,
+      "answer": "8:00",
+      "response": "## The clock shows **8:00**\n\nHere's how I read it:\n\n- The **short hand (hour hand)** is pointing directly at **8**\n- The **long hand (minute hand)** is pointing straight up at **12**, indicating **0 minutes**\n\nSo the time is **8 o'clock** (8:00).",
+      "in_tok": 442,
+      "out_tok": 648
+    },
+    {
+      "truth": "11:40",
+      "trial": 5,
+      "answer": "8:00",
+      "response": "## The clock shows **8:00**\n\nHere's how I read it:\n\n- **Minute hand** (long hand) \u2192 pointing straight up to **12** = 0 minutes\n- **Hour hand** (short hand) \u2192 pointing to **8** = 8 o'clock\n\nSo the time is **8:00** (either 8:00 AM or 8:00 PM).",
+      "in_tok": 442,
+      "out_tok": 439
+    },
+    {
+      "truth": "8:25",
+      "trial": 1,
+      "answer": "8:25",
+      "response": "## Reading the Clock\n\nLet me carefully examine both hands:\n\n- **Minute hand** (longer): pointing toward the **5**, which represents **25 minutes**\n- **Hour hand** (shorter): pointing between **8 and 9**, slightly past the 8, consistent with 25 minutes past 8\n\n### The time is **8:25**\n\nA helpful check: at 8:25, the hour hand *should* be about 5/12 of the way between 8 and 9, which matches what we see on this clock. \u2713",
+      "in_tok": 442,
+      "out_tok": 890
+    },
+    {
+      "truth": "8:25",
+      "trial": 2,
+      "answer": "5:45",
+      "response": "## Reading the Clock\n\nLet me carefully identify each hand:\n\n- **Minute hand** (longer): points toward the **9** \u2192 9 \u00d7 5 = **45 minutes**\n- **Hour hand** (shorter): points between the **5** and **6**, closer to 5 \u2192 **5 o'clock** area\n\nThis makes sense because at 45 minutes past 5, the hour hand would have moved \u00be of the way from the 5 toward the 6.\n\n### \u23f0 The time is **5:45**",
+      "in_tok": 442,
+      "out_tok": 701
+    },
+    {
+      "truth": "8:25",
+      "trial": 3,
+      "answer": "9:25",
+      "response": "## Reading the Clock\n\nLooking carefully at the two hands:\n\n- **Minute hand** (longer): pointing toward the **5**, which represents **25 minutes**\n- **Hour hand** (shorter): pointing toward the **9**\n\n### The time is **9:25**",
+      "in_tok": 442,
+      "out_tok": 900
+    },
+    {
+      "truth": "8:25",
+      "trial": 4,
+      "answer": "8:25",
+      "response": "## Reading the Clock\n\nLooking carefully at both hands:\n\n- **Minute hand** (longer): pointing to the **5**, which means **25 minutes**\n- **Hour hand** (shorter): pointing between **8 and 9**, closer to 9 (consistent with 25 minutes past 8)\n\n### The time is **8:25**",
+      "in_tok": 442,
+      "out_tok": 484
+    },
+    {
+      "truth": "8:25",
+      "trial": 5,
+      "answer": "4:45",
+      "response": "## Reading the Clock\n\nLet me identify each hand carefully:\n\n- **Minute hand** (longer): pointing to the **9** \u2192 45 minutes\n- **Hour hand** (shorter): pointing between **4 and 5**, closer to **5** \u2192 consistent with 4:45\n\n### The time is **4:45**\n\nAt 4:45, the hour hand should be \u00be of the way between 4 and 5 (nearly at 5), which matches what we see on this clock.",
+      "in_tok": 442,
+      "out_tok": 517
+    }
+  ]
+}

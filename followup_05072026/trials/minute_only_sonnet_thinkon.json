@@ -1,0 +1,606 @@
+{
+  "label": "claude-sonnet-4-6 thinking-ON",
+  "seed": 42,
+  "results": [
+    {
+      "presentation_idx": 1,
+      "truth": 38,
+      "answer": 7,
+      "signed_err_min": 29,
+      "response": "Looking at the clock, the minute hand is pointing toward the lower-left area, between the **7** and **8** markers, appearing to be roughly 3 minute-marks past the 7.\n\nSince the 7 represents **35 minutes**, and the hand appears to be about 3 ticks past it:\n\n**38**",
+      "thinking_chars": 640,
+      "in_tok": 494,
+      "out_tok": 332
+    },
+    {
+      "presentation_idx": 2,
+      "truth": 23,
+      "answer": 25,
+      "signed_err_min": 2,
+      "response": "**25**\n\nThe minute hand is pointing directly at the **5**, and since each number on the clock represents 5-minute intervals (5 \u00d7 5 = 25), the minute hand indicates **25** minutes.",
+      "thinking_chars": 592,
+      "in_tok": 494,
+      "out_tok": 215
+    },
+    {
+      "presentation_idx": 3,
+      "truth": 54,
+      "answer": 55,
+      "signed_err_min": 1,
+      "response": "55",
+      "thinking_chars": 75,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 4,
+      "truth": 11,
+      "answer": 10,
+      "signed_err_min": -1,
+      "response": "**10**\n\nThe minute hand is pointing directly at the **2**, and since each number on the clock face represents 5-minute increments (1 = 5, 2 = 10, 3 = 15, etc.), the minute hand indicates **10 minutes**.",
+      "thinking_chars": 544,
+      "in_tok": 494,
+      "out_tok": 217
+    },
+    {
+      "presentation_idx": 5,
+      "truth": 16,
+      "answer": 15,
+      "signed_err_min": -1,
+      "response": "15",
+      "thinking_chars": 2,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 6,
+      "truth": 20,
+      "answer": 20,
+      "signed_err_min": 0,
+      "response": "20",
+      "thinking_chars": 86,
+      "in_tok": 494,
+      "out_tok": 33
+    },
+    {
+      "presentation_idx": 7,
+      "truth": 55,
+      "answer": 55,
+      "signed_err_min": 0,
+      "response": "**55**\n\nThe hand is pointing at the **11** on the clock face. Since each number on the clock represents 5-minute intervals (11 \u00d7 5 = 55), the minute hand indicates **55** minutes.",
+      "thinking_chars": 269,
+      "in_tok": 494,
+      "out_tok": 170
+    },
+    {
+      "presentation_idx": 8,
+      "truth": 58,
+      "answer": 0,
+      "signed_err_min": 2,
+      "response": "0",
+      "thinking_chars": 99,
+      "in_tok": 494,
+      "out_tok": 40
+    },
+    {
+      "presentation_idx": 9,
+      "truth": 33,
+      "answer": 30,
+      "signed_err_min": -3,
+      "response": "**30**\n\nThe minute hand is pointing directly at the **6**, which indicates **30 minutes**.",
+      "thinking_chars": 688,
+      "in_tok": 494,
+      "out_tok": 256
+    },
+    {
+      "presentation_idx": 10,
+      "truth": 19,
+      "answer": 20,
+      "signed_err_min": 1,
+      "response": "20",
+      "thinking_chars": 223,
+      "in_tok": 494,
+      "out_tok": 83
+    },
+    {
+      "presentation_idx": 11,
+      "truth": 9,
+      "answer": 10,
+      "signed_err_min": 1,
+      "response": "**10**\n\nThe minute hand is pointing directly at the **2**, and since each number on the clock face represents 5-minute intervals (2 \u00d7 5 = 10), the minute hand indicates **10** minutes.",
+      "thinking_chars": 478,
+      "in_tok": 494,
+      "out_tok": 189
+    },
+    {
+      "presentation_idx": 12,
+      "truth": 36,
+      "answer": 35,
+      "signed_err_min": -1,
+      "response": "**35**\n\nThe minute hand is pointing directly at the **7**, which corresponds to **35 minutes** (since each number on the clock face represents 5-minute increments: 7 \u00d7 5 = 35).",
+      "thinking_chars": 555,
+      "in_tok": 494,
+      "out_tok": 244
+    },
+    {
+      "presentation_idx": 13,
+      "truth": 31,
+      "answer": 30,
+      "signed_err_min": -1,
+      "response": "30",
+      "thinking_chars": 2,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 14,
+      "truth": 45,
+      "answer": 45,
+      "signed_err_min": 0,
+      "response": "45",
+      "thinking_chars": 70,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 15,
+      "truth": 30,
+      "answer": 30,
+      "signed_err_min": 0,
+      "response": "30",
+      "thinking_chars": 2,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 16,
+      "truth": 49,
+      "answer": 50,
+      "signed_err_min": 1,
+      "response": "50",
+      "thinking_chars": 75,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 17,
+      "truth": 3,
+      "answer": 2,
+      "signed_err_min": -1,
+      "response": "**2**\n\nThe minute hand is pointing just slightly past the 12, approximately 2 minute marks clockwise from it, indicating **2** minutes.",
+      "thinking_chars": 422,
+      "in_tok": 494,
+      "out_tok": 168
+    },
+    {
+      "presentation_idx": 18,
+      "truth": 21,
+      "answer": 20,
+      "signed_err_min": -1,
+      "response": "20",
+      "thinking_chars": 74,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 19,
+      "truth": 50,
+      "answer": 50,
+      "signed_err_min": 0,
+      "response": "50",
+      "thinking_chars": 75,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 20,
+      "truth": 4,
+      "answer": 12,
+      "signed_err_min": 8,
+      "response": "Looking at the clock, the single hand extends from the center upward and slightly to the right, pointing between the **12** and **1**, appearing to be close to \u2014 but not quite at \u2014 the **1**.\n\nMy answer: **3**\n\n(The hand appears to be about 3 minute-marks past the 12.)",
+      "thinking_chars": 803,
+      "in_tok": 494,
+      "out_tok": 430
+    },
+    {
+      "presentation_idx": 21,
+      "truth": 29,
+      "answer": 30,
+      "signed_err_min": 1,
+      "response": "30",
+      "thinking_chars": 2,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 22,
+      "truth": 10,
+      "answer": 10,
+      "signed_err_min": 0,
+      "response": "**10**\n\nThe minute hand is pointing directly at the **2**, and since each number on the clock face represents 5 minutes (2 \u00d7 5 = 10), the minute setting is **10**.",
+      "thinking_chars": 243,
+      "in_tok": 494,
+      "out_tok": 129
+    },
+    {
+      "presentation_idx": 23,
+      "truth": 59,
+      "answer": 0,
+      "signed_err_min": 1,
+      "response": "0",
+      "thinking_chars": 103,
+      "in_tok": 494,
+      "out_tok": 40
+    },
+    {
+      "presentation_idx": 24,
+      "truth": 22,
+      "answer": 4,
+      "signed_err_min": -18,
+      "response": "Looking at the clock, the minute hand is pointing from the center toward the lower-right area of the clock face, landing just past the **4** marker.\n\nSince each number represents 5-minute intervals (4 \u00d7 5 = 20), and the hand appears to be roughly 2 minute-marks past the 4:\n\n**22**",
+      "thinking_chars": 510,
+      "in_tok": 494,
+      "out_tok": 376
+    },
+    {
+      "presentation_idx": 25,
+      "truth": 41,
+      "answer": 40,
+      "signed_err_min": -1,
+      "response": "**40**\n\nThe minute hand is pointing directly at the **8**, which corresponds to **40 minutes** (since each number on the clock face represents 5-minute intervals: 8 \u00d7 5 = 40).",
+      "thinking_chars": 678,
+      "in_tok": 494,
+      "out_tok": 257
+    },
+    {
+      "presentation_idx": 26,
+      "truth": 24,
+      "answer": 25,
+      "signed_err_min": 1,
+      "response": "**25**\n\nThe minute hand is pointing directly at the **5** on the clock face. Since each number represents a 5-minute interval (12 = 0, 1 = 5, 2 = 10, ... 5 = 25), the minute hand indicates **25** minutes.",
+      "thinking_chars": 445,
+      "in_tok": 494,
+      "out_tok": 236
+    },
+    {
+      "presentation_idx": 27,
+      "truth": 0,
+      "answer": 0,
+      "signed_err_min": 0,
+      "response": "0",
+      "thinking_chars": 1,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 28,
+      "truth": 44,
+      "answer": 45,
+      "signed_err_min": 1,
+      "response": "45",
+      "thinking_chars": 79,
+      "in_tok": 494,
+      "out_tok": 31
+    },
+    {
+      "presentation_idx": 29,
+      "truth": 25,
+      "answer": 25,
+      "signed_err_min": 0,
+      "response": "**25**\n\nThe minute hand is pointing directly at the **5**, and since each number on the clock face represents 5-minute increments (5 \u00d7 5 = 25), the minute setting is **25**.",
+      "thinking_chars": 249,
+      "in_tok": 494,
+      "out_tok": 140
+    },
+    {
+      "presentation_idx": 30,
+      "truth": 52,
+      "answer": 50,
+      "signed_err_min": -2,
+      "response": "50",
+      "thinking_chars": 75,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 31,
+      "truth": 18,
+      "answer": 4,
+      "signed_err_min": -14,
+      "response": "Looking at the clock, the single hand extends from the center toward the right side of the clock face. It appears to be pointing just about at the **4**, which corresponds to **20** minutes.\n\n**20**",
+      "thinking_chars": 711,
+      "in_tok": 494,
+      "out_tok": 308
+    },
+    {
+      "presentation_idx": 32,
+      "truth": 28,
+      "answer": 30,
+      "signed_err_min": 2,
+      "response": "30",
+      "thinking_chars": 79,
+      "in_tok": 494,
+      "out_tok": 31
+    },
+    {
+      "presentation_idx": 33,
+      "truth": 39,
+      "answer": 40,
+      "signed_err_min": 1,
+      "response": "**40**\n\nThe minute hand is pointing at the **8**, and since each number on a clock represents 5-minute increments (8 \u00d7 5 = 40), the minute hand indicates **40** minutes.",
+      "thinking_chars": 414,
+      "in_tok": 494,
+      "out_tok": 168
+    },
+    {
+      "presentation_idx": 34,
+      "truth": 26,
+      "answer": 25,
+      "signed_err_min": -1,
+      "response": "**25**\n\nThe minute hand is pointing directly at the **5**, and since each number on a clock face represents 5-minute intervals (5 \u00d7 5 = 25), the minute setting is **25**.",
+      "thinking_chars": 442,
+      "in_tok": 494,
+      "out_tok": 190
+    },
+    {
+      "presentation_idx": 35,
+      "truth": 48,
+      "answer": 45,
+      "signed_err_min": -3,
+      "response": "45",
+      "thinking_chars": 81,
+      "in_tok": 494,
+      "out_tok": 31
+    },
+    {
+      "presentation_idx": 36,
+      "truth": 12,
+      "answer": 2,
+      "signed_err_min": -10,
+      "response": "Looking at the clock, the minute hand extends from the center toward the right side of the clock face. It appears to point between the **2** and the **3**, closer to the 3.\n\nSince each number represents 5-minute increments:\n- The **2** = 10 minutes\n- The **3** = 15 minutes\n\nThe hand looks to be about 3 tick marks past the 2, suggesting approximately:\n\n**13**",
+      "thinking_chars": 747,
+      "in_tok": 494,
+      "out_tok": 505
+    },
+    {
+      "presentation_idx": 37,
+      "truth": 35,
+      "answer": 35,
+      "signed_err_min": 0,
+      "response": "**35**\n\nThe minute hand is pointing to the **7** on the clock face, and since each number represents 5-minute intervals (7 \u00d7 5 = 35), the minute hand indicates **35** minutes.",
+      "thinking_chars": 408,
+      "in_tok": 494,
+      "out_tok": 171
+    },
+    {
+      "presentation_idx": 38,
+      "truth": 42,
+      "answer": 45,
+      "signed_err_min": 3,
+      "response": "**45**\n\nThe minute hand is pointing to the **9** on the clock face, which corresponds to **45 minutes**.",
+      "thinking_chars": 754,
+      "in_tok": 494,
+      "out_tok": 463
+    },
+    {
+      "presentation_idx": 39,
+      "truth": 32,
+      "answer": 30,
+      "signed_err_min": -2,
+      "response": "30",
+      "thinking_chars": 80,
+      "in_tok": 494,
+      "out_tok": 31
+    },
+    {
+      "presentation_idx": 40,
+      "truth": 53,
+      "answer": 10,
+      "signed_err_min": 17,
+      "response": "Looking at the clock, the minute hand is pointing toward the upper-left region of the clock face, aimed between the **10** and **11** markers, but appearing to sit right around the **10**.\n\n**50**",
+      "thinking_chars": 702,
+      "in_tok": 494,
+      "out_tok": 439
+    },
+    {
+      "presentation_idx": 41,
+      "truth": 13,
+      "answer": 15,
+      "signed_err_min": 2,
+      "response": "15",
+      "thinking_chars": 70,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 42,
+      "truth": 46,
+      "answer": 45,
+      "signed_err_min": -1,
+      "response": "45",
+      "thinking_chars": 66,
+      "in_tok": 494,
+      "out_tok": 29
+    },
+    {
+      "presentation_idx": 43,
+      "truth": 57,
+      "answer": 57,
+      "signed_err_min": 0,
+      "response": "**57**\n\nThe minute hand is pointing between the **11** and **12**, appearing to be roughly 2 minute-marks past the 11. Since the 11 represents **55 minutes**, and the hand looks to be about 2 small tick marks beyond it, my reading is **57 minutes**.",
+      "thinking_chars": 748,
+      "in_tok": 494,
+      "out_tok": 498
+    },
+    {
+      "presentation_idx": 44,
+      "truth": 2,
+      "answer": 0,
+      "signed_err_min": -2,
+      "response": "0",
+      "thinking_chars": 95,
+      "in_tok": 494,
+      "out_tok": 40
+    },
+    {
+      "presentation_idx": 45,
+      "truth": 27,
+      "answer": 27,
+      "signed_err_min": 0,
+      "response": "**27**\n\nThe minute hand is pointing between the **5** and **6** markers, roughly 2/5 of the way from the 5 toward the 6.\n\n- The **5** on a clock face = **25 minutes**\n- The **6** = **30 minutes** (a span of 5 minutes between them)\n- 2/5 of the way through that span \u2248 **2 extra minutes**\n\nSo: 25 + 2 = **27 minutes**",
+      "thinking_chars": 593,
+      "in_tok": 494,
+      "out_tok": 419
+    },
+    {
+      "presentation_idx": 46,
+      "truth": 37,
+      "answer": 7,
+      "signed_err_min": -30,
+      "response": "Looking carefully at the clock, the single hand (minute hand) originates from the center and points toward the lower-left portion of the clock face, aimed at approximately the **7**.\n\n**35**",
+      "thinking_chars": 715,
+      "in_tok": 494,
+      "out_tok": 287
+    },
+    {
+      "presentation_idx": 47,
+      "truth": 5,
+      "answer": 5,
+      "signed_err_min": 0,
+      "response": "5",
+      "thinking_chars": 85,
+      "in_tok": 494,
+      "out_tok": 33
+    },
+    {
+      "presentation_idx": 48,
+      "truth": 34,
+      "answer": 35,
+      "signed_err_min": 1,
+      "response": "**35**\n\nThe minute hand is pointing toward the **7** on the clock face. Since each number represents 5-minute increments (7 \u00d7 5 = 35), the minute hand indicates **35** minutes.",
+      "thinking_chars": 584,
+      "in_tok": 494,
+      "out_tok": 223
+    },
+    {
+      "presentation_idx": 49,
+      "truth": 51,
+      "answer": 50,
+      "signed_err_min": -1,
+      "response": "50",
+      "thinking_chars": 82,
+      "in_tok": 494,
+      "out_tok": 32
+    },
+    {
+      "presentation_idx": 50,
+      "truth": 43,
+      "answer": 45,
+      "signed_err_min": 2,
+      "response": "45",
+      "thinking_chars": 70,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 51,
+      "truth": 6,
+      "answer": 1,
+      "signed_err_min": -5,
+      "response": "Looking carefully at the clock, the minute hand is pointing in the upper-right area of the clock face, directed toward just past the **1** (which marks the 5-minute position). It appears to extend a little beyond the 1, suggesting approximately:\n\n**7**",
+      "thinking_chars": 663,
+      "in_tok": 494,
+      "out_tok": 299
+    },
+    {
+      "presentation_idx": 52,
+      "truth": 56,
+      "answer": 55,
+      "signed_err_min": -1,
+      "response": "**55**\n\nThe minute hand is pointing at the **11**, which corresponds to **55** minutes on the clock face.",
+      "thinking_chars": 710,
+      "in_tok": 494,
+      "out_tok": 222
+    },
+    {
+      "presentation_idx": 53,
+      "truth": 8,
+      "answer": 10,
+      "signed_err_min": 2,
+      "response": "**10**\n\nThe minute hand is pointing directly at the **2** on the clock face, which corresponds to **10 minutes**.",
+      "thinking_chars": 760,
+      "in_tok": 494,
+      "out_tok": 238
+    },
+    {
+      "presentation_idx": 54,
+      "truth": 14,
+      "answer": 15,
+      "signed_err_min": 1,
+      "response": "15",
+      "thinking_chars": 2,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 55,
+      "truth": 15,
+      "answer": 15,
+      "signed_err_min": 0,
+      "response": "15",
+      "thinking_chars": 2,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 56,
+      "truth": 17,
+      "answer": 3,
+      "signed_err_min": -14,
+      "response": "Looking at the clock, the single hand (the minute hand) is pointing to the right, directed at the **3** on the clock face.\n\nThe 3 represents **15** minutes.\n\n**15**",
+      "thinking_chars": 688,
+      "in_tok": 494,
+      "out_tok": 275
+    },
+    {
+      "presentation_idx": 57,
+      "truth": 47,
+      "answer": 45,
+      "signed_err_min": -2,
+      "response": "45",
+      "thinking_chars": 70,
+      "in_tok": 494,
+      "out_tok": 30
+    },
+    {
+      "presentation_idx": 58,
+      "truth": 1,
+      "answer": 0,
+      "signed_err_min": -1,
+      "response": "0",
+      "thinking_chars": 1,
+      "in_tok": 494,
+      "out_tok": 13
+    },
+    {
+      "presentation_idx": 59,
+      "truth": 7,
+      "answer": 5,
+      "signed_err_min": -2,
+      "response": "**5**\n\nThe minute hand is pointing directly at the **1** on the clock face. Since each number on the clock represents 5-minute intervals (1 = 5, 2 = 10, 3 = 15, etc.), the minute hand indicates **5** minutes.",
+      "thinking_chars": 793,
+      "in_tok": 494,
+      "out_tok": 331
+    },
+    {
+      "presentation_idx": 60,
+      "truth": 40,
+      "answer": 40,
+      "signed_err_min": 0,
+      "response": "40",
+      "thinking_chars": 74,
+      "in_tok": 494,
+      "out_tok": 30
+    }
+  ]
+}

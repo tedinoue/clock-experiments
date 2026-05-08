@@ -1,0 +1,606 @@
+{
+  "label": "claude-opus-4-7 thinking-ON",
+  "seed": 42,
+  "results": [
+    {
+      "presentation_idx": 1,
+      "truth": 38,
+      "answer": 37,
+      "signed_err_min": -1,
+      "response": "37",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 170
+    },
+    {
+      "presentation_idx": 2,
+      "truth": 23,
+      "answer": 25,
+      "signed_err_min": 2,
+      "response": "25",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 63
+    },
+    {
+      "presentation_idx": 3,
+      "truth": 54,
+      "answer": 55,
+      "signed_err_min": 1,
+      "response": "55",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 4,
+      "truth": 11,
+      "answer": 10,
+      "signed_err_min": -1,
+      "response": "10",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 5,
+      "truth": 16,
+      "answer": 15,
+      "signed_err_min": -1,
+      "response": "15",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 6,
+      "truth": 20,
+      "answer": 20,
+      "signed_err_min": 0,
+      "response": "20",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 7,
+      "truth": 55,
+      "answer": 55,
+      "signed_err_min": 0,
+      "response": "55",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 8,
+      "truth": 58,
+      "answer": 59,
+      "signed_err_min": 1,
+      "response": "59",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 58
+    },
+    {
+      "presentation_idx": 9,
+      "truth": 33,
+      "answer": 33,
+      "signed_err_min": 0,
+      "response": "33",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 53
+    },
+    {
+      "presentation_idx": 10,
+      "truth": 19,
+      "answer": 20,
+      "signed_err_min": 1,
+      "response": "20",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 11,
+      "truth": 9,
+      "answer": 10,
+      "signed_err_min": 1,
+      "response": "10",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 12,
+      "truth": 36,
+      "answer": 35,
+      "signed_err_min": -1,
+      "response": "35",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 13,
+      "truth": 31,
+      "answer": 30,
+      "signed_err_min": -1,
+      "response": "30",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 14,
+      "truth": 45,
+      "answer": 45,
+      "signed_err_min": 0,
+      "response": "45",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 15,
+      "truth": 30,
+      "answer": 30,
+      "signed_err_min": 0,
+      "response": "30",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 16,
+      "truth": 49,
+      "answer": 50,
+      "signed_err_min": 1,
+      "response": "50",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 43
+    },
+    {
+      "presentation_idx": 17,
+      "truth": 3,
+      "answer": 2,
+      "signed_err_min": -1,
+      "response": "2",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 57
+    },
+    {
+      "presentation_idx": 18,
+      "truth": 21,
+      "answer": 20,
+      "signed_err_min": -1,
+      "response": "20",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 19,
+      "truth": 50,
+      "answer": 50,
+      "signed_err_min": 0,
+      "response": "50",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 20,
+      "truth": 4,
+      "answer": 5,
+      "signed_err_min": 1,
+      "response": "5",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 21,
+      "truth": 29,
+      "answer": 30,
+      "signed_err_min": 1,
+      "response": "30",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 22,
+      "truth": 10,
+      "answer": 10,
+      "signed_err_min": 0,
+      "response": "10",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 23,
+      "truth": 59,
+      "answer": 0,
+      "signed_err_min": 1,
+      "response": "0",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 24,
+      "truth": 22,
+      "answer": 22,
+      "signed_err_min": 0,
+      "response": "22",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 51
+    },
+    {
+      "presentation_idx": 25,
+      "truth": 41,
+      "answer": 40,
+      "signed_err_min": -1,
+      "response": "40",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 26,
+      "truth": 24,
+      "answer": 25,
+      "signed_err_min": 1,
+      "response": "25",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 40
+    },
+    {
+      "presentation_idx": 27,
+      "truth": 0,
+      "answer": 0,
+      "signed_err_min": 0,
+      "response": "0",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 28,
+      "truth": 44,
+      "answer": 45,
+      "signed_err_min": 1,
+      "response": "45",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 29,
+      "truth": 25,
+      "answer": 25,
+      "signed_err_min": 0,
+      "response": "25",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 30,
+      "truth": 52,
+      "answer": 50,
+      "signed_err_min": -2,
+      "response": "50",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 31,
+      "truth": 18,
+      "answer": 20,
+      "signed_err_min": 2,
+      "response": "20",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 155
+    },
+    {
+      "presentation_idx": 32,
+      "truth": 28,
+      "answer": 29,
+      "signed_err_min": 1,
+      "response": "29",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 355
+    },
+    {
+      "presentation_idx": 33,
+      "truth": 39,
+      "answer": 40,
+      "signed_err_min": 1,
+      "response": "40",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 34,
+      "truth": 26,
+      "answer": 25,
+      "signed_err_min": -1,
+      "response": "25",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 61
+    },
+    {
+      "presentation_idx": 35,
+      "truth": 48,
+      "answer": 52,
+      "signed_err_min": 4,
+      "response": "52",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 144
+    },
+    {
+      "presentation_idx": 36,
+      "truth": 12,
+      "answer": 12,
+      "signed_err_min": 0,
+      "response": "12",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 53
+    },
+    {
+      "presentation_idx": 37,
+      "truth": 35,
+      "answer": 35,
+      "signed_err_min": 0,
+      "response": "35",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 40
+    },
+    {
+      "presentation_idx": 38,
+      "truth": 42,
+      "answer": 40,
+      "signed_err_min": -2,
+      "response": "40",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 42
+    },
+    {
+      "presentation_idx": 39,
+      "truth": 32,
+      "answer": 29,
+      "signed_err_min": -3,
+      "response": "29",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 97
+    },
+    {
+      "presentation_idx": 40,
+      "truth": 53,
+      "answer": 55,
+      "signed_err_min": 2,
+      "response": "55",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 41,
+      "truth": 13,
+      "answer": 14,
+      "signed_err_min": 1,
+      "response": "14",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 99
+    },
+    {
+      "presentation_idx": 42,
+      "truth": 46,
+      "answer": 45,
+      "signed_err_min": -1,
+      "response": "45",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 43,
+      "truth": 57,
+      "answer": 55,
+      "signed_err_min": -2,
+      "response": "55",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 51
+    },
+    {
+      "presentation_idx": 44,
+      "truth": 2,
+      "answer": 1,
+      "signed_err_min": -1,
+      "response": "1",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 54
+    },
+    {
+      "presentation_idx": 45,
+      "truth": 27,
+      "answer": 27,
+      "signed_err_min": 0,
+      "response": "27",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 51
+    },
+    {
+      "presentation_idx": 46,
+      "truth": 37,
+      "answer": 35,
+      "signed_err_min": -2,
+      "response": "35",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 42
+    },
+    {
+      "presentation_idx": 47,
+      "truth": 5,
+      "answer": 5,
+      "signed_err_min": 0,
+      "response": "5",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 48,
+      "truth": 34,
+      "answer": 35,
+      "signed_err_min": 1,
+      "response": "35",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 49,
+      "truth": 51,
+      "answer": 50,
+      "signed_err_min": -1,
+      "response": "50",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 50,
+      "truth": 43,
+      "answer": 44,
+      "signed_err_min": 1,
+      "response": "44",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 228
+    },
+    {
+      "presentation_idx": 51,
+      "truth": 6,
+      "answer": 5,
+      "signed_err_min": -1,
+      "response": "5",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 52,
+      "truth": 56,
+      "answer": 55,
+      "signed_err_min": -1,
+      "response": "55",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 53,
+      "truth": 8,
+      "answer": 8,
+      "signed_err_min": 0,
+      "response": "8",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 62
+    },
+    {
+      "presentation_idx": 54,
+      "truth": 14,
+      "answer": 15,
+      "signed_err_min": 1,
+      "response": "15",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 55,
+      "truth": 15,
+      "answer": 15,
+      "signed_err_min": 0,
+      "response": "15",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 56,
+      "truth": 17,
+      "answer": 16,
+      "signed_err_min": -1,
+      "response": "16",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 59
+    },
+    {
+      "presentation_idx": 57,
+      "truth": 47,
+      "answer": 45,
+      "signed_err_min": -2,
+      "response": "45",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 58,
+      "truth": 1,
+      "answer": 0,
+      "signed_err_min": -1,
+      "response": "0",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    },
+    {
+      "presentation_idx": 59,
+      "truth": 7,
+      "answer": 5,
+      "signed_err_min": -2,
+      "response": "5",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 41
+    },
+    {
+      "presentation_idx": 60,
+      "truth": 40,
+      "answer": 40,
+      "signed_err_min": 0,
+      "response": "40",
+      "thinking_chars": 0,
+      "in_tok": 507,
+      "out_tok": 6
+    }
+  ]
+}

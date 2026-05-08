@@ -6,6 +6,8 @@ Raw data, code, and analysis for a controlled experiment across 5 frontier model
 
 **Follow-up (2026-05-05):** see [`followup_05052026/`](followup_05052026/) for the next experimental round, which asks whether dialogic teaching, system-prompt synthesis, or other prompting shapes can REPAIR the failures surfaced in the original. Surfaces hand-identification swap as a separable failure mode, refines the "encoder floor" finding into model-specific perceptual mechanisms, and includes ~1,300 additional trials across Sonnet 4.6 and Opus 4.7. Draft summary paper at [`followup_05052026/PAPER_DRAFT.md`](followup_05052026/PAPER_DRAFT.md).
 
+**Follow-up (2026-05-07):** see [`followup_05072026/`](followup_05072026/) for the third experimental round, which resolves the failure modes into three separable architectural mechanisms: perceptual extrapolation (when a pointer's tip is interior to the labels), hand-role identification (eliminated by color disambiguation), and position-to-hour conversion (the "nearest numeral" default). About 1,700 additional trials across Sonnet 4.6 and Opus 4.7 over thirteen experiments. The convention-rule fix experiment shows the conversion error is partially in-context-correctable but with symmetric over-correction (rule fixes 5:50, breaks 1:15). Substack writeup: [How AIs Fail at Reading Clocks and Why That's Important](https://synthsentience.substack.com/) (Synth Sentience, 2026-05-08).
+
 **Original claim being tested:** [Jing Hu, 2nd Order Thinkers, Substack note 2026-05-03](https://substack.com/@jinghuu/note/c-250006786): *"even with the best and latest LLM, take Claude Opus for example, only got this right at a coin toss."*
 
 ## TL;DR

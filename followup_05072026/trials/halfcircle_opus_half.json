@@ -1,0 +1,1487 @@
+{
+  "model": "claude-opus-4-7",
+  "length": "half",
+  "n_per_angle": 5,
+  "results": [
+    {
+      "angle": 0,
+      "trial": 1,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is at the center of the half-circle's diameter (the flat left edge), and the black line extends straight upward from it.\n\nThe letters are arranged with A at the top of the arc and S at the bottom, spaced evenly along the semicircle. A line pointing straight up from the pivot aligns with the topmost position on the scale.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 1507
+    },
+    {
+      "angle": 0,
+      "trial": 2,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is at the center of the half-circle's diameter, and the black line extends straight upward from it. The letter at the topmost position of the arc (directly above the pivot) is **A**.\n\nAnswer: **A**",
+      "in_tok": 505,
+      "out_tok": 412
+    },
+    {
+      "angle": 0,
+      "trial": 3,
+      "answer": "B",
+      "response": "Looking at the diagram, the pivot dot is roughly at the center of the semicircle, and the black line extends straight upward from it. The letters wrap around the right side of the semicircle, with A at the upper-left, the top of the arc passing through B and C, and continuing clockwise down to S.\n\nA line pointing straight up from the pivot hits the top of the arc, which corresponds to the position of **B**.\n\nB",
+      "in_tok": 505,
+      "out_tok": 708
+    },
+    {
+      "angle": 0,
+      "trial": 4,
+      "answer": "D",
+      "response": "Looking at the diagram, the pivot dot is at approximately (175, 260), and the line extends straight upward to about (175, 145). This means the line points directly up (vertical).\n\nChecking which letter sits directly above the pivot on the arc: D is positioned at roughly x=170, which aligns most closely with the vertical line from the pivot.\n\n**D**",
+      "in_tok": 505,
+      "out_tok": 625
+    },
+    {
+      "angle": 0,
+      "trial": 5,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is at approximately the center-left, and the black line extends straight upward from it. Following that vertical direction to where it meets the arc, it aligns with the topmost label on the half-circle.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 613
+    },
+    {
+      "angle": 5,
+      "trial": 1,
+      "answer": "A",
+      "response": "The line extends upward and slightly to the left from the pivot. Tracing its direction toward the scale, it aligns with the position at the top of the arc.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 310
+    },
+    {
+      "angle": 5,
+      "trial": 2,
+      "answer": "A",
+      "response": "The line extends from the pivot nearly straight upward, with a very slight leftward tilt. Following that direction to the arc, it lands at the topmost label position.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 420
+    },
+    {
+      "angle": 5,
+      "trial": 3,
+      "answer": "A",
+      "response": "The line extends nearly straight upward from the pivot, with a very slight leftward lean, pointing to the topmost label position on the scale.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 322
+    },
+    {
+      "angle": 5,
+      "trial": 4,
+      "answer": "B",
+      "response": "Looking at the diagram, the line emanates from the pivot point and extends upward and slightly to the left. Tracing from the pivot to the tip of the line, and comparing this direction to the letter positions on the arc (A at the top-left, with letters proceeding clockwise around the half-circle), the line aligns with the second letter from the top.\n\n**B**",
+      "in_tok": 505,
+      "out_tok": 1404
+    },
+    {
+      "angle": 5,
+      "trial": 5,
+      "answer": "A",
+      "response": "Looking at the diagram, the line extends nearly straight up from the pivot dot, with a very slight lean to the left. Tracing this direction to the arc, it points to the topmost-left labeled position.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 542
+    },
+    {
+      "angle": 10,
+      "trial": 1,
+      "answer": "B",
+      "response": "Looking at the diagram:\n- The pivot dot is at roughly (160, 262), which is the center of the arc.\n- Letters A\u2013S are spaced evenly every 10\u00b0 around a 180\u00b0 arc, with A at the top (90\u00b0) and S at the bottom (\u221290\u00b0).\n- The line extends from the pivot to roughly (180, 150), giving a vector of (+20, \u2212110), which corresponds to an angle of about 80\u00b0 from horizontal.\n\nAn angle of ~80\u00b0 matches the position of **B**.\n\nAnswer: **B**",
+      "in_tok": 505,
+      "out_tok": 1675
+    },
+    {
+      "angle": 10,
+      "trial": 2,
+      "answer": "C",
+      "response": "Looking at the diagram:\n- The pivot dot is at roughly (160, 260)\n- The line extends upward and slightly to the right, ending near (190, 150)\n- This gives an angle of roughly 75\u00b0 above horizontal (slightly tilted right of vertical)\n\nLetters A\u2013S are spaced along the arc starting at the top (A) curving down to the bottom (S). Letter A sits just left of vertical-up from the pivot, and each subsequent letter is roughly 10\u201311\u00b0 clockwise. The line, pointing up and slightly right, falls about two steps clockwise from A.\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 1333
+    },
+    {
+      "angle": 10,
+      "trial": 3,
+      "answer": "A",
+      "response": "Looking at the diagram, I need to determine the direction of the black line from the pivot dot.\n\nThe pivot dot is located at approximately (188, 263), and the line extends upward and to the left, ending near (155, 165). This gives the line a direction of roughly 108\u00b0 (measuring counterclockwise from the positive x-axis).\n\nNow I compare this direction to the letters on the arc. The arc has its center to the left of the pivot. Computing the direction from the pivot to each letter:\n- Direction toward A \u2248 104\u00b0\n- Direction toward B \u2248 95\u00b0\n- Other letters are progressively further clockwise\n\nThe line's direction (~108\u00b0) is closest to letter A.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 3944
+    },
+    {
+      "angle": 10,
+      "trial": 4,
+      "answer": "A",
+      "response": "**A**",
+      "in_tok": 505,
+      "out_tok": 499
+    },
+    {
+      "angle": 10,
+      "trial": 5,
+      "answer": "C",
+      "response": "Looking at this carefully:\n\nThe arc is a half-circle with A through S evenly spaced (10\u00b0 apart), with A at the upper-left endpoint of the diameter and S at the lower-left endpoint. The arc center (pivot) is at roughly (115, 255).\n\n**Direction to A** from pivot: vector \u2248 (35, \u2212225), making an angle of about 81\u00b0 above horizontal (slightly right of straight up).\n\n**Direction of the line** from pivot to its tip (~190, 140): vector \u2248 (75, \u2212115), making an angle of about 57\u00b0 above horizontal.\n\n**Angular displacement from A** (clockwise): about 24\u00b0.\n\nAt 10\u00b0 per letter, that's 2.4 letters past A \u2014 putting the line closest to **C** (which sits at 20\u00b0 past A).\n\nC",
+      "in_tok": 505,
+      "out_tok": 8566
+    },
+    {
+      "angle": 15,
+      "trial": 1,
+      "answer": "B",
+      "response": "Looking at the diagram, the pivot dot is roughly at the center-left, and the black line extends upward and slightly to the right. \n\nThe letters are spaced about 10\u00b0 apart along the half-circle, with A near the top (\u224890\u00b0) and proceeding clockwise. The line's angle from the pivot is approximately 76\u00b0 above horizontal, which aligns with the second position from the top.\n\n**B**",
+      "in_tok": 505,
+      "out_tok": 708
+    },
+    {
+      "angle": 15,
+      "trial": 2,
+      "answer": "C",
+      "response": "Looking at the diagram:\n- The pivot is at the center-left, with letters A (top) through S (bottom) evenly spaced around the half-circle (180\u00b0 / 18 intervals = 10\u00b0 per letter).\n- This places A at 90\u00b0 (straight up), J at 0\u00b0 (straight right), and S at 270\u00b0 (straight down).\n- The black line points up and slightly to the right, with a rise much greater than its run \u2014 approximately 70\u00b0 above horizontal.\n\nThat angle aligns with the position of **C**.\n\nC",
+      "in_tok": 505,
+      "out_tok": 1677
+    },
+    {
+      "angle": 15,
+      "trial": 3,
+      "answer": "B",
+      "response": "Looking at the diagram, the pivot dot is near the center-left, and the line extends upward and slightly to the right. Tracing its direction toward the arc, it points to the second tick from the top.\n\n**B**",
+      "in_tok": 505,
+      "out_tok": 910
+    },
+    {
+      "angle": 15,
+      "trial": 4,
+      "answer": "C",
+      "response": "Looking at this diagram, I need to determine where the black line points.\n\nThe pivot dot is at approximately (170, 255), and the line extends up and slightly to the right, ending near (220, 130). This gives a direction angle of about 68\u00b0 above horizontal (or about 22\u00b0 clockwise from straight up).\n\nThe letters A\u2013S are spaced around the arc. A sits near the top (slightly left of vertical from the pivot), and the letters proceed clockwise around the curve. With 19 letters spanning roughly 210\u00b0 of arc, each letter is ~11.7\u00b0 apart:\n- A \u2248 97\u00b0\n- B \u2248 85\u00b0\n- **C \u2248 73\u00b0**\n- D \u2248 62\u00b0\n\nThe line's angle (~68\u00b0) falls closest to C.\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 2795
+    },
+    {
+      "angle": 15,
+      "trial": 5,
+      "answer": "C",
+      "response": "Looking at the diagram, the pivot is near (160, 250) and the line points up and to the right, ending around (195, 135). \n\nThe letters A\u2013S span 180\u00b0 in 10\u00b0 increments, with A at the top (90\u00b0) and J at the rightmost (0\u00b0). The line's angle from horizontal is approximately atan2(115, 35) \u2248 73\u00b0, which corresponds to roughly C (70\u00b0).\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 872
+    },
+    {
+      "angle": 20,
+      "trial": 1,
+      "answer": "C",
+      "response": "Looking at the diagram, the pivot is near (180, 250) and the line extends upward to roughly (228, 130). \n\nComputing the direction: dx \u2248 48, dy \u2248 -120, giving an angle of about 68\u00b0 above horizontal.\n\nWith 19 letters evenly spaced over 180\u00b0 (10\u00b0 apart), starting from A at 90\u00b0 (top):\n- C is at 70\u00b0\n- D is at 60\u00b0\n\n68\u00b0 is closest to C.\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 864
+    },
+    {
+      "angle": 20,
+      "trial": 2,
+      "answer": "C",
+      "response": "Looking at the diagram, the pivot is at roughly (190, 240) and the line extends up and slightly right to about (230, 110), giving an angle of roughly 73\u00b0 above horizontal.\n\nThe letters span the right half-circle in 10\u00b0 increments: A at top (90\u00b0), down through B (80\u00b0), C (70\u00b0), and so on to S at the bottom (-90\u00b0).\n\nAn angle of ~73\u00b0 aligns most closely with C (70\u00b0).\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 730
+    },
+    {
+      "angle": 20,
+      "trial": 3,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is near the center of the half-circle, and the black line extends upward and slightly to the left. Tracing this direction outward to the arc, it aligns with the topmost label.\n\nAnswer: **A**",
+      "in_tok": 505,
+      "out_tok": 1721
+    },
+    {
+      "angle": 20,
+      "trial": 4,
+      "answer": null,
+      "response": "",
+      "in_tok": 505,
+      "out_tok": 12000
+    },
+    {
+      "angle": 20,
+      "trial": 5,
+      "answer": "A",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot.\n\nThe pivot is at roughly (190, 240), and the line extends up-left to about (143, 128). This gives a direction angle of approximately 113\u00b0 (measuring counterclockwise from the positive x-axis).\n\nThe letters span the arc with A at the top (angle ~104\u00b0) and S at the bottom-left (angle ~-114\u00b0), giving 19 letters across roughly 218\u00b0, or about 12\u00b0 per step.\n\nComparing the line's angle (~113\u00b0) to the letter positions, it points closest to A (at ~104\u00b0).\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 2044
+    },
+    {
+      "angle": 25,
+      "trial": 1,
+      "answer": "D",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is on the left side, and the line extends up and to the right. The tip of the line is roughly at an angle of about 65\u00b0 above horizontal.\n\nThe letters A through S are spaced evenly along the 180\u00b0 arc (about 10\u00b0 apart). Letter A sits near the top (slightly left of vertical), and the letters proceed clockwise around the right side down to S at the bottom-left.\n\nCounting from A:\n- A \u2248 vertical (top)\n- B, C, D... each ~10\u00b0 clockwise\n\nA line angled ~65\u00b0 above horizontal corresponds to about 25\u00b0 clockwise from vertical, which aligns with letter **D**.\n\nD",
+      "in_tok": 505,
+      "out_tok": 1836
+    },
+    {
+      "angle": 25,
+      "trial": 2,
+      "answer": "C",
+      "response": "Looking at the diagram, the pivot dot is at the center of the semicircle, and the line extends upward and slightly to the right. The letters are arranged at 10\u00b0 intervals from A (near top) clockwise down to S (near bottom).\n\nThe line's angle from the pivot points to a position between B and D, aligning most closely with **C**.\n\nC",
+      "in_tok": 505,
+      "out_tok": 962
+    },
+    {
+      "angle": 25,
+      "trial": 3,
+      "answer": "C",
+      "response": "Looking at the diagram, the pivot is roughly at the center of the half-circle, and the line extends upward and slightly to the right. Letter A sits at the top (nearly straight up from the pivot), and the letters proceed clockwise around the arc at about 10\u201311\u00b0 intervals.\n\nThe line is tilted about 20\u201322\u00b0 to the right of vertical, which corresponds to roughly two positions past A.\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 1013
+    },
+    {
+      "angle": 25,
+      "trial": 4,
+      "answer": "D",
+      "response": "D",
+      "in_tok": 505,
+      "out_tok": 462
+    },
+    {
+      "angle": 25,
+      "trial": 5,
+      "answer": "C",
+      "response": "Looking at the line's direction from the pivot, it extends upward and slightly to the right at a steep angle. Tracing this direction outward to the arc, it aligns with the position near the top of the curve, just past B.\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 616
+    },
+    {
+      "angle": 30,
+      "trial": 1,
+      "answer": "D",
+      "response": "Looking at the diagram, the pivot is at roughly (163, 252) and the line tip is at approximately (228, 158). This gives an angle of about 55\u00b0 above horizontal.\n\nWith 19 letters (A\u2013S) evenly spaced over 180\u00b0 (10\u00b0 apart), with A at the top (90\u00b0) and S at the bottom (-90\u00b0):\n- D is at 60\u00b0\n- E is at 50\u00b0\n\n55\u00b0 is closest to D (within ~5\u00b0).\n\n**D**",
+      "in_tok": 505,
+      "out_tok": 615
+    },
+    {
+      "angle": 30,
+      "trial": 2,
+      "answer": "E",
+      "response": "Looking at the diagram, the pivot is roughly at (160, 260) and the line extends to about (230, 170). \n\nThe line goes up and to the right, making an angle of about 38\u00b0 from vertical (toward the top). With 19 letters spanning 180\u00b0 on the half-circle (10\u00b0 apart, A at top), an angle of ~38\u00b0 from the top corresponds to position 3.8, which lands on letter E.\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 656
+    },
+    {
+      "angle": 30,
+      "trial": 3,
+      "answer": "E",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot.\n\nThe pivot dot is at roughly (158, 262), and the line extends to about (228, 172). This gives a direction of roughly 52\u00b0 above horizontal (up and to the right).\n\nThe letters are spaced evenly along the semicircle from A (top) through S (bottom), with the arc bulging to the right. With 19 letters spanning ~190\u00b0, each letter is about 10.5\u00b0 apart:\n- A \u2248 95\u00b0\n- B \u2248 84\u00b0\n- C \u2248 74\u00b0\n- D \u2248 63\u00b0\n- E \u2248 53\u00b0\n- F \u2248 42\u00b0\n\nThe line's angle (~52\u00b0) aligns with **E**.\n\nAnswer: **E**",
+      "in_tok": 505,
+      "out_tok": 825
+    },
+    {
+      "angle": 30,
+      "trial": 4,
+      "answer": "E",
+      "response": "The line points roughly upward and to the right at about 49\u00b0 above horizontal, which aligns with the position of letter E on the scale.\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 389
+    },
+    {
+      "angle": 30,
+      "trial": 5,
+      "answer": "E",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (155, 260)\n- The line tip is at roughly (220, 170)\n- This gives a direction vector of (+65, -90), or about 54\u00b0 above horizontal\n\nWith 19 letters spread evenly over 180\u00b0 (10\u00b0 apart), starting from A at 90\u00b0 (top):\n- D \u2248 60\u00b0\n- E \u2248 50\u00b0\n- F \u2248 40\u00b0\n\n54\u00b0 is closest to E (50\u00b0).\n\nAnswer: **E**",
+      "in_tok": 505,
+      "out_tok": 977
+    },
+    {
+      "angle": 35,
+      "trial": 1,
+      "answer": "C",
+      "response": "Looking at this diagram, I need to determine the angle of the line from the pivot point and match it to the corresponding letter on the semicircular scale.\n\nThe semicircle opens to the left, with letters A through S spaced at roughly 10\u00b0 intervals along the arc (180\u00b0 / 18 intervals). A sits at the top (\u224890\u00b0) and S at the bottom (\u2248-90\u00b0).\n\nThe line extends from the pivot upward and slightly to the right, at an angle of approximately 68\u00b0 above horizontal. Counting from A at the top:\n- A \u2248 90\u00b0\n- B \u2248 80\u00b0\n- C \u2248 70\u00b0\n- D \u2248 60\u00b0\n\nThe line's angle of ~68\u00b0 is closest to position C (70\u00b0).\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 2562
+    },
+    {
+      "angle": 35,
+      "trial": 2,
+      "answer": "C",
+      "response": "Looking at the diagram, the pivot is at the center of the vertical diameter, with A at the top and S at the bottom, letters spaced ~10\u00b0 apart around the arc.\n\nThe black line extends upward and slightly to the right from the pivot, at roughly 20\u201325\u00b0 clockwise from vertical. That places it at about the third position from A.\n\n**C**",
+      "in_tok": 505,
+      "out_tok": 1259
+    },
+    {
+      "angle": 35,
+      "trial": 3,
+      "answer": "A",
+      "response": "Looking at this carefully:\n\nThe pivot dot sits roughly at the center of the arc. The line extends upward and slightly to the left from the pivot.\n\nMapping the letter positions: A sits at the top of the arc (slightly left of vertical), and the letters proceed clockwise around the right side down to S at the bottom-left.\n\nThe line's direction (angled slightly left of straight up) aligns with the position of letter A at the top of the scale.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 5624
+    },
+    {
+      "angle": 35,
+      "trial": 4,
+      "answer": "D",
+      "response": "Looking at the diagram, the pivot dot is roughly at the center-left, and the black line extends upward and to the right toward the arc.\n\nEstimating the angle: the line rises at roughly 60\u201365\u00b0 above horizontal. Since the letters are spaced 10\u00b0 apart starting from A at 90\u00b0 (top) and proceeding clockwise (B at 80\u00b0, C at 70\u00b0, D at 60\u00b0, \u2026), an angle near 60\u00b0 corresponds to letter D.\n\n**D**",
+      "in_tok": 505,
+      "out_tok": 1205
+    },
+    {
+      "angle": 35,
+      "trial": 5,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is in the lower-left area, and the black line extends up and to the left. Tracing along that direction toward the arc, the line aligns with the topmost label on the scale.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 827
+    },
+    {
+      "angle": 40,
+      "trial": 1,
+      "answer": "A",
+      "response": "Looking at the diagram, the needle extends from the pivot point upward and to the left at a steep angle. Tracing this direction outward to the arc, it aligns with the position at the very top of the scale.\n\nAnswer: **A**",
+      "in_tok": 505,
+      "out_tok": 3058
+    },
+    {
+      "angle": 40,
+      "trial": 2,
+      "answer": "D",
+      "response": "Looking at the diagram, the pivot dot is near the center of the half-circle's diameter, and the black line extends upward and to the right at roughly 60\u00b0 above horizontal.\n\nThe letters are evenly spaced ~10\u00b0 apart along the arc, with A at the top (90\u00b0) and S at the bottom (-90\u00b0). An angle of ~60\u00b0 corresponds to position D.\n\nD",
+      "in_tok": 505,
+      "out_tok": 949
+    },
+    {
+      "angle": 40,
+      "trial": 3,
+      "answer": "A",
+      "response": "Looking at this diagram, I need to determine the angle of the needle from the pivot point.\n\nThe pivot is at roughly the center of the half-circle, and the needle extends up and to the left. Computing the angle, the needle points to approximately 122\u00b0 (measuring from the right, counterclockwise).\n\nThe letter A sits at the top-left of the arc, at approximately 120\u00b0, which aligns most closely with where the needle is pointing.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 1579
+    },
+    {
+      "angle": 40,
+      "trial": 4,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is roughly at the center of the half-circle's diameter, and the black line extends upward and to the left. Tracing that direction outward to the labeled arc, the line points toward the top of the scale.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 1485
+    },
+    {
+      "angle": 40,
+      "trial": 5,
+      "answer": "E",
+      "response": "Looking at this diagram, I need to determine the angle of the needle relative to the pivot point.\n\n**Locating key points:**\n- Pivot dot: approximately (185, 273)\n- Needle tip: approximately (270, 165)\n- Needle direction: dx \u2248 85, dy \u2248 -108, giving an angle of about 52\u00b0 above horizontal\n\n**Mapping letter positions:**\n- A sits at roughly 100\u00b0 from the pivot (upper left)\n- S sits at roughly -106\u00b0 (lower left)\n- The 18 intervals between A\u2013S span ~206\u00b0, giving ~11.4\u00b0 per step\n\n**Calculating letter angles:**\n- D (step 3): ~66\u00b0\n- E (step 4): ~54\u00b0\n- F (step 5): ~43\u00b0\n\nThe needle's 52\u00b0 angle aligns most closely with **E**.\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 3148
+    },
+    {
+      "angle": 45,
+      "trial": 1,
+      "answer": "E",
+      "response": "Looking at the pointer, it extends from the pivot up and to the right at roughly 51\u00b0 above horizontal.\n\nThe letters span from A (top, 90\u00b0) to S (bottom, -90\u00b0) in 10\u00b0 increments along the half-circle, with J at the rightmost (0\u00b0). An angle of ~51\u00b0 corresponds to the position of E (50\u00b0).\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 833
+    },
+    {
+      "angle": 45,
+      "trial": 2,
+      "answer": "E",
+      "response": "Looking at the diagram:\n- The pivot dot is roughly at the center-left\n- The line extends up and to the right at approximately 50\u00b0 above horizontal\n- The letters A\u2013S are spaced 10\u00b0 apart around the half-circle (A at top = 90\u00b0, S at bottom = -90\u00b0)\n- At 50\u00b0: A=90\u00b0, B=80\u00b0, C=70\u00b0, D=60\u00b0, **E=50\u00b0**\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 1364
+    },
+    {
+      "angle": 45,
+      "trial": 3,
+      "answer": "E",
+      "response": "Looking at the diagram, the pointer extends from the pivot upward and to the right at roughly 50\u00b0 above horizontal. With letters A\u2013S evenly spaced around the half-circle (A at top, S at bottom, ~10\u00b0 apart), this direction aligns with the position of E.\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 1058
+    },
+    {
+      "angle": 45,
+      "trial": 4,
+      "answer": "A",
+      "response": "Looking at this carefully:\n\nThe pivot is in the center-left area, and the line extends up and slightly to the left. Estimating the angle, the line points at approximately 105\u00b0 (about 15\u00b0 left of straight up).\n\nLetter A sits at the top-left end of the arc, which corresponds to roughly that same angle from the pivot. The line aligns with the direction to A.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 3768
+    },
+    {
+      "angle": 45,
+      "trial": 5,
+      "answer": "F",
+      "response": "Looking at this carefully:\n\n- The pivot is at the center of the semicircle, with letters A (top) through S (bottom) spaced ~10\u00b0 apart along the arc.\n- A sits near the top (\u224877\u00b0 above horizontal from the pivot), and each subsequent letter steps about 10\u00b0 clockwise.\n- The black line points up and to the right at roughly 30\u00b0 above horizontal.\n\nCounting down from A: A(77\u00b0), B(67\u00b0), C(57\u00b0), D(47\u00b0), E(37\u00b0), **F(27\u00b0)**, G(17\u00b0)...\n\nThe line's angle (~30\u00b0) most closely matches F.\n\n**F**",
+      "in_tok": 505,
+      "out_tok": 3509
+    },
+    {
+      "angle": 50,
+      "trial": 1,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot is near the center, and the line extends up and to the left at a steep angle. Tracing that direction outward to the scale, it lands at the topmost-left position on the arc.\n\nAnswer: **A**",
+      "in_tok": 505,
+      "out_tok": 1655
+    },
+    {
+      "angle": 50,
+      "trial": 2,
+      "answer": "E",
+      "response": "Looking at the diagram, the half-circle has its diameter vertical (A at top, S at bottom), with letters spaced 10\u00b0 apart around the right-side arc. The pivot is at the center, and the line extends up and to the right at roughly 50\u00b0 above horizontal.\n\nMapping the positions: A=90\u00b0, B=80\u00b0, C=70\u00b0, D=60\u00b0, **E=50\u00b0**, F=40\u00b0...\n\nThe line's angle aligns most closely with E.\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 823
+    },
+    {
+      "angle": 50,
+      "trial": 3,
+      "answer": "D",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends upward and to the right. The letters span the half-circle with A at the top and S at the bottom, evenly spaced about 10\u00b0 apart.\n\nThe line makes an angle of approximately 30\u201332\u00b0 clockwise from straight up. Counting from A (0\u00b0): A=0\u00b0, B=10\u00b0, C=20\u00b0, **D=30\u00b0**, E=40\u00b0.\n\n**D**",
+      "in_tok": 505,
+      "out_tok": 1483
+    },
+    {
+      "angle": 50,
+      "trial": 4,
+      "answer": "F",
+      "response": "Looking at the diagram, the pivot is near the center-left, and the line extends up and to the right at roughly a 49\u00b0 angle above horizontal.\n\nThe letters A\u2013S are spaced about 10\u00b0 apart along the half-circle, with A near the top (~97\u00b0) and decreasing clockwise. At ~47\u00b0, the line aligns with **F**.\n\nF",
+      "in_tok": 505,
+      "out_tok": 775
+    },
+    {
+      "angle": 50,
+      "trial": 5,
+      "answer": "F",
+      "response": "Looking at the diagram, the pivot dot sits roughly center-left, and the black line extends upward and to the right at roughly 50\u201355\u00b0 above horizontal.\n\nTracing along the scale: A is near the top-left (~105\u00b0), and each subsequent letter steps about 10\u00b0 clockwise. That places F at approximately 55\u00b0, which matches the line's direction.\n\n**F**",
+      "in_tok": 505,
+      "out_tok": 1014
+    },
+    {
+      "angle": 55,
+      "trial": 1,
+      "answer": "E",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends upward and to the right at approximately 53\u00b0 above horizontal.\n\nThe letters span 180\u00b0 around the arc (A at top, S at bottom), so each letter is ~10\u00b0 apart, with A at 90\u00b0, B at 80\u00b0, C at 70\u00b0, D at 60\u00b0, E at 50\u00b0, etc.\n\nThe line's angle (~53\u00b0) most closely matches the position of **E**.",
+      "in_tok": 505,
+      "out_tok": 979
+    },
+    {
+      "angle": 55,
+      "trial": 2,
+      "answer": "D",
+      "response": "Looking at this diagram, the half-circle arc has its center at the pivot dot, with A at the top (90\u00b0) descending clockwise through the right side to S at the bottom (-90\u00b0), giving about 10\u00b0 per letter.\n\nThe black line extends from the pivot upward and slightly to the right, at roughly 60\u00b0 from horizontal, which aligns with the position of **D**.\n\nD",
+      "in_tok": 505,
+      "out_tok": 1495
+    },
+    {
+      "angle": 55,
+      "trial": 3,
+      "answer": "E",
+      "response": "Looking at this diagram:\n- The pivot is on the left, with letters A\u2013S arranged along a half-circle (180\u00b0), giving 10\u00b0 between adjacent letters.\n- A sits at the top (\u224890\u00b0) and S at the bottom (\u2248\u221290\u00b0), proceeding clockwise.\n- The black line points up and to the right at roughly 45\u00b0 above horizontal.\n\nMapping angles: A=90\u00b0, B=80\u00b0, C=70\u00b0, D=60\u00b0, **E=50\u00b0**, F=40\u00b0...\n\n45\u00b0 is closest to E (50\u00b0).\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 1855
+    },
+    {
+      "angle": 55,
+      "trial": 4,
+      "answer": "E",
+      "response": "Looking at this diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is at the center of the semicircle's diameter (which runs vertically along the left side, from A at top to S at bottom). The letters are spaced 10\u00b0 apart, with A at 90\u00b0 (top), J at 0\u00b0 (right), and S at -90\u00b0 (bottom).\n\nThe black line extends from the pivot upward and to the right at roughly 50\u00b0 above horizontal. Counting from A: A=90\u00b0, B=80\u00b0, C=70\u00b0, D=60\u00b0, E=50\u00b0...\n\nThe line points at **E**",
+      "in_tok": 505,
+      "out_tok": 2170
+    },
+    {
+      "angle": 55,
+      "trial": 5,
+      "answer": "F",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends up and to the right at approximately 38\u00b0 above horizontal.\n\nThe letters A\u2013S are spaced around the right-facing half-circle. Tracing from A at the top, going clockwise (B, C, D, E, F...), the line's angle places its tip in the upper-right region of the arc, aligning with the position of F.\n\n**F**",
+      "in_tok": 505,
+      "out_tok": 1477
+    },
+    {
+      "angle": 60,
+      "trial": 1,
+      "answer": "G",
+      "response": "Looking at the diagram, the pivot is near the center-left, and the line extends up and to the right at roughly 34\u00b0 above horizontal.\n\nThe letters A\u2013S span the half-circle from top (A) clockwise to bottom (S), spaced about 10\u00b0 apart. That places:\n- A at ~90\u00b0, F at ~40\u00b0, G at ~30\u00b0, H at ~20\u00b0...\n\nThe line's angle (~34\u00b0) falls closest to G.\n\n**G**",
+      "in_tok": 505,
+      "out_tok": 847
+    },
+    {
+      "angle": 60,
+      "trial": 2,
+      "answer": "G",
+      "response": "Looking at the line, it extends upward and to the right from the pivot. Estimating the angle from horizontal at about 33\u00b0, this aligns with the position of **G**.\n\nG",
+      "in_tok": 505,
+      "out_tok": 405
+    },
+    {
+      "angle": 60,
+      "trial": 3,
+      "answer": "G",
+      "response": "Looking at the diagram, the pivot is at the center of the half-circle's diameter (the vertical left edge). The letters A\u2013S are spaced about 10\u00b0 apart along the arc, with A at the top (90\u00b0) and S at the bottom (\u221290\u00b0).\n\nThe black line extends up and to the right from the pivot at roughly 30\u00b0 above horizontal. Counting down from A in 10\u00b0 steps: A(90\u00b0), B(80\u00b0), C(70\u00b0), D(60\u00b0), E(50\u00b0), F(40\u00b0), **G(30\u00b0)**...\n\nThe line aligns with **G**.",
+      "in_tok": 505,
+      "out_tok": 1402
+    },
+    {
+      "angle": 60,
+      "trial": 4,
+      "answer": "G",
+      "response": "Looking at the diagram, the pivot is at the center-left and the line extends up and to the right. Estimating the angle of the line above horizontal at roughly 30\u00b0, and noting that the letters A\u2013S are spaced about 10\u00b0 apart starting from A at the top:\n\n- A \u2248 90\u00b0, B \u2248 80\u00b0, ..., G \u2248 30\u00b0\n\nThe line aligns with the position of **G**.",
+      "in_tok": 505,
+      "out_tok": 707
+    },
+    {
+      "angle": 60,
+      "trial": 5,
+      "answer": "G",
+      "response": "Looking at the line's direction from the pivot point, it extends upward and to the right at roughly 34\u00b0 above horizontal. Mapping the letters around the half-circle (A at top = 90\u00b0, J at right = 0\u00b0, S at bottom = -90\u00b0, with 10\u00b0 between letters), an angle of ~34\u00b0 falls closest to G (at 30\u00b0).\n\n**G**",
+      "in_tok": 505,
+      "out_tok": 749
+    },
+    {
+      "angle": 65,
+      "trial": 1,
+      "answer": "G",
+      "response": "Looking at the diagram, the pivot is at the center-left, and the line extends up and to the right at roughly 30\u00b0 above horizontal. \n\nWith A at the top (90\u00b0) and letters spaced ~10\u00b0 apart going clockwise around the semicircle:\n- G sits at approximately 30\u00b0 above horizontal\n\nThe line points at **G**",
+      "in_tok": 505,
+      "out_tok": 1013
+    },
+    {
+      "angle": 65,
+      "trial": 2,
+      "answer": "E",
+      "response": "Looking at the line's direction from the pivot, it points up and to the right at roughly a 40\u00b0 angle above horizontal. With A at the top (90\u00b0) and J at the rightmost point (0\u00b0), each letter is 10\u00b0 apart. A 40\u00b0 angle corresponds to:\n\n**E**",
+      "in_tok": 505,
+      "out_tok": 337
+    },
+    {
+      "angle": 65,
+      "trial": 3,
+      "answer": "H",
+      "response": "Looking at the line's angle from the pivot, it extends up and to the right at roughly 20\u00b0 above horizontal. With letters spaced 10\u00b0 apart starting from A at the top (90\u00b0), this points to the 8th letter.\n\n**H**",
+      "in_tok": 505,
+      "out_tok": 426
+    },
+    {
+      "angle": 65,
+      "trial": 4,
+      "answer": "F",
+      "response": "Looking at the diagram, the pivot is on the left, and the black line extends up and to the right at roughly 40\u00b0 above horizontal.\n\nThe 19 letters span ~180\u00b0 around the arc, giving about 10\u00b0 per interval. Starting from A at the top (~\u221287\u00b0 from horizontal) and stepping clockwise:\n- E \u2248 \u221246\u00b0\n- F \u2248 \u221236\u00b0\n\nThe line's angle (~\u221240\u00b0) falls closest to F.\n\n**F**",
+      "in_tok": 505,
+      "out_tok": 1214
+    },
+    {
+      "angle": 65,
+      "trial": 5,
+      "answer": "G",
+      "response": "Looking at the diagram, the half-circle places A at the top and S at the bottom, with letters spaced every 10\u00b0 along the right semicircle. The line extends from the pivot upward and to the right at an angle of roughly 30\u00b0 above horizontal, which corresponds to the position of **G**.\n\nG",
+      "in_tok": 505,
+      "out_tok": 610
+    },
+    {
+      "angle": 70,
+      "trial": 1,
+      "answer": "H",
+      "response": "The line points at approximately 20\u00b0 above horizontal, which corresponds to letter **H**.",
+      "in_tok": 505,
+      "out_tok": 593
+    },
+    {
+      "angle": 70,
+      "trial": 2,
+      "answer": "H",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot.\n\nThe pivot is at roughly the center-left, and the line extends up and to the right. The letters A-S are spaced every 10\u00b0 around the half-circle (A at top/90\u00b0, J at right/0\u00b0, S at bottom/-90\u00b0).\n\nThe line appears to extend at approximately 24\u00b0 above horizontal, which is closest to the position of H (at 20\u00b0).\n\n**H**",
+      "in_tok": 505,
+      "out_tok": 573
+    },
+    {
+      "angle": 70,
+      "trial": 3,
+      "answer": "H",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends up and to the right. The letters are spaced 10\u00b0 apart along the half-circle (19 letters over 180\u00b0), with A at the top and J at the rightmost point (0\u00b0/horizontal).\n\nThe line's angle above horizontal is roughly 17\u201320\u00b0, which corresponds to position **H** (\u224820\u00b0 above horizontal).\n\nH",
+      "in_tok": 505,
+      "out_tok": 711
+    },
+    {
+      "angle": 70,
+      "trial": 4,
+      "answer": "G",
+      "response": "Looking at the line, it emanates from the pivot pointing up and to the right at roughly 34\u00b0 above horizontal. With the letters spaced ~10\u00b0 apart along the semicircle (A at top, S at bottom), this angle aligns with the position of G.\n\n**G**",
+      "in_tok": 505,
+      "out_tok": 769
+    },
+    {
+      "angle": 70,
+      "trial": 5,
+      "answer": "G",
+      "response": "Looking at the diagram, the pivot is at the center-left, and the line extends upward and to the right. With A at the top of the arc and letters spaced about 10\u00b0 apart going clockwise, the line's angle (roughly 25\u201330\u00b0 above horizontal) points to the position of G.\n\n**G**",
+      "in_tok": 505,
+      "out_tok": 710
+    },
+    {
+      "angle": 75,
+      "trial": 1,
+      "answer": "H",
+      "response": "Looking at the line, it extends from the pivot dot toward the upper right at a shallow upward angle (roughly 15\u201320\u00b0 above horizontal). Mapping the evenly-spaced letters around the half-circle (A at top, J near horizontal-right, S at bottom), this angle aligns with the position of **H**.\n\nH",
+      "in_tok": 505,
+      "out_tok": 486
+    },
+    {
+      "angle": 75,
+      "trial": 2,
+      "answer": "H",
+      "response": "H",
+      "in_tok": 505,
+      "out_tok": 463
+    },
+    {
+      "angle": 75,
+      "trial": 3,
+      "answer": "H",
+      "response": "Looking at this diagram:\n- The pivot dot is at the center of the semicircle\n- Letters A\u2013S are evenly spaced along the right-side arc (A at top, S at bottom)\n- With 19 letters spanning 180\u00b0, each letter is ~10\u00b0 apart, so J sits at the 3 o'clock position\n- The line points upward and to the right, rising at roughly 18\u201320\u00b0 above horizontal\n\nThat angle corresponds to the position two letters above J \u2014 which is **H**.\n\nAnswer: **H**",
+      "in_tok": 505,
+      "out_tok": 2537
+    },
+    {
+      "angle": 75,
+      "trial": 4,
+      "answer": "H",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is roughly at the center-left, and the line extends to the upper-right at a shallow angle (slightly above horizontal). The letters are arranged around the arc with A at the top, J near the rightmost point (horizontal), and S at the bottom.\n\nThe line's angle is approximately 15-17\u00b0 above horizontal, which corresponds to a position roughly 7-8 letters down from A.\n\n**H**",
+      "in_tok": 505,
+      "out_tok": 1291
+    },
+    {
+      "angle": 75,
+      "trial": 5,
+      "answer": "I",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the letters span from A (top) to S (bottom) along the right semicircle, with J at the rightmost (horizontal) position.\n\nThe line points slightly above horizontal to the right \u2014 about 10\u201315\u00b0 above horizontal \u2014 which corresponds to one position above J.\n\n**I**",
+      "in_tok": 505,
+      "out_tok": 506
+    },
+    {
+      "angle": 80,
+      "trial": 1,
+      "answer": "I",
+      "response": "Looking at the diagram, the pivot is on the left and the line extends to the right, slightly above horizontal. \n\nThe letters span 180\u00b0 with ~10\u00b0 spacing. J sits directly to the right of the pivot (0\u00b0), and I is one step up (~10\u00b0 above horizontal). The line's angle matches this position.\n\n**I**",
+      "in_tok": 505,
+      "out_tok": 551
+    },
+    {
+      "angle": 80,
+      "trial": 2,
+      "answer": "I",
+      "response": "Looking at the line's angle from the pivot, it extends to the right with a slight upward tilt of roughly 10-15\u00b0 above horizontal. On the scale, A sits at the top (90\u00b0) and S at the bottom (-90\u00b0), with each letter spaced 10\u00b0 apart. This places J at 0\u00b0 (horizontal) and I at about 10\u00b0 above horizontal.\n\nThe line aligns most closely with **I**",
+      "in_tok": 505,
+      "out_tok": 549
+    },
+    {
+      "angle": 80,
+      "trial": 3,
+      "answer": "J",
+      "response": "Looking at the diagram, the half-circle has letters A (top) through S (bottom) evenly spaced, with each letter separated by ~10\u00b0. The line points to the right with a slight upward tilt of roughly 12\u201315\u00b0 above horizontal.\n\nLetter J sits at the rightmost point (\u224810\u00b0 above horizontal), and the line aligns most closely with that position.\n\n**J**",
+      "in_tok": 505,
+      "out_tok": 1121
+    },
+    {
+      "angle": 80,
+      "trial": 4,
+      "answer": "I",
+      "response": "Looking at the line from the pivot, it extends to the upper right at a slight angle above horizontal. The midpoint of the scale (J) would be directly right, and the line points a bit above that, aligning with the position of I.\n\nI",
+      "in_tok": 505,
+      "out_tok": 493
+    },
+    {
+      "angle": 80,
+      "trial": 5,
+      "answer": "I",
+      "response": "Looking at the line: it emanates from the pivot pointing to the right with a slight upward tilt (roughly 10\u00b0 above horizontal).\n\nThe letters span the semicircle with A at the top and S at the bottom, each separated by 10\u00b0. The middle position (J) corresponds to straight right (0\u00b0). One step above that (10\u00b0 up) is letter I.\n\n**I**",
+      "in_tok": 505,
+      "out_tok": 596
+    },
+    {
+      "angle": 85,
+      "trial": 1,
+      "answer": "J",
+      "response": "Looking at the diagram, the line extends horizontally to the right from the pivot. The semicircle spans from A (top) to S (bottom), so the horizontal-right direction points to the middle letter of the arc.\n\n**J**",
+      "in_tok": 505,
+      "out_tok": 424
+    },
+    {
+      "angle": 85,
+      "trial": 2,
+      "answer": "I",
+      "response": "Looking at the line, it extends from the pivot to the right with a slight upward tilt. The middle of the arc (directly right, 3 o'clock position) corresponds to J, and just above that is I.\n\nThe line appears to point slightly above horizontal, aiming at **I**",
+      "in_tok": 505,
+      "out_tok": 326
+    },
+    {
+      "angle": 85,
+      "trial": 3,
+      "answer": "J",
+      "response": "J",
+      "in_tok": 505,
+      "out_tok": 244
+    },
+    {
+      "angle": 85,
+      "trial": 4,
+      "answer": "J",
+      "response": "Looking at the diagram, the pivot is on the left side, and the line extends to the right, slightly above horizontal. Tracing along that direction to the curved scale, it aligns with the letter near the middle-right of the arc.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 409
+    },
+    {
+      "angle": 85,
+      "trial": 5,
+      "answer": "J",
+      "response": "The line extends from the pivot toward the right side of the scale, angled very slightly upward from horizontal. The rightmost (3 o'clock) position corresponds to roughly the middle of the alphabet sequence, and a slight upward tilt points just above center.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 263
+    },
+    {
+      "angle": 90,
+      "trial": 1,
+      "answer": "J",
+      "response": "The line points horizontally to the right from the pivot. Looking at the half-circle, the rightmost point (the middle of the arc) is where letter J is located.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 55
+    },
+    {
+      "angle": 90,
+      "trial": 2,
+      "answer": "J",
+      "response": "The line points horizontally to the right from the pivot. The middle of the half-circle scale (the rightmost point) corresponds to letter J.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 50
+    },
+    {
+      "angle": 90,
+      "trial": 3,
+      "answer": "J",
+      "response": "The line points horizontally to the right from the pivot, which corresponds to the middle of the half-circle scale. Counting A-S (19 letters), the middle is J.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 58
+    },
+    {
+      "angle": 90,
+      "trial": 4,
+      "answer": "J",
+      "response": "The line points horizontally to the right from the pivot. Looking at the half-circle, the letter at the rightmost (middle) position of the arc is J.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 53
+    },
+    {
+      "angle": 90,
+      "trial": 5,
+      "answer": "J",
+      "response": "The line points horizontally to the right from the pivot, which corresponds to the middle of the half-circle scale. Counting the letters A through S (19 letters), the middle letter is J.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 63
+    },
+    {
+      "angle": 95,
+      "trial": 1,
+      "answer": "K",
+      "response": "The line extends from the pivot to the right and slightly downward. Since the letters are evenly spaced every 10\u00b0 around the half-circle (A at top = 90\u00b0, J at 0\u00b0, S at bottom = -90\u00b0), a line pointing about 10\u00b0 below horizontal aligns with the position just below J.\n\n**K**",
+      "in_tok": 505,
+      "out_tok": 512
+    },
+    {
+      "angle": 95,
+      "trial": 2,
+      "answer": "J",
+      "response": "Looking at the diagram, the line extends from the pivot point to the right with a slight downward angle. The rightmost (middle) point of the half-circle is around letters J/K, and a slight downward tilt points just below center.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 222
+    },
+    {
+      "angle": 95,
+      "trial": 3,
+      "answer": "J",
+      "response": "The line extends from the pivot toward the right with a slight downward tilt (about 8\u00b0 below horizontal). Since J sits at the rightmost point of the half-circle (the horizontal axis) and K is the next letter below it, the line points just slightly past J toward K \u2014 but closest to **J**.\n\nJ",
+      "in_tok": 505,
+      "out_tok": 383
+    },
+    {
+      "angle": 95,
+      "trial": 4,
+      "answer": "K",
+      "response": "The line extends from the pivot slightly below horizontal, pointing toward the letter just below the midpoint of the arc.\n\n**K**",
+      "in_tok": 505,
+      "out_tok": 236
+    },
+    {
+      "angle": 95,
+      "trial": 5,
+      "answer": "J",
+      "response": "The line extends from the pivot horizontally to the right with a very slight downward tilt, pointing to the rightmost part of the arc, which is where J sits.\n\n**J**",
+      "in_tok": 505,
+      "out_tok": 280
+    },
+    {
+      "angle": 100,
+      "trial": 1,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 149
+    },
+    {
+      "angle": 100,
+      "trial": 2,
+      "answer": "K",
+      "response": "The line points slightly below horizontal to the right. With 19 letters evenly spaced across the 180\u00b0 arc (about 10\u00b0 apart), and J sitting at the rightmost (horizontal) position, a line angled ~12\u00b0 below horizontal points to the next letter down.\n\n**K**",
+      "in_tok": 505,
+      "out_tok": 494
+    },
+    {
+      "angle": 100,
+      "trial": 3,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 297
+    },
+    {
+      "angle": 100,
+      "trial": 4,
+      "answer": "K",
+      "response": "The line extends from the pivot to the right and slightly downward, pointing just below the horizontal midline of the arc. The midpoint letter is J, and slightly below it sits K.\n\n**K**",
+      "in_tok": 505,
+      "out_tok": 276
+    },
+    {
+      "angle": 100,
+      "trial": 5,
+      "answer": "K",
+      "response": "K",
+      "in_tok": 505,
+      "out_tok": 236
+    },
+    {
+      "angle": 105,
+      "trial": 1,
+      "answer": "L",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (150, 250)\n- The line extends to approximately (250, 290), giving a direction that is to the right and slightly downward (~22\u00b0 below horizontal)\n- The 19 letters span 180\u00b0, so each letter is ~10\u00b0 apart, with J at the 3 o'clock position (0\u00b0)\n- A position ~22\u00b0 below horizontal corresponds to L (around -20\u00b0)\n\n**L**",
+      "in_tok": 505,
+      "out_tok": 588
+    },
+    {
+      "angle": 105,
+      "trial": 2,
+      "answer": "L",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (160, 260)\n- The line extends to approximately (250, 290), giving a direction that is rightward and slightly downward\n- The angle below horizontal is about 18\u00b0\n\nThe 19 letters span 180\u00b0 (10\u00b0 apart), with J at the rightmost point (0\u00b0). Going downward: K (-10\u00b0), L (-20\u00b0), M (-30\u00b0).\n\nAn angle of -18\u00b0 is closest to L.\n\n**L**",
+      "in_tok": 505,
+      "out_tok": 1025
+    },
+    {
+      "angle": 105,
+      "trial": 3,
+      "answer": "L",
+      "response": "Looking at the pivot point (around the center-left of the half-circle) and tracing the line outward, it extends to the right and slightly downward at roughly 20-25\u00b0 below horizontal.\n\nThe letters at the rightmost edge of the arc are J (\u2248horizontal right), then K, L, M going downward. An angle of ~22\u00b0 below horizontal aligns with the position of L.\n\n**L**",
+      "in_tok": 505,
+      "out_tok": 510
+    },
+    {
+      "angle": 105,
+      "trial": 4,
+      "answer": "L",
+      "response": "Looking at the diagram, the pivot is at roughly (150, 260) and the line extends to about (250, 300), giving a direction angle of about 22\u00b0 below horizontal-right.\n\nChecking the letter positions around the arc, the letter L sits at approximately that same direction from the pivot.\n\n**L**",
+      "in_tok": 505,
+      "out_tok": 1858
+    },
+    {
+      "angle": 105,
+      "trial": 5,
+      "answer": "L",
+      "response": "Looking at the diagram:\n- The pivot dot is at approximately the center of the half-circle (left side, middle height)\n- The line extends to the lower-right, pointing slightly below horizontal\n- Letters are spaced 10\u00b0 apart, with A at top (90\u00b0), J at horizontal right (0\u00b0), and S at bottom (-90\u00b0)\n- The line's angle is roughly 20\u00b0 below horizontal\n\nThis direction matches the position of **L**.",
+      "in_tok": 505,
+      "out_tok": 647
+    },
+    {
+      "angle": 110,
+      "trial": 1,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is at roughly the center-left of the half-circle, and the line extends down and to the right at approximately 25\u201328\u00b0 below horizontal. With 19 letters spaced 10\u00b0 apart (A at top = 90\u00b0, S at bottom = -90\u00b0), this angle corresponds to position ~11\u201312 from A.\n\nAnswer: **M**",
+      "in_tok": 505,
+      "out_tok": 1259
+    },
+    {
+      "angle": 110,
+      "trial": 2,
+      "answer": "M",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (150, 260)\n- The line extends to about (245, 310), giving a direction about 28\u00b0 below horizontal (to the lower right)\n- The letters are spaced ~10\u00b0 apart, with J near horizontal-right (0\u00b0)\n- Counting down from J: K (~\u221210\u00b0), L (~\u221220\u00b0), M (~\u221230\u00b0)\n\nThe line's angle of ~\u221228\u00b0 aligns most closely with M.\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 977
+    },
+    {
+      "angle": 110,
+      "trial": 3,
+      "answer": "M",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is at roughly the center-left, and the line extends down and to the right. Letters are spaced 10\u00b0 apart, with J at the rightmost point (0\u00b0), and letters going clockwise: K(-10\u00b0), L(-20\u00b0), M(-30\u00b0), etc.\n\nEstimating the line's angle below horizontal: the line drops about half as much as it extends rightward, giving an angle of approximately -27\u00b0 to -28\u00b0.\n\nThis is closest to M (at -30\u00b0).\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 1152
+    },
+    {
+      "angle": 110,
+      "trial": 4,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends down and to the right at about 28\u00b0 below horizontal.\n\nSince A is at the top (90\u00b0) and the 19 letters are spaced 10\u00b0 apart along the half-circle, an angle of about -28\u00b0 corresponds to position ~13, which is **M**.\n\nM",
+      "in_tok": 505,
+      "out_tok": 589
+    },
+    {
+      "angle": 110,
+      "trial": 5,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is on the left, and the half-circle of letters spans from A (top) to S (bottom) along the right side, with each letter separated by 10\u00b0 (180\u00b0/18 intervals).\n\nThe line points down-right from the pivot at roughly 30\u00b0 below horizontal. Since J sits at the rightmost point (0\u00b0) and S at the bottom (-90\u00b0), an angle of about -30\u00b0 corresponds to the letter three positions past J.\n\nCounting J, K, L, M \u2014 the line points at **M**.",
+      "in_tok": 505,
+      "out_tok": 574
+    },
+    {
+      "angle": 115,
+      "trial": 1,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot dot is roughly at the center, and the line extends down and to the right at about 28-30\u00b0 below horizontal.\n\nThe 19 letters span 180\u00b0 evenly (10\u00b0 apart), with A at the top (+90\u00b0), J near the rightmost point (0\u00b0), and S at the bottom (-90\u00b0). An angle of about -30\u00b0 from horizontal corresponds to the 13th letter from A.\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 1009
+    },
+    {
+      "angle": 115,
+      "trial": 2,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is at approximately the center-left, and the line extends down and to the right. \n\nThe letters are evenly distributed around a half-circle with J at the rightmost point (directly horizontal from the pivot). Each letter is spaced about 10\u00b0 apart, with letters K, L, M, etc., progressing downward from J.\n\nThe line's angle is roughly 29\u00b0 below horizontal, which corresponds to about 3 steps below J \u2014 landing on **M**.",
+      "in_tok": 505,
+      "out_tok": 827
+    },
+    {
+      "angle": 115,
+      "trial": 3,
+      "answer": "M",
+      "response": "Looking at this diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot dot is roughly at the center of the half-circle (~170, 250), and the line extends down and to the right, ending around (250, 300). This gives an angle of about 30\u00b0 below horizontal.\n\nMapping the letter positions: with 19 letters evenly spaced across 180\u00b0, each letter occupies 10\u00b0. Starting from A at the top (90\u00b0) going clockwise:\n- J sits at 0\u00b0 (directly right)\n- Each subsequent letter is 10\u00b0 lower\n- At ~30\u00b0 below horizontal: K (-10\u00b0), L (-20\u00b0), **M (-30\u00b0)**\n\nThe line points at **M**",
+      "in_tok": 505,
+      "out_tok": 1840
+    },
+    {
+      "angle": 115,
+      "trial": 4,
+      "answer": "M",
+      "response": "Looking at this diagram:\n\n- The pivot is at roughly the center-left of the half-circle\n- The 19 letters (A\u2013S) are evenly spaced over 180\u00b0, so each letter occupies 10\u00b0\n- A sits at the top (90\u00b0) and S at the bottom (\u221290\u00b0), making J the rightmost point (0\u00b0)\n- The line extends from the pivot down and to the right at roughly 25\u00b0 below horizontal\n\nThat angle (\u2248 \u221225\u00b0) falls between L (\u221220\u00b0) and M (\u221230\u00b0), but is closer to M.\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 1557
+    },
+    {
+      "angle": 115,
+      "trial": 5,
+      "answer": "L",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point and match it to the corresponding letter on the arc.\n\nThe pivot dot is roughly at the center-left, and the line extends down and to the right at roughly a 30\u00b0 angle below horizontal.\n\nTracing this direction to the arc, it lands on the position labeled **L**.\n\nL",
+      "in_tok": 505,
+      "out_tok": 1693
+    },
+    {
+      "angle": 120,
+      "trial": 1,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot dot is at the center of the flat side of the half-circle. The line extends down and to the right from the pivot.\n\nLetters are spaced 10\u00b0 apart along the 180\u00b0 arc, with A at the top (90\u00b0), J at the right (0\u00b0), and S at the bottom (\u221290\u00b0).\n\nThe line's direction (down-right, roughly 25\u201330\u00b0 below horizontal) aligns with the position of **M**.\n\nAnswer: **M**",
+      "in_tok": 505,
+      "out_tok": 732
+    },
+    {
+      "angle": 120,
+      "trial": 2,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot dot is roughly at the center of the half-circle arc, and the line extends down-and-to-the-right.\n\nMeasuring the line's angle: it goes about 30\u00b0 below horizontal (east).\n\nSince A is at the top and S at the bottom of the right-side semicircle, the 19 letters span 180\u00b0 at 10\u00b0 per letter. Letter J sits at the horizontal (east) midpoint, so a direction ~30\u00b0 below horizontal points 3 positions past J \u2192 **M**.\n\nAnswer: M",
+      "in_tok": 505,
+      "out_tok": 2472
+    },
+    {
+      "angle": 120,
+      "trial": 3,
+      "answer": "L",
+      "response": "Looking at the diagram:\n- The pivot dot is at roughly the center-left of the half-circle\n- The line extends down and to the right\n- The horizontal direction (3 o'clock) points to letter J\n- Each letter step represents about 10\u00b0 around the arc\n\nThe line appears to point about 20\u201325\u00b0 below horizontal, which places it at the position of **L**.",
+      "in_tok": 505,
+      "out_tok": 1157
+    },
+    {
+      "angle": 120,
+      "trial": 4,
+      "answer": "L",
+      "response": "Looking at the diagram, the pivot is at the center of the half-circle, with letters A (top) through S (bottom) spaced every 10\u00b0 around the arc. The line extends from the pivot toward the lower-right at roughly 24\u00b0 below horizontal.\n\nLetter J sits at 0\u00b0 (directly right), and each subsequent letter is 10\u00b0 lower. At about -24\u00b0, the line points closest to **L**.",
+      "in_tok": 505,
+      "out_tok": 692
+    },
+    {
+      "angle": 120,
+      "trial": 5,
+      "answer": "M",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (175, 280)\n- The line endpoint is at roughly (270, 330), going down and to the right\n- The direction is about 28\u00b0 below horizontal\n\nThe letters span 180\u00b0 from A (top) to S (bottom), so each letter is ~10\u00b0 apart, with J at the rightmost point (0\u00b0). A line angled ~28\u00b0 below horizontal lands closest to M (about -30\u00b0).\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 675
+    },
+    {
+      "angle": 125,
+      "trial": 1,
+      "answer": "L",
+      "response": "Looking at the diagram, the pivot is near the center-left, and the line extends down and to the right at roughly 30\u00b0 below horizontal.\n\nThe letters span from A (top-left) around the right side to S (bottom-left), with each letter separated by about 12.5\u00b0. Tracing along the arc, a line pointing down-right at ~30\u00b0 below horizontal aligns with the letter on the right side, just past the midpoint going downward.\n\n**L**",
+      "in_tok": 505,
+      "out_tok": 1249
+    },
+    {
+      "angle": 125,
+      "trial": 2,
+      "answer": "M",
+      "response": "Looking at this diagram:\n\n- The pivot dot is at the center, with letters A\u2013S evenly spaced 10\u00b0 apart around the half-circle (A at top, J at the rightmost point at 0\u00b0, S at bottom).\n- The black line extends from the pivot down and to the right.\n- Estimating the line's angle: it goes roughly 100 pixels right and 60 pixels down from the pivot, giving an angle of about \u221232\u00b0 below horizontal.\n- Mapping to letters: K = \u221210\u00b0, L = \u221220\u00b0, **M = \u221230\u00b0**, N = \u221240\u00b0.\n\nThe line points closest to **M**.\n\nAnswer: M",
+      "in_tok": 505,
+      "out_tok": 3787
+    },
+    {
+      "angle": 125,
+      "trial": 3,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends down and to the right at about 34\u00b0 below horizontal.\n\nWith 19 letters evenly spaced over 180\u00b0 (10\u00b0 apart), J sits at the rightmost point (0\u00b0), and each letter below it decreases by 10\u00b0: K=-10\u00b0, L=-20\u00b0, M=-30\u00b0, N=-40\u00b0. The line's angle (~-34\u00b0) is closest to M.\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 599
+    },
+    {
+      "angle": 125,
+      "trial": 4,
+      "answer": "L",
+      "response": "Looking at the diagram, the pivot is at roughly the center-left, and the line extends down and to the right at about a 37\u00b0 angle below horizontal.\n\nThe letters span the arc from A (near the top) clockwise to S (lower left), with 19 letters spaced about 12\u00b0 apart. Tracing from A clockwise, the line's angle aligns most closely with the 12th position.\n\n**L**",
+      "in_tok": 505,
+      "out_tok": 980
+    },
+    {
+      "angle": 125,
+      "trial": 5,
+      "answer": "M",
+      "response": "The line points at **M**",
+      "in_tok": 505,
+      "out_tok": 547
+    },
+    {
+      "angle": 130,
+      "trial": 1,
+      "answer": "O",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot dot is at approximately the center-left of the half-circle. The line extends down and to the right, ending at roughly a 50\u00b0 angle below horizontal.\n\nWith 19 letters spread evenly across 180\u00b0 (10\u00b0 apart), where J sits at the rightmost point (0\u00b0), A at the top (+90\u00b0), and S at the bottom (-90\u00b0):\n- N would be at -40\u00b0\n- O would be at -50\u00b0\n- P would be at -60\u00b0\n\nThe line's angle (~-50\u00b0 below horizontal) points directly at **O**.\n\nAnswer: O",
+      "in_tok": 505,
+      "out_tok": 1250
+    },
+    {
+      "angle": 130,
+      "trial": 2,
+      "answer": "N",
+      "response": "Looking at this diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is at approximately (170, 270), and the line extends down and to the right toward roughly (240, 340), giving an angle of about -45\u00b0 from horizontal (45\u00b0 below horizontal toward the right).\n\nThe 19 letters (A\u2013S) span 180\u00b0 evenly, so each letter is 10\u00b0 apart, with J at 0\u00b0 (rightmost), A at +90\u00b0 (top), and S at -90\u00b0 (bottom). At about -40\u00b0 below horizontal, this corresponds to the position of N (the 14th letter, k=13).\n\n**N**",
+      "in_tok": 505,
+      "out_tok": 2926
+    },
+    {
+      "angle": 130,
+      "trial": 3,
+      "answer": "N",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is at roughly the center-left, and the line extends down and to the right. The 19 letters (A\u2013S) span 180\u00b0, so each letter is 10\u00b0 apart, with J at the rightmost (0\u00b0/horizontal), A at the top (+90\u00b0), and S at the bottom (\u221290\u00b0).\n\nThe line's slope shows it pointing roughly 43\u00b0 below horizontal, which corresponds to a position between N (\u221240\u00b0) and O (\u221250\u00b0), closer to N.\n\n**N**",
+      "in_tok": 505,
+      "out_tok": 666
+    },
+    {
+      "angle": 130,
+      "trial": 4,
+      "answer": "N",
+      "response": "Looking at this diagram, I need to determine the angle of the line from the pivot.\n\n**Pivot location:** approximately (155, 258)\n**Line endpoint:** approximately (240, 340)\n**Line direction:** \u0394x = 85, \u0394y = 82 \u2192 pointing down-right at about 45\u00b0 below horizontal\n\n**Mapping letters to angles from pivot:**\nThe 19 letters (A\u2013S) are evenly spaced around the arc. Using J as the rightmost point (\u22480\u00b0) and noting the arc spans roughly 200\u00b0, each letter is separated by ~11\u00b0.\n\n- J: ~0\u00b0\n- K: ~\u221211\u00b0\n- L: ~\u221222\u00b0\n- M: ~\u221233\u00b0\n- **N: ~\u221244\u00b0** \u2713\n- O: ~\u221255\u00b0\n\nThe line at \u221244\u00b0 aligns with **N**.\n\n**Answer: N**",
+      "in_tok": 505,
+      "out_tok": 6442
+    },
+    {
+      "angle": 130,
+      "trial": 5,
+      "answer": "N",
+      "response": "Looking at this diagram, I need to determine the angle of the black line from the pivot point.\n\n**Setting up the geometry:**\n- The pivot dot is at approximately (160, 268)\n- The arc spans from A (top, ~-93\u00b0) to S (bottom, ~101\u00b0), covering about 194\u00b0\n- With 19 letters (18 intervals), each step is ~10.8\u00b0\n\n**Measuring the line:**\n- The line extends from the pivot down and to the right\n- Its endpoint is roughly at (235, 340), giving \u0394x \u2248 75, \u0394y \u2248 72\n- Angle \u2248 atan2(72, 75) \u2248 44\u00b0 below horizontal\n\n**Matching to a letter:**\nCounting from A (at -93\u00b0): each letter adds ~10.8\u00b0\n- M \u2248 36.6\u00b0\n- N \u2248 47.4\u00b0\n- O \u2248 58.2\u00b0\n\nThe line's angle of ~44\u00b0 is closest to **N**.\n\nAnswer: **N**",
+      "in_tok": 505,
+      "out_tok": 2598
+    },
+    {
+      "angle": 135,
+      "trial": 1,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is at roughly the center, and the line extends down and to the right at about a 30-35\u00b0 angle below horizontal.\n\nThe 19 letters are evenly spaced 10\u00b0 apart along the semicircle (A at top = -90\u00b0, J at the rightmost = 0\u00b0, S at bottom = +90\u00b0). An angle of ~32\u00b0 corresponds to M (at 30\u00b0).\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 825
+    },
+    {
+      "angle": 135,
+      "trial": 2,
+      "answer": "N",
+      "response": "Looking at the diagram, the pivot is at roughly (185, 250), and the line extends down and to the right to about (285, 320), giving a direction roughly 35\u00b0 below horizontal.\n\nProjecting that ray outward to the curve (radius ~240), it intersects the scale at a y-coordinate near 388, which aligns with the tick mark for **N**.\n\nN",
+      "in_tok": 505,
+      "out_tok": 1317
+    },
+    {
+      "angle": 135,
+      "trial": 3,
+      "answer": "L",
+      "response": "Looking at this diagram:\n\nThe pivot is in the middle-left area, and the line extends toward the lower-right. Estimating the line's direction, it travels roughly 110 pixels right and 70 pixels down from the pivot \u2014 an angle of about 32\u00b0 below horizontal.\n\nChecking the letter positions on the arc (measured as angles from the pivot):\n- J \u2248 0\u00b0 (directly right)\n- K \u2248 ~14\u00b0 below horizontal\n- **L \u2248 ~30\u00b0 below horizontal**\n- M \u2248 ~45\u00b0 below horizontal\n\nThe line's angle (~32\u00b0) most closely matches the position of **L**.\n\nAnswer: **L**",
+      "in_tok": 505,
+      "out_tok": 2428
+    },
+    {
+      "angle": 135,
+      "trial": 4,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is in the center-left, and the line extends down and to the right. \n\nThe arc spans 180\u00b0 with 19 letters at 10\u00b0 intervals (A at top, J at the rightmost point, S at bottom). The line points down-right at roughly 33\u00b0 below horizontal, which corresponds to about 3 positions below J.\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 741
+    },
+    {
+      "angle": 135,
+      "trial": 5,
+      "answer": "L",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends down and to the right at roughly 32\u00b0 below horizontal. Comparing this direction to the letter positions on the arc:\n\n- J is directly right of pivot (~0\u00b0)\n- K is ~15\u00b0 below horizontal\n- L is ~33\u00b0 below horizontal \u2713\n- M is ~50\u00b0 below horizontal\n\nThe line points at **L**",
+      "in_tok": 505,
+      "out_tok": 735
+    },
+    {
+      "angle": 140,
+      "trial": 1,
+      "answer": "N",
+      "response": "Looking at the diagram, the pivot is on the left side of the half-circle, and the line extends down and to the right.\n\nThe 19 letters span 180\u00b0 evenly (10\u00b0 apart), with A at the top (90\u00b0), J at the middle-right (0\u00b0), and S at the bottom (-90\u00b0).\n\nThe line goes from the pivot at roughly a 40\u00b0 angle below horizontal, which corresponds to the 14th letter from A.\n\n**N**",
+      "in_tok": 505,
+      "out_tok": 750
+    },
+    {
+      "angle": 140,
+      "trial": 2,
+      "answer": "O",
+      "response": "Looking at the line's direction from the pivot, it extends downward and to the right at roughly a 45\u00b0 angle below horizontal.\n\nThe letters span 180\u00b0 from A (top) to S (bottom), with J at the rightmost point (0\u00b0). Counting down from J at 10\u00b0 intervals: K(-10\u00b0), L(-20\u00b0), M(-30\u00b0), N(-40\u00b0), O(-50\u00b0)...\n\nA line at about -45\u00b0 points closest to **O**.",
+      "in_tok": 505,
+      "out_tok": 632
+    },
+    {
+      "angle": 140,
+      "trial": 3,
+      "answer": "N",
+      "response": "Looking at the diagram, the pivot is at roughly the center-left, and the line extends down and to the right at about 42\u00b0 below horizontal.\n\nThe letters are spaced 10\u00b0 apart along the half-circle (A at top = 90\u00b0, J at right = 0\u00b0, S at bottom = \u221290\u00b0). An angle of about \u221242\u00b0 corresponds to the position of letter N.\n\n**N**",
+      "in_tok": 505,
+      "out_tok": 645
+    },
+    {
+      "angle": 140,
+      "trial": 4,
+      "answer": "O",
+      "response": "O",
+      "in_tok": 505,
+      "out_tok": 518
+    },
+    {
+      "angle": 140,
+      "trial": 5,
+      "answer": "M",
+      "response": "Looking at the diagram, the pivot is at roughly (190, 260) and the line extends down and to the right, ending around (290, 350). This gives a direction angle of about -42\u00b0 (about 42\u00b0 below horizontal, to the right).\n\nThe letters span ~180\u00b0 around the arc, with A at the top (~92\u00b0) and S at the bottom-left (~254\u00b0 clockwise), meaning each letter is ~11\u00b0 apart.\n\nFrom A, stepping clockwise: 92\u00b0 \u2212 k\u00b711\u00b0 = \u221242\u00b0 gives k \u2248 12, which corresponds to the 13th letter.\n\n**M**",
+      "in_tok": 505,
+      "out_tok": 990
+    },
+    {
+      "angle": 145,
+      "trial": 1,
+      "answer": "O",
+      "response": "Looking at the line from the pivot point, it extends down and to the right at approximately 47\u00b0 below horizontal.\n\nWith 19 letters evenly spaced over 180\u00b0 (10\u00b0 apart), where A is at the top (90\u00b0) and S at the bottom (-90\u00b0), an angle of about -47\u00b0 corresponds to position 15.\n\n**O**",
+      "in_tok": 505,
+      "out_tok": 597
+    },
+    {
+      "angle": 145,
+      "trial": 2,
+      "answer": "N",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (180, 270)\n- The line extends to approximately (290, 370), giving a direction of dx\u2248110, dy\u2248100 (down and to the right)\n- Letters A\u2013S span the half-circle from top (A) to bottom (S), spaced 10\u00b0 apart (180\u00b0/18 intervals)\n\nComputing the line's angle clockwise from the top (up direction):\n- atan2(110, 100) measured from down \u2248 47.7\u00b0\n- From up, clockwise: 180\u00b0 \u2212 47.7\u00b0 \u2248 132\u00b0\n\nDividing by 10\u00b0 per letter: 132/10 \u2248 13.2, which corresponds to index 13 (A=0, B=1, \u2026 N=13).\n\nAnswer: **N**",
+      "in_tok": 505,
+      "out_tok": 1648
+    },
+    {
+      "angle": 145,
+      "trial": 3,
+      "answer": "N",
+      "response": "Looking at the diagram, the pivot dot is at roughly the center of the semicircle. The line extends down and to the right, making an angle of about 40\u00b0 below horizontal.\n\nLetters are spaced 10\u00b0 apart, with A at the top (+90\u00b0) and S at the bottom (\u221290\u00b0). An angle of about \u221240\u00b0 corresponds to position 14 in the sequence, which is **N**.\n\nN",
+      "in_tok": 505,
+      "out_tok": 1612
+    },
+    {
+      "angle": 145,
+      "trial": 4,
+      "answer": "O",
+      "response": "Looking at this diagram:\n- The pivot is at approximately (160, 260)\n- The line extends to approximately (252, 352)\n- This gives a direction of about 46\u00b0 below horizontal (down-right)\n\nThe letters A\u2013S are spaced every 10\u00b0 across the 180\u00b0 arc, with A at the top (\u201390\u00b0) and S at the bottom (+90\u00b0). So:\n- J sits at 0\u00b0 (directly right of pivot)\n- N is at +40\u00b0\n- O is at +50\u00b0\n\nThe line at ~46\u00b0 points between N and O, but slightly closer to O.\n\nAnswer: **O**",
+      "in_tok": 505,
+      "out_tok": 3320
+    },
+    {
+      "angle": 145,
+      "trial": 5,
+      "answer": "N",
+      "response": "Looking at the diagram:\n- The pivot is at roughly (180, 260)\n- The line extends to approximately (290, 360), giving dx \u2248 +110, dy \u2248 +100 (down-right)\n- This is about 42\u00b0 below horizontal\n\nThe 19 letters (A\u2013S) span 180\u00b0 on the arc, so each letter is spaced 10\u00b0 apart. J sits at the rightmost point (0\u00b0), and counting downward at 10\u00b0 per letter: K (-10\u00b0), L (-20\u00b0), M (-30\u00b0), N (-40\u00b0), O (-50\u00b0)...\n\nA 42\u00b0 angle below horizontal lands closest to **N**.\n\nAnswer: **N**",
+      "in_tok": 505,
+      "out_tok": 916
+    },
+    {
+      "angle": 150,
+      "trial": 1,
+      "answer": "N",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe pivot is roughly at the center of the semicircle (around the middle-left area), and the line extends down and to the right at roughly a 53\u00b0 angle below horizontal.\n\nThe letters A\u2013S span about 197\u00b0 around the arc (with ~11\u00b0 between each), starting from A near the top and going clockwise to S at the lower-left. Counting positions from A:\n- M sits at roughly 44\u00b0 below horizontal\n- N sits at roughly 55\u00b0 below horizontal\n\nThe line's angle (~53\u00b0) aligns most closely with N.\n\n**N**",
+      "in_tok": 505,
+      "out_tok": 1830
+    },
+    {
+      "angle": 150,
+      "trial": 2,
+      "answer": "O",
+      "response": "**O**",
+      "in_tok": 505,
+      "out_tok": 698
+    },
+    {
+      "angle": 150,
+      "trial": 3,
+      "answer": "O",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends down and to the right at about 54\u00b0 below horizontal.\n\nThe letters span 180\u00b0 from A (top, 90\u00b0) to S (bottom, \u221290\u00b0), spaced every 10\u00b0. An angle of about \u221254\u00b0 corresponds to position 14 from A, which is letter **O**.\n\nO",
+      "in_tok": 505,
+      "out_tok": 800
+    },
+    {
+      "angle": 150,
+      "trial": 4,
+      "answer": "O",
+      "response": "Looking at the diagram:\n- The pivot is roughly at (150, 250)\n- The line extends down and to the right, ending near (220, 340)\n- This gives a direction roughly 53\u00b0 below horizontal (to the right)\n\nThe letters A\u2013S span the half-circle with A at top (90\u00b0), J at the rightmost point (0\u00b0), and S at the bottom (\u221290\u00b0), with 10\u00b0 between each letter.\n\nAn angle of about \u221253\u00b0 corresponds to roughly 14 steps from A, which lands on **O**.\n\nAnswer: **O**",
+      "in_tok": 505,
+      "out_tok": 853
+    },
+    {
+      "angle": 150,
+      "trial": 5,
+      "answer": "O",
+      "response": "The line points to **O**",
+      "in_tok": 505,
+      "out_tok": 359
+    },
+    {
+      "angle": 155,
+      "trial": 1,
+      "answer": "N",
+      "response": "Looking at the diagram:\n- The pivot is at approximately (190, 245)\n- The line extends to approximately (270, 355)\n- This gives a direction vector of (80, 110), or about 54\u00b0 below horizontal (down-and-to-the-right)\n\nMapping the letter positions: A sits in the upper-left, J is at the rightmost point (directly right of pivot), and S is in the lower-left. With 19 letters spanning the arc, each step is about 12.7\u00b0.\n\nCounting from J (0\u00b0) downward:\n- K \u2248 13\u00b0\n- L \u2248 25\u00b0\n- M \u2248 38\u00b0\n- **N \u2248 51\u00b0** \u2190 closest to 54\u00b0\n- O \u2248 63\u00b0\n\n**N**",
+      "in_tok": 505,
+      "out_tok": 1457
+    },
+    {
+      "angle": 155,
+      "trial": 2,
+      "answer": "O",
+      "response": "Looking at the diagram, the pivot dot is near the center-left, and the line extends downward and to the right toward the curve.\n\nEstimating the pivot at roughly (170, 250) and the line tip near (250, 350), the line points at an angle of about 50\u00b0 below horizontal.\n\nThe letters are evenly spaced across the semicircle (180\u00b0 / 18 intervals = 10\u00b0 per letter), with J at the rightmost point (0\u00b0), and letters below J going downward at 10\u00b0 increments:\n- K: -10\u00b0, L: -20\u00b0, M: -30\u00b0, N: -40\u00b0, **O: -50\u00b0**, P: -60\u00b0...\n\nThe line's angle (~ -50\u00b0) aligns with O.\n\n**O**",
+      "in_tok": 505,
+      "out_tok": 1464
+    },
+    {
+      "angle": 155,
+      "trial": 3,
+      "answer": "O",
+      "response": "Looking at the diagram, I need to find the angle of the line from the pivot point.\n\nThe pivot is on the left side, and the line extends down and to the right. Estimating the line's tip position relative to the pivot, the line goes roughly 80 units right and 105 units down, giving an angle of about 52\u00b0 below horizontal.\n\nSince the 19 letters (A\u2013S) are evenly spaced across 180\u00b0, each letter is ~10\u00b0 apart, with J at the rightmost (0\u00b0), A at top (+90\u00b0), and S at bottom (\u221290\u00b0).\n\nAt about \u221252\u00b0, the line points closest to **O** (which sits at \u221250\u00b0).\n\nAnswer: O",
+      "in_tok": 505,
+      "out_tok": 1084
+    },
+    {
+      "angle": 155,
+      "trial": 4,
+      "answer": "O",
+      "response": "The line points downward and to the right from the pivot, at roughly 51\u00b0 below horizontal. Mapping the 19 evenly-spaced letters from +90\u00b0 (A, top) to \u221290\u00b0 (S, bottom) in 10\u00b0 steps, \u221250\u00b0 corresponds to **O**.",
+      "in_tok": 505,
+      "out_tok": 471
+    },
+    {
+      "angle": 155,
+      "trial": 5,
+      "answer": "O",
+      "response": "Looking at the diagram, the pivot is on the left side, and the line extends down and to the right at roughly a 53\u00b0 angle below horizontal. Tracing this direction to the half-circle scale, it lands between M and P, closest to the position of **O**.\n\nO",
+      "in_tok": 505,
+      "out_tok": 1014
+    },
+    {
+      "angle": 160,
+      "trial": 1,
+      "answer": "P",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\n**Setting up the scale:**\n- The pivot is at roughly (190, 260)\n- 19 letters (A\u2013S) span 180\u00b0 on the right semicircle\n- That's 10\u00b0 per letter\n- A is at the top (12 o'clock), J is at the rightmost point (3 o'clock), S is at the bottom (6 o'clock)\n\n**Analyzing the line:**\n- The line endpoint is roughly at (260, 370)\n- Displacement: dx \u2248 +70, dy \u2248 +110 (down-right)\n- Angle below horizontal: arctan(110/70) \u2248 57.5\u00b0\n\n**Matching to a letter:**\nCounting downward from J (horizontal right):\n- J = 0\u00b0, K = 10\u00b0, L = 20\u00b0, M = 30\u00b0, N = 40\u00b0, O = 50\u00b0, **P = 60\u00b0**, Q = 70\u00b0...\n\n57.5\u00b0 is closest to P (60\u00b0).\n\n**Answer: P**",
+      "in_tok": 505,
+      "out_tok": 1902
+    },
+    {
+      "angle": 160,
+      "trial": 2,
+      "answer": "N",
+      "response": "Looking at this diagram:\n- The arc spans 180\u00b0 with 19 evenly-spaced letters (A at top through S at bottom), so each letter is ~10\u00b0 apart\n- A is at +90\u00b0 (top), J is at 0\u00b0 (right), S is at -90\u00b0 (bottom)\n- The line from the pivot extends down and to the right at roughly 50\u00b0 below horizontal\n- Tracing the ray to the arc, it intersects at approximately -40\u00b0 to -45\u00b0 from the arc's center\n\nThis corresponds to the position of **N**\n\nAnswer: N",
+      "in_tok": 505,
+      "out_tok": 3319
+    },
+    {
+      "angle": 160,
+      "trial": 3,
+      "answer": "P",
+      "response": "Looking at the line from the pivot, it extends down and to the right at roughly 60\u00b0 below horizontal. Mapping that against the evenly-spaced letters (A at top = 90\u00b0, each subsequent letter 10\u00b0 clockwise), this points to the position around -60\u00b0.\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 504
+    },
+    {
+      "angle": 160,
+      "trial": 4,
+      "answer": "P",
+      "response": "Looking at this diagram, I need to determine where the line points by analyzing its angle from the pivot.\n\n**Setting up the geometry:**\n- The pivot dot is at approximately (187, 258)\n- The line extends down and to the right, ending around (258, 370)\n- This gives a direction vector of roughly (71, 112)\n\n**Calculating the angle:**\n- Slope \u2248 112/71 \u2248 1.58\n- Angle below horizontal \u2248 57-58\u00b0\n\n**Mapping to letters:**\n- The 19 letters (A\u2013S) span 180\u00b0 at 10\u00b0 intervals\n- J sits at the rightmost point (0\u00b0 from horizontal)\n- Each letter past J adds 10\u00b0 downward\n- 57.6\u00b0 below horizontal \u2192 about 5.76 letters past J\n- That places the line between O (50\u00b0) and P (60\u00b0), closer to P\n\n**Answer: P**",
+      "in_tok": 505,
+      "out_tok": 7670
+    },
+    {
+      "angle": 160,
+      "trial": 5,
+      "answer": "P",
+      "response": "Looking at the diagram:\n- The pivot is at approximately (190, 258)\n- The line extends down and to the right, ending near (250, 370)\n- This gives a direction roughly 61\u00b0 below horizontal\n\nMapping the letters around the semicircle (with J at the rightmost/horizontal point at 0\u00b0, each letter ~10.5\u00b0 apart):\n- K \u2248 -10.5\u00b0, L \u2248 -21\u00b0, M \u2248 -31.5\u00b0, N \u2248 -42\u00b0, O \u2248 -52.5\u00b0, **P \u2248 -63\u00b0**, Q \u2248 -73.5\u00b0\n\nThe line's angle (~-61\u00b0) most closely matches P.\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 1446
+    },
+    {
+      "angle": 165,
+      "trial": 1,
+      "answer": "P",
+      "response": "Looking at the diagram, the pivot is on the left side near the center of the half-circle. The line extends down and to the right.\n\nThe letters A\u2013S span 180\u00b0 (top to bottom), so each letter is ~10\u00b0 apart. The line's direction from the pivot is roughly 60\u00b0 below horizontal (toward the lower-right portion of the arc).\n\nCounting around from the top: A (top) \u2192 ... \u2192 P sits at about -60\u00b0 from horizontal, matching the line's direction.\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 639
+    },
+    {
+      "angle": 165,
+      "trial": 2,
+      "answer": "P",
+      "response": "Looking at the diagram, the pivot is roughly at the center of the half-circle. The 19 letters (A\u2013S) are spaced about 10\u00b0 apart, with A at the top (~90\u00b0) and S at the bottom (~\u201390\u00b0).\n\nThe black line extends down and to the right from the pivot, at roughly 60\u00b0 below horizontal. Counting down from A in 10\u00b0 steps:\n- A=90\u00b0, B=80\u00b0, ..., J=0\u00b0, ..., **P \u2248 \u201360\u00b0**\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 935
+    },
+    {
+      "angle": 165,
+      "trial": 3,
+      "answer": "P",
+      "response": "Looking at this diagram, I need to determine the angle of the line from the pivot dot.\n\nThe semicircle has 19 letters (A\u2013S) evenly spaced over 180\u00b0, so each letter is 10\u00b0 apart. A is at the top (90\u00b0), J is at the rightmost point (0\u00b0), and S is at the bottom (\u221290\u00b0).\n\nThe line extends from the pivot going down and to the right. Estimating the line's direction: it goes roughly 60 pixels right and ~100 pixels down, giving an angle of about 60\u00b0 below horizontal (\u2248 \u221260\u00b0 in standard orientation).\n\nConverting to letter position: (90\u00b0 \u2212 (\u221260\u00b0)) / 10\u00b0 + 1 \u2248 16th letter.\n\nThe 16th letter is **P**.",
+      "in_tok": 505,
+      "out_tok": 1728
+    },
+    {
+      "angle": 165,
+      "trial": 4,
+      "answer": "P",
+      "response": "Looking at the diagram, the pivot is in the left-center area, and the line extends down and to the right at a steep angle (roughly 60\u00b0 below horizontal).\n\nThe letters A\u2013S are spaced 10\u00b0 apart along the 180\u00b0 arc, with A at the top, J near the middle-right, and S at the bottom. A line pointing about 60\u00b0 below horizontal corresponds to roughly the 15th position from A.\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 768
+    },
+    {
+      "angle": 165,
+      "trial": 5,
+      "answer": "P",
+      "response": "Looking at this diagram, I need to determine the angle of the needle from the pivot.\n\n**Setting up the geometry:**\n- The pivot dot is on the left side, with letters A (top) through S (bottom) arranged around the half-circle arc\n- With 19 letters spanning roughly 180\u00b0, each letter is about 10\u00b0 apart\n- A sits near the top (\u22480\u00b0 clockwise from up), S near the bottom (\u2248180\u00b0)\n\n**Measuring the line direction:**\n- The line extends down and to the right from the pivot\n- The horizontal displacement (dx \u2248 60) versus vertical drop (dy \u2248 110) gives an angle of about 28\u00b0 to the right of straight down\n- That's roughly **151\u00b0 clockwise from the top (A)**\n\n**Finding the letter:**\n- 151\u00b0 \u00f7 10\u00b0 per letter \u2248 index 15\n- Counting from A=0: ...M(12), N(13), O(14), P(15)\n\n**Answer: P**",
+      "in_tok": 505,
+      "out_tok": 7838
+    },
+    {
+      "angle": 170,
+      "trial": 1,
+      "answer": "P",
+      "response": "Looking at the diagram, the pivot dot is at roughly the center-left of the half-circle, and the line extends down and to the right.\n\nThe letters are spaced 10\u00b0 apart around the 180\u00b0 arc (A at top = 90\u00b0, J at the rightmost = 0\u00b0, S at bottom = -90\u00b0).\n\nThe line direction from the pivot has roughly \u0394x \u2248 +60, \u0394y \u2248 +110 (downward), giving an angle of about -61\u00b0 from horizontal.\n\nThat matches the position of **P**.",
+      "in_tok": 505,
+      "out_tok": 766
+    },
+    {
+      "angle": 170,
+      "trial": 2,
+      "answer": "P",
+      "response": "Looking at this diagram:\n- The semicircle has 19 letters (A\u2013S) spaced 10\u00b0 apart, with A at the top, J/K near the right (horizontal), and S at the bottom.\n- The line emerges from the pivot heading down and to the right.\n- Measuring its angle: it descends roughly 60\u00b0 below the horizontal-right direction.\n- Counting from J (\u22480\u00b0) downward at 10\u00b0 per letter: K(-10\u00b0), L(-20\u00b0), M(-30\u00b0), N(-40\u00b0), O(-50\u00b0), P(-60\u00b0).\n\nThe line points at **P**",
+      "in_tok": 505,
+      "out_tok": 2404
+    },
+    {
+      "angle": 170,
+      "trial": 3,
+      "answer": "P",
+      "response": "Looking at the diagram, the pivot is at the center of the half-circle, and the line extends down and to the right.\n\nThe 19 letters (A\u2013S) are spaced 10\u00b0 apart, with A at the top (90\u00b0) and S at the bottom (\u201390\u00b0). The line's angle below horizontal is roughly 60\u00b0, which corresponds to about 150\u00b0 clockwise from A.\n\nCounting: A(0\u00b0) \u2192 ... \u2192 P(150\u00b0)\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 871
+    },
+    {
+      "angle": 170,
+      "trial": 4,
+      "answer": "P",
+      "response": "Looking at the line, it emanates from the pivot toward the lower-right at roughly 57\u00b0 below horizontal. Mapping that angle onto the scale (where J sits at the rightmost point at 0\u00b0 and S at the bottom at \u221290\u00b0), the line points closest to the position of **P**.\n\nP",
+      "in_tok": 505,
+      "out_tok": 682
+    },
+    {
+      "angle": 170,
+      "trial": 5,
+      "answer": "P",
+      "response": "Looking at the diagram, the pivot is roughly at the center-left, and the line extends down and to the right. \n\nThe letters span 180\u00b0 (A at top \u2248 90\u00b0, J at right \u2248 0\u00b0, S at bottom \u2248 -90\u00b0), with 10\u00b0 between each letter.\n\nThe line's direction (dx \u2248 +60, dy \u2248 +100 downward) corresponds to an angle of about -59\u00b0, which falls closest to letter P (at -60\u00b0).\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 687
+    },
+    {
+      "angle": 175,
+      "trial": 1,
+      "answer": "Q",
+      "response": "Looking at the diagram, the pivot dot is at the center of the semicircle, and the black line extends downward and slightly to the right. \n\nThe letters span 180\u00b0 with A at the top (90\u00b0) and S at the bottom (-90\u00b0), each separated by ~10\u00b0. The line's angle is approximately -72\u00b0 from horizontal, which aligns with the position of Q.\n\nQ",
+      "in_tok": 505,
+      "out_tok": 1038
+    },
+    {
+      "angle": 175,
+      "trial": 2,
+      "answer": null,
+      "response": "",
+      "in_tok": 505,
+      "out_tok": 12000
+    },
+    {
+      "angle": 175,
+      "trial": 3,
+      "answer": "P",
+      "response": "Looking at the diagram, I need to determine the angle of the line from the pivot point.\n\nThe half-circle has 19 letters (A-S) evenly spaced over 180\u00b0, so each letter is 10\u00b0 apart. A is at the top (90\u00b0) and S is at the bottom (-90\u00b0).\n\nThe line extends from the pivot downward and to the right at a steep angle \u2014 approximately 60\u00b0 below horizontal.\n\nCalculating: (90\u00b0 + 60\u00b0) / 10\u00b0 = 15, which corresponds to letter index 15.\n\n**P**",
+      "in_tok": 505,
+      "out_tok": 2383
+    },
+    {
+      "angle": 175,
+      "trial": 4,
+      "answer": "Q",
+      "response": "Looking at the diagram:\n- The pivot is at roughly the center of the half-circle\n- The 19 letters A\u2013S span 180\u00b0, so each letter is 10\u00b0 apart\n- A is at the top (90\u00b0), J is at the right (0\u00b0), S is at the bottom (-90\u00b0)\n- The line points down and slightly right, at about 70\u00b0 below horizontal\n\nThat direction corresponds to roughly -70\u00b0, which lines up with the 17th letter.\n\n**Q**",
+      "in_tok": 505,
+      "out_tok": 951
+    },
+    {
+      "angle": 175,
+      "trial": 5,
+      "answer": "Q",
+      "response": "Looking at the diagram, the pivot is at approximately the center of the half-circle, and the line extends downward and slightly to the right.\n\nThe 19 letters A\u2013S are spaced 10\u00b0 apart over 180\u00b0, with A at the top, J at the rightmost point (3 o'clock), and S at the bottom.\n\nThe line points roughly 16\u00b0 clockwise from straight down. Measuring from S (-90\u00b0) backward:\n- R is at -80\u00b0 (10\u00b0 from straight down)\n- Q is at -70\u00b0 (20\u00b0 from straight down)\n\nThe line's direction (~-74\u00b0) falls closest to Q.\n\n**Q**",
+      "in_tok": 505,
+      "out_tok": 3135
+    },
+    {
+      "angle": 180,
+      "trial": 1,
+      "answer": "S",
+      "response": "Looking at the diagram, the pivot dot is at the center of the half-circle, and the line extends straight downward from it. Since the letters are arranged evenly around the arc with A at the top and S at the bottom, a line pointing straight down points to the bottommost letter.\n\n**S**",
+      "in_tok": 505,
+      "out_tok": 677
+    },
+    {
+      "angle": 180,
+      "trial": 2,
+      "answer": "A",
+      "response": "Looking at the diagram, the pivot dot is roughly in the middle-left area, and the black line extends straight upward from it. The half-circle arc has letters A at the top going clockwise around to S at the bottom.\n\nA line pointing straight up from the pivot aligns with the topmost position on the arc, where letter A is located.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 837
+    },
+    {
+      "angle": 180,
+      "trial": 3,
+      "answer": "A",
+      "response": "The line extends straight up from the pivot, which points to the top endpoint of the half-circle's diameter.\n\n**A**",
+      "in_tok": 505,
+      "out_tok": 441
+    },
+    {
+      "angle": 180,
+      "trial": 4,
+      "answer": "S",
+      "response": "Looking at this diagram:\n\n- The half-circle scale has letters A (top) through S (bottom) evenly spaced, with J at the rightmost point.\n- With 19 letters across 180\u00b0, each letter is separated by 10\u00b0.\n- A is at the \"north\" position (90\u00b0), J is at \"east\" (0\u00b0), and S is at the \"south\" position (\u201390\u00b0).\n- The black line extends straight downward from the pivot dot, pointing south (\u201390\u00b0).\n\nThat direction aligns with the letter at the bottom of the arc.\n\n**S**",
+      "in_tok": 505,
+      "out_tok": 3180
+    },
+    {
+      "angle": 180,
+      "trial": 5,
+      "answer": "A",
+      "response": "A",
+      "in_tok": 505,
+      "out_tok": 406
+    }
+  ]
+}
